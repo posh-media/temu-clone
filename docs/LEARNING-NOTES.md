@@ -76,14 +76,18 @@ with the FlutterFlow backend.
 
 ---
 
-## 8. Firebase Cloud Function deployment required
+## 8. Firebase Cloud Function deployment
 
-Direct `curl` to `https://us-central1-temu-r-b-b-t-tn1fc3.cloudfunctions.net/paystackInitialize`
-returns HTTP 404, which means `paystackInitialize` and `paystackVerify` are **not
-deployed** even though the existing `paystackWebhook` is live. The local Firebase
-CLI also lacks the `iam.serviceAccounts.ActAs` permission on
-`temu-r-b-b-t-n1fc3@appspot.gserviceaccount.com`, so an account with the
-**Service Account User** role (or Project Owner) must run `firebase deploy`.
+`paystackInitialize` and `paystackVerify` are now deployed to `us-central1` and
+the `paystackInitialize` endpoint returns a valid `accessCode`. A runtime bug in
+`paystack_initialize.js` (`orderSnap.exists()` instead of `orderSnap.exists`) was
+fixed and the `functions.config()` fallback was removed in favor of `process.env.PAYSTACK_SECRET_KEY`
+to avoid the upcoming Cloud Runtime Configuration shutdown.
+
+A full real-card payment could not be completed in the Playwright test harness
+because Paystack's checkout iframe did not render its form in this environment
+(`ERR_SSL_BAD_RECORD_MAC_ALERT`). `paystackVerify` was confirmed to reach Paystack
+and return a proper response.
 
 ## 9. Version notes
 
