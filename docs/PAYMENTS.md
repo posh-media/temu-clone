@@ -15,12 +15,16 @@ CheckoutPage
                                    paymentMethod = "CARD" | "TRANSFER" | "USSD" | "POD"
 PaymentPage
   ├─ method = POD           => local simulation => "pending"
-  ├─ Paystack enabled       => paystackInitialize => redirect to authorization_url
+  ├─ Paystack enabled       => paystackInitialize => PaystackPop.resumeTransaction(accessCode)
   └─ Paystack not enabled   => local simulation => "paid"
         (this keeps local/smoke tests green while the functions are not deployed)
-Paystack callback
-  └─ /payment?ref=...&reference=...
-       => paystackVerify => "paid" | "pending" | "failed"
+Paystack inline callbacks
+  └─ onSuccess(reference) => paystackVerify(reference) => "paid" | "pending" | "failed"
+Paystack redirect fallback
+  └─ /payment?ref=...&reference=... or trxref=...
+       => paystackVerify(reference) => "paid" | "pending" | "failed"
+Paystack webhook
+  └─ existing paystackWebhook confirms payment independently and idempotently
 ```
 
 ---
@@ -35,6 +39,17 @@ Paystack callback
 - `FF Projects/temuclearance/firebase/functions/paystack_initialize.js`
 - `FF Projects/temuclearance/firebase/functions/paystack_verify.js`
 
+### Inline checkout
+
+The frontend now uses Paystack's official InlineJS Popup V2. After calling
+`paystackInitialize` it receives `accessCode` and calls
+`PaystackPop.resumeTransaction(accessCode, { onSuccess, onCancel, onError, onLoad })`.
+The customer stays on the Payment route inside a popup, then the frontend calls
+`paystackVerify(reference)` server-side before marking the order paid.
+
+The redirect/callback URL is still passed to Paystack as a fallback for customers
+who complete payment in a redirected flow.
+
 ### Enabling Paystack in development
 
 By default, the production build calls the Cloud Functions. Development (`npm run dev`)
@@ -46,9 +61,9 @@ VITE_PAYSTACK_ENABLED=true
 ```
 
 When `VITE_PAYSTACK_ENABLED=true` the frontend calls the real `paystackInitialize`
-function and opens Paystack's checkout; on return it calls `paystackVerify`.
+function and opens Paystack's checkout popup; on `onSuccess` it calls `paystackVerify`.
 
-### Environment flag
+### Environment flags
 
 ```ts
 // src/services/paystack.ts
@@ -56,6 +71,8 @@ export const isPaystackEnabled =
   import.meta.env.VITE_PAYSTACK_ENABLED === "true" ||
   (import.meta.env.VITE_PAYSTACK_ENABLED !== "false" && import.meta.env.PROD);
 ```
+
+`VITE_FIREBASE_FUNCTIONS_REGION` is optional and defaults to `us-central1`.
 
 ---
 

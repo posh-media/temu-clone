@@ -76,7 +76,16 @@ with the FlutterFlow backend.
 
 ---
 
-## 8. Version notes
+## 8. Firebase Cloud Function deployment required
+
+Direct `curl` to `https://us-central1-temu-r-b-b-t-tn1fc3.cloudfunctions.net/paystackInitialize`
+returns HTTP 404, which means `paystackInitialize` and `paystackVerify` are **not
+deployed** even though the existing `paystackWebhook` is live. The local Firebase
+CLI also lacks the `iam.serviceAccounts.ActAs` permission on
+`temu-r-b-b-t-n1fc3@appspot.gserviceaccount.com`, so an account with the
+**Service Account User** role (or Project Owner) must run `firebase deploy`.
+
+## 9. Version notes
 
 - `react-router-dom` v7 `useBlocker` signature returns a `Blocker` object with
   `state`, `proceed` and `reset`.
