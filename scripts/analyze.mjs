@@ -1,0 +1,26 @@
+import fs from "node:fs";
+const rd = (n) => JSON.parse(fs.readFileSync(`.firestore-dump/${n}.json`, "utf8"));
+const P = rd("products"), C = rd("categories"), S = rd("sellers"), O = rd("orders");
+const freq = {};
+P.forEach((p) => Object.entries(p).forEach(([k, v]) => {
+  freq[k] ??= { n: 0, t: new Set() };
+  freq[k].n++; freq[k].t.add(Array.isArray(v) ? "array" : typeof v);
+}));
+console.log(`--- PRODUCT FIELDS (of ${P.length}) ---`);
+Object.entries(freq).sort((a, b) => b[1].n - a[1].n).forEach(([k, v]) => console.log(k.padEnd(22), v.n, [...v.t].join("|")));
+const uniq = (f) => [...new Set(P.flatMap((p) => [].concat(p[f] ?? [])))];
+console.log("\ncategory:", JSON.stringify(uniq("category")));
+console.log("productType:", JSON.stringify(uniq("productType")));
+console.log("promotionalTags:", JSON.stringify(uniq("promotionalTags")));
+const brands = uniq("brandName");
+console.log("brands:", brands.length, JSON.stringify(brands.slice(0, 30)));
+const pr = P.map((p) => p.price).filter(Number.isFinite).sort((a, b) => a - b);
+console.log("price min/med/max:", pr[0], pr[(pr.length / 2) | 0], pr.at(-1), "| >1000:", pr.filter((x) => x > 1000).length);
+console.log("display field values:", JSON.stringify(uniq("display")));
+console.log("with images:", P.filter((p) => p.images?.length).length, "| multi-image:", P.filter((p) => p.images?.length > 1).length);
+console.log("with variants/colors keys:", Object.keys(freq).filter((k) => /colo|variant|size|option/i.test(k)));
+console.log("\n--- CATEGORIES ---\n", JSON.stringify(C, null, 1).slice(0, 2500));
+console.log("\n--- SELLERS (ids:", S.map((x) => x._id).join(", "), ") ---\n", JSON.stringify(S[0], null, 1).slice(0, 1500));
+console.log("\n--- ORDER SAMPLE ---\n", JSON.stringify(O[0], null, 1).slice(0, 2200));
+console.log("\norder field union:", [...new Set(O.flatMap(Object.keys))].join(", "));
+console.log("\nsample product with variants:", JSON.stringify(P.find((p) => p.productType && p.productType !== "solid" && p.description), null, 1)?.slice(0, 2500));
