@@ -2,7 +2,7 @@
 import {
   AlertCircle, CheckCircle2, Clock3, Loader2, Lock, ReceiptText,
 } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { PAYMENT_METHODS, paymentMethod } from "../components/checkout/PaymentMethodPicker";
 import { CheckoutHeader } from "../components/layout/Header";
@@ -17,6 +17,7 @@ import { cn } from "../lib/utils";
 import { fetchOrderById } from "../services/orders";
 import { paymentProvider, initializePaystack, verifyPaystack } from "../services/payments";
 import { isPaystackEnabled } from "../services/paystack";
+import PaystackPop from "@paystack/inline-js";
 import { useAuth } from "../store/AuthProvider";
 import { useCart } from "../store/CartProvider";
 import { useCheckout } from "../store/CheckoutProvider";
@@ -41,8 +42,8 @@ function MethodPanel({ method, reference }: { method: PaymentMethodId; reference
   return (
     <div className="space-y-3">
       <p className="rounded-card bg-brand-50 px-3 py-2 text-sm text-ink-2">
-        You&apos;ll be redirected to Paystack to complete this payment securely. No card or bank details are collected
-        on this page.
+        A secure Paystack checkout popup will open when you click Pay. No card or bank details are collected on this
+        page.
       </p>
       <div className="grid gap-3 sm:grid-cols-2">
         <Input label="Name on card" placeholder="Collected on Paystack" disabled />
@@ -120,14 +121,12 @@ export default function PaymentPage() {
     if (match && match.id !== draft.paymentMethod) setPaymentMethod(match.id);
   }, [order, draft.paymentMethod, setPaymentMethod]);
 
-  // Verify a payment when the user returns from Paystack.
-  useEffect(() => {
-    if (!paymentReference || orderQuery.isLoading || !order) return;
-    if (phase !== "verifying") return;
-
-    const doVerify = async () => {
+  const handleVerify = useCallback(
+    async (paymentRef: string) => {
+      console.log("[paystack] handleVerify", { paymentRef, orderId: order?.id });
       try {
-        const result = await verifyPaystack(paymentReference);
+        const result = await verifyPaystack(paymentRef);
+        console.log("[paystack] verify result", result);
         if (result.status === "paid") {
           setOutcome("paid");
           setMessage("Payment successful");
@@ -141,19 +140,30 @@ export default function PaymentPage() {
           setOutcome("pending");
           setMessage(result.message || "We're waiting for Paystack to confirm your payment.");
         }
-        await queryClient.invalidateQueries({ queryKey: queryKeys.order(reference) });
+        await queryClient.invalidateQueries({ queryKey: queryKeys.order(order?.id ?? reference) });
         await queryClient.invalidateQueries({ queryKey: queryKeys.orders(user?.uid ?? "guest") });
       } catch (error) {
-        console.error("Verification failed", error);
+        const diag = {
+          message: error instanceof Error ? error.message : String(error),
+          name: error instanceof Error ? error.name : "unknown",
+          stack: error instanceof Error ? error.stack : undefined,
+        };
+        console.error("[paystack] verification failed", diag);
         setOutcome("failed");
         setMessage("We couldn't confirm the payment. Please try again.");
       } finally {
         setPhase("result");
       }
-    };
+    },
+    [order?.id, reference, queryClient, clearSelected, flashSale, setOrderReference, user?.uid],
+  );
 
-    void doVerify();
-  }, [paymentReference, orderQuery.isLoading, order, phase, reference, queryClient, clearSelected, setOrderReference, user?.uid, flashSale]);
+  // Verify a payment when the user returns from Paystack via callback URL.
+  useEffect(() => {
+    if (!paymentReference || orderQuery.isLoading || !order) return;
+    if (phase !== "verifying") return;
+    void handleVerify(paymentReference);
+  }, [paymentReference, orderQuery.isLoading, order, phase, handleVerify]);
 
   const startPaystack = useMutation({
     mutationFn: async () => {
@@ -164,14 +174,40 @@ export default function PaymentPage() {
     },
     onMutate: () => setPhase("initializing"),
     onSuccess: (result) => {
-      setPhase("redirecting");
-      // Give the UI a tick to render the redirecting state, then leave for Paystack.
-      window.setTimeout(() => {
-        window.location.href = result.authorizationUrl;
-      }, 400);
+      setPhase("collect");
+      setMessage("");
+
+      const paystack = new PaystackPop();
+      paystack.resumeTransaction(result.accessCode, {
+        onLoad: (transaction) => {
+          console.log("[paystack] popup loaded", { id: transaction.id, accessCode: transaction.accessCode });
+        },
+        onSuccess: (transaction) => {
+          console.log("[paystack] popup success", { id: transaction.id, reference: transaction.reference });
+          setPhase("verifying");
+          void handleVerify(transaction.reference);
+        },
+        onCancel: () => {
+          console.log("[paystack] popup cancelled");
+          setOutcome("abandoned");
+          setMessage("You cancelled the payment. You can try again when you're ready.");
+          setPhase("result");
+        },
+        onError: (error) => {
+          console.error("[paystack] popup error", error);
+          setOutcome("failed");
+          setMessage(error?.message || "Paystack could not load the checkout. Please try again.");
+          setPhase("result");
+        },
+      });
     },
     onError: (error) => {
-      console.error("Paystack initialize failed", error);
+      const diag = {
+        message: error instanceof Error ? error.message : String(error),
+        name: error instanceof Error ? error.name : "unknown",
+        stack: error instanceof Error ? error.stack : undefined,
+      };
+      console.error("[paystack] initialization failed", diag);
       setOutcome("failed");
       setMessage("We couldn't reach Paystack. Please check your connection and try again.");
       setPhase("result");
