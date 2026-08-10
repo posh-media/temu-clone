@@ -8,8 +8,39 @@
 
 export const FLASH_SALE_TAG_PREFIX = "flash-sale-";
 
-/** Default flash-sale window: 10 minutes. Configurable from a single constant. */
-export const FLASH_SALE_DURATION_MS = 10 * 60 * 1000;
+/** Fallback duration in seconds when the env variable is missing or invalid. */
+export const DEFAULT_FLASH_SALE_DURATION_SECONDS = 10 * 60;
+
+function readDurationSeconds(): number {
+  const raw = import.meta.env.VITE_FLASH_SALE_DURATION_SECONDS;
+  if (raw == null) return DEFAULT_FLASH_SALE_DURATION_SECONDS;
+  const parsed = Number(raw);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : DEFAULT_FLASH_SALE_DURATION_SECONDS;
+}
+
+function readRestartOnTimeout(): boolean {
+  const raw = import.meta.env.VITE_FLASH_SALE_RESTART_ON_TIMEOUT;
+  return String(raw).toLowerCase() === "true";
+}
+
+/** Central flash-sale configuration. Moving it to Firestore/admin later only
+ *  requires changing this factory, not the rest of the feature. */
+export function getFlashSaleConfig() {
+  return {
+    durationSeconds: readDurationSeconds(),
+    durationMs: readDurationSeconds() * 1000,
+    restartOnTimeout: readRestartOnTimeout(),
+  };
+}
+
+/** Convenience export for the duration in milliseconds. Kept as a function so
+ *  it always resolves the latest env value during HMR. */
+export function getFlashSaleDurationMs() {
+  return getFlashSaleConfig().durationMs;
+}
+
+/** @deprecated Use `getFlashSaleDurationMs()` for new code. */
+export const FLASH_SALE_DURATION_MS = DEFAULT_FLASH_SALE_DURATION_SECONDS * 1000;
 
 export interface FlashSaleOffer {
   tag: string;
@@ -51,7 +82,7 @@ export function parseFlashSalePriceBest(promotionalTags: string[], originalPrice
   return offers.sort((a, b) => a.price - b.price)[0];
 }
 
-export function computeFlashSaleExpiration(startedAt: number, durationMs = FLASH_SALE_DURATION_MS): number {
+export function computeFlashSaleExpiration(startedAt: number, durationMs = getFlashSaleDurationMs()): number {
   return startedAt + durationMs;
 }
 

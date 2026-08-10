@@ -84,10 +84,10 @@ export default function AccountPage() {
             {unpaid.slice(0, 3).map((order) => (
               <li key={order.id}>
                 <Link
-                  to={`/payment?ref=${order.paymentReference}`}
+                  to={`/payment?ref=${order.id}`}
                   className="flex items-center gap-2 text-md text-ink-2 hover:text-brand"
                 >
-                  <span className="font-mono">{order.paymentReference}</span>
+                  <span className="font-mono">{order.id}</span>
                   <span className="text-sm text-ink-3">{formatDate(order.createdAt)}</span>
                   <ChevronRight className="ml-auto h-4 w-4" />
                 </Link>

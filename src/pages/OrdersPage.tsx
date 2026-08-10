@@ -39,7 +39,7 @@ function OrderCard({ order }: { order: Order }) {
     <li className="rounded-card bg-white">
       <Link to={`/orders/${order.id}`} className="block px-3 py-3 md:px-4">
         <div className="flex flex-wrap items-center gap-2 border-b border-line-2 pb-2.5">
-          <span className="font-mono text-sm font-medium text-ink">{order.paymentReference}</span>
+          <span className="font-mono text-sm font-medium text-ink">{order.id}</span>
           <PaymentStatusBadge status={order.paymentStatus} />
           <DeliveryStatusBadge status={order.deliveryStatus} />
           <span className="ml-auto flex items-center text-sm text-ink-3">

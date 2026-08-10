@@ -130,7 +130,46 @@ export const isPaystackEnabled =
 
 ---
 
-## 5. Testing
+## 5. Switching between test and live Paystack
+
+The Paystack **secret key is backend-only**. It is stored as the Cloud Function
+environment variable `PAYSTACK_SECRET_KEY` in the backend workspace:
+
+```
+FF Projects/temuclearance/firebase/functions/.env
+```
+
+It is **not** in the React source, Vercel env vars, `localStorage`, Firestore, or GitHub.
+
+### Current test mode
+
+- The backend currently uses a Paystack **test** secret (`sk_test_...`).
+- Paystack transaction references are created through the test API.
+- The InlineJS popup loads Paystack's test checkout.
+
+### Switching to live mode later
+
+Only the secret key changes. The API endpoint (`https://api.paystack.co`) and the
+frontend code stay the same.
+
+1. Replace the secret in the backend `.env` file:
+   ```
+   PAYSTACK_SECRET_KEY=sk_live_...
+   ```
+2. Redeploy the functions:
+   ```powershell
+   firebase deploy --only functions --project temu-r-b-b-t-tn1fc3
+   ```
+3. No Vercel frontend changes are required.
+4. No frontend rebuild is required because the secret is never in the browser.
+5. The InlineJS popup does **not** require a public Paystack key when using
+   `resumeTransaction(accessCode)`.
+6. Verify production mode by completing a live payment with a real card and
+   checking the Paystack dashboard for a successful live transaction.
+
+---
+
+## 6. Testing
 
 - With `VITE_PAYSTACK_ENABLED=false` (or unset in dev), the smoke test runs the
   full checkout with local simulation and passes.

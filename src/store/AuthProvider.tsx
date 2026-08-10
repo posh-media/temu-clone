@@ -89,23 +89,30 @@ export function useAuth() {
 export function authErrorMessage(error: unknown): string {
   if (!(error instanceof Error)) return "Something went wrong. Please try again.";
 
+  const code = (error as { code?: string }).code ?? "";
+  const message = error.message;
+
+  // Log the code and message in all builds for debugging; the full error is
+  // only logged in development to avoid leaking extra detail in production.
+  // eslint-disable-next-line no-console
+  console.error("[auth] error:", { code, message });
   if (import.meta.env.DEV) {
     // eslint-disable-next-line no-console
     console.error("[auth] raw error:", error);
   }
 
-  const code = (error as { code?: string }).code ?? "";
   switch (code) {
     case "auth/invalid-email":
-      return "That email address doesn't look right.";
+      return "Please enter a valid email address.";
     case "auth/missing-email":
       return "Please enter your email address.";
     case "auth/missing-password":
-      return "Please enter your password.";
+    case "auth/invalid-password":
+      return "Please enter a valid password.";
     case "auth/weak-password":
-      return "Passwords need to be at least 6 characters.";
+      return "Your password is too weak. Use at least 6 characters.";
     case "auth/email-already-in-use":
-      return "An account already exists for this email. Try signing in.";
+      return "An account with this email already exists.";
     case "auth/invalid-credential":
     case "auth/wrong-password":
     case "auth/user-not-found":
@@ -113,21 +120,27 @@ export function authErrorMessage(error: unknown): string {
     case "auth/too-many-requests":
       return "Too many attempts. Please wait a moment and try again.";
     case "auth/network-request-failed":
-      return "Network problem. Check your connection and retry.";
+      return "Please check your internet connection and try again.";
     case "auth/operation-not-allowed":
       return "This sign-in method is not enabled for this Firebase project yet.";
     case "auth/user-disabled":
       return "This account has been disabled.";
     case "auth/popup-closed-by-user":
-      return "The sign-in popup was closed before finishing.";
+    case "auth/cancelled-popup-request":
+      return "Google sign-in was cancelled.";
     case "auth/popup-blocked":
       return "The popup was blocked. Please allow popups for this site or use email.";
     case "auth/account-exists-with-different-credential":
       return "An account already exists with this email. Sign in with the same method you used before.";
-    case "auth/cancelled-popup-request":
-      return "Sign-in was cancelled.";
     case "auth/unauthorized-domain":
       return "This domain is not authorised for Firebase sign-in.";
+    case "auth/invalid-api-key":
+    case "auth/api-key-not-valid":
+      return "Firebase configuration is invalid. Please contact support.";
+    case "auth/web-storage-unsupported":
+      return "Your browser does not support the storage needed to stay signed in.";
+    case "auth/internal-error":
+      return "Authentication service error. Please try again.";
     default:
       return "Something went wrong. Please try again.";
   }

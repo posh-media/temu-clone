@@ -104,7 +104,7 @@ export default function OrderDetailPage() {
           {/* Status */}
           <section className="rounded-card bg-white px-3 py-3.5 md:px-4">
             <div className="flex flex-wrap items-center gap-2 pb-4">
-              <h1 className="font-mono text-lg font-bold">{order.paymentReference}</h1>
+              <h1 className="font-mono text-lg font-bold">{order.id}</h1>
               <PaymentStatusBadge status={order.paymentStatus} />
               <DeliveryStatusBadge status={order.deliveryStatus} />
               <span className="ml-auto text-sm text-ink-3">Placed {formatDate(order.createdAt)}</span>
@@ -209,7 +209,7 @@ export default function OrderDetailPage() {
             </div>
 
             {order.paymentStatus !== "paid" && (
-              <Link to={`/payment?ref=${order.paymentReference}`} className="mt-3 block">
+              <Link to={`/payment?ref=${order.id}`} className="mt-3 block">
                 <Button block size="lg">
                   Complete payment
                 </Button>

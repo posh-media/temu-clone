@@ -1,6 +1,6 @@
-import { createContext, useContext, useMemo, type ReactNode } from "react";
+import { createContext, useContext, useEffect, useMemo, type ReactNode } from "react";
 import { useLocalStorage } from "../hooks/useLocalStorage";
-import { FLASH_SALE_DURATION_MS, isFlashSaleExpired, parseFlashSalePriceBest } from "../lib/flashSale";
+import { getFlashSaleConfig, getFlashSaleDurationMs, isFlashSaleExpired, parseFlashSalePriceBest } from "../lib/flashSale";
 import type { Product } from "../types/product";
 
 export type FlashSaleStatus = "inactive" | "available" | "claimed" | "expired" | "completed" | "abandoned";
@@ -50,7 +50,7 @@ function buildSession(product: Product): FlashSaleSession | null {
     originalPrice: offer.originalPrice,
     promoPrice: offer.price,
     startedAt: now,
-    expiresAt: now + FLASH_SALE_DURATION_MS,
+    expiresAt: now + getFlashSaleDurationMs(),
     quantity: 1,
     checkoutStarted: false,
     completed: false,
@@ -64,11 +64,25 @@ export function FlashSaleProvider({ children }: { children: ReactNode }) {
   const session: FlashSaleSession | null = useMemo(() => {
     if (!raw) return null;
     if (raw.status === "completed" || raw.status === "abandoned") return null;
-    if (isFlashSaleExpired(raw.expiresAt)) {
+    if (isFlashSaleExpired(raw.expiresAt) && raw.status !== "expired") {
       return { ...raw, status: "expired" };
     }
     return raw;
   }, [raw]);
+
+  // When the timer expires, either restart the countdown or mark it expired.
+  useEffect(() => {
+    if (!raw || raw.status === "completed" || raw.status === "abandoned" || raw.status === "expired") return;
+    if (isFlashSaleExpired(raw.expiresAt)) {
+      const { durationMs, restartOnTimeout } = getFlashSaleConfig();
+      if (restartOnTimeout) {
+        const now = Date.now();
+        setRaw({ ...raw, startedAt: now, expiresAt: now + durationMs, status: "claimed" });
+      } else {
+        setRaw({ ...raw, status: "expired" });
+      }
+    }
+  }, [raw, setRaw]);
 
   const api = useMemo<FlashSaleApi>(() => {
     const isActive = session !== null && !session.completed && !isFlashSaleExpired(session.expiresAt);
@@ -79,10 +93,16 @@ export function FlashSaleProvider({ children }: { children: ReactNode }) {
       isActive,
       canClaim: (product) => {
         const offer = parseFlashSalePriceBest(product.promotionalTags, product.price);
-        if (!offer || isFlashSaleExpired(session?.expiresAt ?? 0)) return null;
+        if (!offer) return null;
+        if (!session) return buildSession(product);
+        if (isFlashSaleExpired(session.expiresAt)) {
+          return getFlashSaleConfig().restartOnTimeout ? buildSession(product) : null;
+        }
+        if (session.productId !== product.id) return null;
         return buildSession(product);
       },
       claim: (product) => {
+        if (session?.status === "expired" && !getFlashSaleConfig().restartOnTimeout) return null;
         const next = buildSession(product);
         if (!next) return null;
         setRaw(next);

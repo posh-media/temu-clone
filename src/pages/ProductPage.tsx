@@ -22,7 +22,7 @@ import { SmartImage } from "../components/ui/SmartImage";
 import { useProduct, useRecommended, useRelatedProducts } from "../hooks/useCatalogue";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import { addDays, formatCompact, formatPrice, formatShortDate } from "../lib/format";
-import { parseFlashSalePrice } from "../lib/flashSale";
+import { getFlashSaleDurationMs, parseFlashSalePrice } from "../lib/flashSale";
 import { cn } from "../lib/utils";
 import { SHIPPING, useCart } from "../store/CartProvider";
 import { useFavorites } from "../store/FavoritesProvider";
@@ -151,10 +151,10 @@ export default function ProductPage() {
 
   // Auto-open flash-sale modal when arriving at a product with a valid offer.
   useEffect(() => {
-    if (flashOffer && !hasActivePromo && !flashSale.session?.completed) {
+    if (flashOffer && !hasActivePromo && !flashSale.session?.completed && flashSale.status !== "expired") {
       setFlashModalOpen(true);
     }
-  }, [flashOffer, hasActivePromo, flashSale.session?.completed]);
+  }, [flashOffer, hasActivePromo, flashSale.session?.completed, flashSale.status]);
 
   const maxQty = useMemo(
     () => (hasActivePromo ? 1 : Math.max(1, Math.min(product?.availableStock || 99, 99))),
@@ -571,7 +571,7 @@ export default function ProductPage() {
           image={product.images[0]}
           promoPrice={flashOffer.price}
           originalPrice={product.price}
-          expiresAt={flashSale.session?.expiresAt ?? Date.now() + 10 * 60 * 1000}
+          expiresAt={flashSale.session?.expiresAt ?? Date.now() + getFlashSaleDurationMs()}
           onClaim={claimNow}
           loading={claiming}
         />

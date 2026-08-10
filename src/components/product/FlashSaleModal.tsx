@@ -76,10 +76,10 @@ export function FlashSaleModal({
         tabIndex={-1}
         role="dialog"
         aria-modal="true"
-        className="relative w-full max-w-[420px] overflow-hidden rounded-3xl bg-white shadow-pop"
+        className="relative flex w-full max-w-[420px] max-h-[85vh] flex-col overflow-hidden rounded-3xl bg-white shadow-pop"
       >
         {/* Hero image with close button */}
-        <div className="relative aspect-[4/3] w-full bg-surface-sunken">
+        <div className="relative aspect-[4/3] w-full shrink-0 bg-surface-sunken">
           <SmartImage
             src={image}
             alt={productName}
@@ -107,7 +107,7 @@ export function FlashSaleModal({
         </div>
 
         {/* Body */}
-        <div className="px-5 pb-5 pt-4 text-center">
+        <div className="min-h-0 flex-1 overflow-y-auto px-5 pb-5 pt-4 text-center">
           <p className="text-sm font-semibold text-deal">Flash sale price</p>
           <p className={cn("mt-1 text-5xl font-extrabold leading-none", disabled ? "text-ink-3" : "text-deal")}>
             <span className="text-2xl">{formatPrice(promoPrice).charAt(0)}</span>

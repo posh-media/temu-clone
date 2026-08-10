@@ -262,7 +262,7 @@ export default function PaymentPage() {
   };
 
   const handleViewOrder = () => {
-    if (order) navigate(`/orders/${order.paymentReference}`);
+    if (order) navigate(`/orders/${order.id}`);
   };
 
   if (!reference) {
@@ -361,7 +361,7 @@ export default function PaymentPage() {
               <h2 className="mt-4 text-2xl font-bold">{resultUi.title}</h2>
               <p className="mx-auto mt-1.5 max-w-sm text-md text-ink-2">{message}</p>
               <p className="mt-3 text-sm text-ink-3">
-                Order reference <span className="font-mono font-medium text-ink-2">{order.paymentReference}</span>
+                Order reference <span className="font-mono font-medium text-ink-2">{order.id}</span>
               </p>
             </section>
 
@@ -403,7 +403,7 @@ export default function PaymentPage() {
             <p className="text-sm text-ink-3">Amount due</p>
             <p className="mt-0.5 text-4xl font-extrabold text-brand">{formatPrice(order.totalPrice)}</p>
             <p className="mt-1.5 text-sm text-ink-3">
-              Order <span className="font-mono font-medium text-ink-2">{order.paymentReference}</span> &middot;{" "}
+              Order <span className="font-mono font-medium text-ink-2">{order.id}</span> &middot;{" "}
               {order.orderItems.length} item{order.orderItems.length === 1 ? "" : "s"}
             </p>
             <p className="mt-0.5 text-sm text-ink-3">
@@ -415,7 +415,7 @@ export default function PaymentPage() {
             <>
               <section className="rounded-card bg-white px-3 py-3.5 md:px-4">
                 <h2 className="pb-2.5 text-lg font-bold">Pay with {method.label.toLowerCase()}</h2>
-                <MethodPanel method={draft.paymentMethod} reference={order.paymentReference} />
+                <MethodPanel method={draft.paymentMethod} reference={order.id} />
               </section>
 
               <div className="space-y-2 px-1">
