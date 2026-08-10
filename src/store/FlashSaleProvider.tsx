@@ -71,6 +71,8 @@ export function FlashSaleProvider({ children }: { children: ReactNode }) {
   }, [raw]);
 
   // When the timer expires, either restart the countdown or mark it expired.
+  // A setTimeout is used so the transition happens exactly at expiration even
+  // if no component re-renders.
   useEffect(() => {
     if (!raw || raw.status === "completed" || raw.status === "abandoned" || raw.status === "expired") return;
     if (isFlashSaleExpired(raw.expiresAt)) {
@@ -81,7 +83,21 @@ export function FlashSaleProvider({ children }: { children: ReactNode }) {
       } else {
         setRaw({ ...raw, status: "expired" });
       }
+      return;
     }
+
+    const remaining = raw.expiresAt - Date.now();
+    const id = window.setTimeout(() => {
+      const { durationMs, restartOnTimeout } = getFlashSaleConfig();
+      if (restartOnTimeout) {
+        const now = Date.now();
+        setRaw({ ...raw, startedAt: now, expiresAt: now + durationMs, status: "claimed" });
+      } else {
+        setRaw({ ...raw, status: "expired" });
+      }
+    }, remaining);
+
+    return () => window.clearTimeout(id);
   }, [raw, setRaw]);
 
   const api = useMemo<FlashSaleApi>(() => {
