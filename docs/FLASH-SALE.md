@@ -87,6 +87,20 @@ native unsaved-changes prompt.
 
 ---
 
+## 6. Configuration
+
+The duration and restart behaviour are build-time configuration via `Vite` env vars:
+
+- `VITE_FLASH_SALE_DURATION_SECONDS` (default 600 = 10 minutes) — duration of the
+  countdown in seconds.
+- `VITE_FLASH_SALE_RESTART_ON_TIMEOUT` (default false) — whether the countdown
+  restarts automatically when it reaches zero.
+
+These values are read by `getFlashSaleConfig()` in `src/lib/flashSale.ts`. Changing
+Vercel environment variables requires a new production build/deployment.
+
+---
+
 ## 5. Completion
 
 - On successful payment, `PaymentPage` calls `flashSale.markCompleted()` and
