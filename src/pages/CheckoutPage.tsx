@@ -1,4 +1,4 @@
-﻿import { Clock3, MapPin, Plus, ShoppingCart, Zap } from "lucide-react";
+﻿import { Clock3, Info, MapPin, Plus, ShoppingCart, Zap } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AddressCard } from "../components/address/AddressCard";
@@ -18,7 +18,7 @@ import { addDays, formatPrice, formatShortDate } from "../lib/format";
 import { cn } from "../lib/utils";
 import { createOrder, generateOrderReference } from "../services/orders";
 import { useAuth } from "../store/AuthProvider";
-import { useCart } from "../store/CartProvider";
+import { useCart, SHIPPING } from "../store/CartProvider";
 import { useCheckout } from "../store/CheckoutProvider";
 import { useToast } from "../store/ToastProvider";
 import type { Address, OrderAddress } from "../types/commerce";
@@ -202,6 +202,11 @@ export default function CheckoutPage() {
                     const selected = delivery === option.id;
                     const from = addDays(new Date(), option.days[0]);
                     const to = addDays(new Date(), option.days[1]);
+                    const isStandard = option.id === "standard";
+                    const shippingCost = isStandard ? totals.shipping : option.surcharge;
+                    const shippingLabel =
+                      shippingCost === 0 ? "Free" : isStandard ? formatPrice(shippingCost) : `+${formatPrice(shippingCost)}`;
+                    const showFreeShippingInfo = isStandard && totals.shipping > 0;
                     return (
                       <li key={option.id}>
                         <label
@@ -219,20 +224,28 @@ export default function CheckoutPage() {
                           />
                           <span className="min-w-0">
                             <span className="flex items-center gap-1.5 text-md font-semibold text-ink">
-                              {option.id === "express" ? (
-                                <Zap className="h-4 w-4 text-deal" fill="currentColor" />
-                              ) : (
+                              {isStandard ? (
                                 <Clock3 className="h-4 w-4 text-trust" />
+                              ) : (
+                                <Zap className="h-4 w-4 text-deal" fill="currentColor" />
                               )}
                               {option.label}
-                              <span className={cn("text-sm font-medium", option.surcharge ? "text-ink-2" : "text-trust")}>
-                                {option.surcharge ? `+${formatPrice(option.surcharge)}` : "Free"}
+                              <span className={cn("text-sm font-medium", shippingCost === 0 ? "text-trust" : "text-ink-2")}>
+                                {shippingLabel}
                               </span>
                             </span>
                             <span className="mt-0.5 block text-sm text-ink-2">
                               {formatShortDate(from)} &ndash; {formatShortDate(to)}
                             </span>
-                            <span className="block text-xs text-ink-3">{option.note}</span>
+                            {!showFreeShippingInfo && (
+                              <span className="block text-xs text-ink-3">{option.note}</span>
+                            )}
+                            {showFreeShippingInfo && (
+                              <span className="mt-1 flex items-start gap-1 text-xs text-ink-2">
+                                <Info className="h-3.5 w-3.5 shrink-0 text-ink-3" />
+                                Free shipping only on orders above {formatPrice(SHIPPING.freeThreshold, { decimals: false })}
+                              </span>
+                            )}
                           </span>
                         </label>
                       </li>
