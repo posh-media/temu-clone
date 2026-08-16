@@ -16,6 +16,7 @@ import { queryKeys } from "../hooks/useCatalogue";
 import { formatPrice } from "../lib/format";
 import { cn } from "../lib/utils";
 import { fetchOrderById } from "../services/orders";
+import { getEnabledPaymentMethods } from "../config/paymentMethods";
 import {
   availablePaymentProviders,
   defaultPaymentProviderId,
@@ -123,6 +124,7 @@ export default function PaymentPage() {
   const { toast } = useToast();
 
   const availableProviders = useMemo(() => availablePaymentProviders(), []);
+  const enabledMethods = useMemo(() => getEnabledPaymentMethods(), []);
   const [provider, setProvider] = useState<PaymentProviderId | null>(() =>
     providerFromQuery && availableProviders.some((p) => p.id === providerFromQuery)
       ? providerFromQuery
@@ -146,22 +148,28 @@ export default function PaymentPage() {
 
   const order = orderQuery.data;
 
-  // Keep the selected method in step with what was written to the order.
+  // Keep the selected method in step with what was written to the order,
+  // but only if that method is still enabled.
   useEffect(() => {
     if (!order) return;
     const match = PAYMENT_METHODS.find((m) => m.orderValue === order.paymentMethod);
-    if (match && match.id !== draft.paymentMethod) setPaymentMethod(match.id);
-  }, [order, draft.paymentMethod, setPaymentMethod]);
+    if (match && enabledMethods.includes(match.id) && match.id !== draft.paymentMethod) {
+      setPaymentMethod(match.id);
+    }
+  }, [order, draft.paymentMethod, setPaymentMethod, enabledMethods]);
 
   // If the chosen provider does not support the current payment method, fall
-  // back to the first supported online method.
+  // back to the first enabled online method that the provider supports.
   useEffect(() => {
     if (!provider || providerSupportsMethod(provider, draft.paymentMethod)) return;
     const fallback = PAYMENT_METHODS.find(
-      (m) => m.id !== "pay-on-delivery" && providerSupportsMethod(provider, m.id),
+      (m) =>
+        enabledMethods.includes(m.id) &&
+        m.id !== "pay-on-delivery" &&
+        providerSupportsMethod(provider, m.id),
     )?.id;
     if (fallback && fallback !== draft.paymentMethod) setPaymentMethod(fallback);
-  }, [provider, draft.paymentMethod, setPaymentMethod]);
+  }, [provider, draft.paymentMethod, setPaymentMethod, enabledMethods]);
 
   const handleVerify = useCallback(
     async (paymentRef: string, providerForRef: PaymentProviderId) => {
@@ -362,12 +370,13 @@ export default function PaymentPage() {
   };
 
   const availableMethods = useMemo(() => {
-    if (draft.paymentMethod === "pay-on-delivery") return PAYMENT_METHODS;
-    if (!provider) return PAYMENT_METHODS.filter((m) => m.id === "pay-on-delivery");
-    return PAYMENT_METHODS.filter(
-      (m) => m.id === "pay-on-delivery" || providerSupportsMethod(provider, m.id),
-    );
-  }, [provider, draft.paymentMethod]);
+    return PAYMENT_METHODS.filter((m) => {
+      if (!enabledMethods.includes(m.id)) return false;
+      if (m.id === "pay-on-delivery") return true;
+      if (!provider) return false;
+      return providerSupportsMethod(provider, m.id);
+    });
+  }, [provider, enabledMethods]);
 
   if (!reference) {
     return (

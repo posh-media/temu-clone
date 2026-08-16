@@ -131,5 +131,6 @@ export function mapOrder(snapshot: DocumentSnapshot<DocumentData> | QueryDocumen
     purchaseMailSent: Boolean(raw.purchaseMailSent),
     createdAt: toDate(raw.createdAt),
     paidAt: toDate(raw.paidAt),
+    expectedDelivery: toDate(raw.expected_delivery),
   };
 }

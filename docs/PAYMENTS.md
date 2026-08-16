@@ -54,7 +54,21 @@ The legacy `VITE_PAYSTACK_ENABLED` flag is still honored as a fallback.
 
 ---
 
-## 3. Payment method → channel mapping
+## 3. Configurable payment methods
+
+Which payment methods appear on the checkout/payment pages is controlled at build time by `VITE_PAYMENT_METHODS`:
+
+```ini
+VITE_PAYMENT_METHODS=["card","bank_transfer"]
+```
+
+Supported values: `card`, `bank_transfer`, `ussd`, `mobile_money`, `pay_on_delivery`. Invalid entries are ignored. If the variable is missing or malformed, all supported methods are shown.
+
+Because this is a Vite build-time variable, changing it requires a new Vercel build/deployment.
+
+The UI also filters the enabled methods by the selected provider. For example, USSD is not offered when KoraPay is selected, because KoraPay does not support it.
+
+## 4. Payment method → channel mapping
 
 The UI stores the normalized channel string in `orders.paymentMethod`:
 
@@ -134,6 +148,7 @@ Frontend / Vercel:
 ```ini
 VITE_ENABLE_PAYSTACK_PAYMENT=true
 VITE_ENABLE_KORAPAY_PAYMENT=true
+VITE_PAYMENT_METHODS=["card","bank_transfer"]
 ```
 
 Backend / Firebase Functions:
@@ -244,7 +259,18 @@ No existing fields are renamed or removed.
 
 ---
 
-## 11. Testing
+## 11. Expected delivery
+
+When an order is created, `CheckoutPage` calculates an expected delivery date from the selected delivery option and stores it as `expected_delivery` on the Firestore order document.
+
+- **Standard**: 9 days after the order creation date (matches the `4–9` day delivery window shown to the customer).
+- **Express**: 4 days after the order creation date (matches the `2–4` day delivery window).
+
+The stored value is a Firestore `Timestamp`. It is formatted as a human-readable string (e.g. `"August 28, 2026"`) when building the Make.com webhook payload.
+
+Both Paystack and KoraPay webhooks include `expected_delivery` in the Make.com payload. Existing orders without the field fall back to an empty string.
+
+## 12. Testing
 
 ### Local / smoke
 

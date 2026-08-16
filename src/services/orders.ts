@@ -1,5 +1,5 @@
 import {
-  collection, doc, getDoc, getDocs, limit, orderBy, query, serverTimestamp, setDoc, updateDoc, where,
+  collection, doc, getDoc, getDocs, limit, orderBy, query, serverTimestamp, setDoc, Timestamp, updateDoc, where,
 } from "firebase/firestore";
 import { COLLECTIONS, db } from "../lib/firebase";
 import { parseFlashSalePrice } from "../lib/flashSale";
@@ -53,6 +53,7 @@ export interface CreateOrderInput {
   lines: HydratedCartLine[];
   totalPrice: number;
   paymentMethod: string;
+  expectedDelivery: Date;
   note?: string;
   userId?: string;
 }
@@ -76,6 +77,7 @@ export async function createOrder(input: CreateOrderInput): Promise<Order> {
     paymentReference: input.reference,
     paymentStatus: "pending" as PaymentStatus,
     deliveryStatus: "Processing" as const,
+    expected_delivery: Timestamp.fromDate(input.expectedDelivery),
     additionalNote: input.note ?? "",
     purchaseMailSent: false,
     createdAt: serverTimestamp(),

@@ -1,68 +1,35 @@
-import { Banknote, CreditCard, Landmark, Smartphone, Wallet } from "lucide-react";
-import type { LucideIcon } from "lucide-react";
+import { useEffect, useMemo } from "react";
+import {
+  getEnabledPaymentMethods,
+  PAYMENT_METHODS,
+  paymentMethod,
+  type PaymentMethodOption,
+} from "../../config/paymentMethods";
 import { cn } from "../../lib/utils";
 import type { PaymentMethodId } from "../../types/commerce";
 
-export interface PaymentMethodOption {
-  id: PaymentMethodId;
-  label: string;
-  description: string;
-  icon: LucideIcon;
-  /** Normalized gateway channel (e.g. "card", "bank_transfer"). */
-  orderValue: string;
-}
-
-export const PAYMENT_METHODS: PaymentMethodOption[] = [
-  {
-    id: "card",
-    label: "Debit or credit card",
-    description: "Visa, Mastercard and Verve",
-    icon: CreditCard,
-    orderValue: "card",
-  },
-  {
-    id: "bank-transfer",
-    label: "Bank transfer",
-    description: "Pay from your bank app or via instant bank login",
-    icon: Landmark,
-    orderValue: "bank_transfer",
-  },
-  {
-    id: "ussd",
-    label: "USSD",
-    description: "Dial a short code on your phone to authorise the payment",
-    icon: Smartphone,
-    orderValue: "ussd",
-  },
-  {
-    id: "mobile-money",
-    label: "Mobile money",
-    description: "Pay with your mobile money wallet",
-    icon: Wallet,
-    orderValue: "mobile_money",
-  },
-  {
-    id: "pay-on-delivery",
-    label: "Pay on delivery",
-    description: "Pay with cash or card when your parcel arrives",
-    icon: Banknote,
-    orderValue: "pay_on_delivery",
-  },
-];
-
-export const paymentMethod = (id: PaymentMethodId) =>
-  PAYMENT_METHODS.find((method) => method.id === id) ?? PAYMENT_METHODS[0];
+export { PAYMENT_METHODS, paymentMethod, type PaymentMethodOption };
 
 /** Radio list of payment methods, styled like Temu's checkout selector. */
 export function PaymentMethodPicker({
   value,
   onChange,
-  methods = PAYMENT_METHODS,
+  methods: methodsProp,
 }: {
   value: PaymentMethodId;
   onChange: (id: PaymentMethodId) => void;
   methods?: PaymentMethodOption[];
 }) {
+  const enabledMethods = useMemo(() => getEnabledPaymentMethods(), []);
+  const methods = methodsProp ?? PAYMENT_METHODS.filter((method) => enabledMethods.includes(method.id));
+
+  // If the current value is no longer enabled/available, fall back to the first method.
+  useEffect(() => {
+    if (methods.some((method) => method.id === value)) return;
+    const first = methods[0]?.id;
+    if (first) onChange(first);
+  }, [methods, value, onChange]);
+
   return (
     <fieldset>
       <legend className="sr-only">Payment method</legend>

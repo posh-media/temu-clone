@@ -121,12 +121,15 @@ export default function CheckoutPage() {
     setPlacing(true);
     try {
       const reference = generateOrderReference();
+      // Expected delivery uses the upper bound of the selected delivery window.
+      const expectedDelivery = addDays(new Date(), deliveryOption.days[1]);
       await createOrder({
         reference,
         address: toOrderAddress(selectedAddress, user?.email ?? undefined),
         lines: selectedLines,
         totalPrice: finalTotals.total,
         paymentMethod: paymentMethod(draft.paymentMethod).orderValue,
+        expectedDelivery,
         note: draft.note,
         userId: user?.uid,
       });

@@ -102,6 +102,7 @@ export interface Order {
   purchaseMailSent: boolean;
   createdAt?: Date;
   paidAt?: Date;
+  expectedDelivery?: Date;
 }
 
 export interface CheckoutDraft {
