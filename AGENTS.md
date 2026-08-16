@@ -34,10 +34,11 @@ preview is on `http://localhost:5177`.
 - **Data router**: the app uses `react-router-dom` v7's `createBrowserRouter`.
   `useBlocker` works for flash-sale navigation guards; this requires the data
   router context.
-- **Paystack feature flag**: set `VITE_PAYSTACK_ENABLED=true` in `.env.local`
-  to call the real Cloud Functions during development. Without the flag (or in
-  production builds where it is not explicitly disabled), the frontend falls
-  back to local simulation and the smoke test passes.
+- **Payment provider feature flags**: `VITE_ENABLE_PAYSTACK_PAYMENT` and
+  `VITE_ENABLE_KORAPAY_PAYMENT` control which gateways appear. Paystack is enabled
+  by default in production unless explicitly disabled. KoraPay is disabled unless
+  enabled. The legacy `VITE_PAYSTACK_ENABLED` flag is still honored. For the smoke
+  test, use pay-on-delivery or leave both online providers disabled.
 - **Firebase project**: connected to `temu-r-b-b-t-tn1fc3` in `us-central1`.
   Cloud Functions live in the separate `FF Projects/temuclearance/firebase/`
   workspace.

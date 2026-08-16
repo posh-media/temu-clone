@@ -141,7 +141,8 @@ async function run(label, width, height, isMobile) {
   }
   await shot("7-checkout-with-address");
 
-  // ---- Place order -> Payment ----
+  // ---- Select pay-on-delivery and place order -> Payment ----
+  await page.locator("label:has-text('Pay on delivery')").first().click();
   await page.locator("button:has-text('Place order')").first().click();
   await page.waitForURL(/\/payment\?ref=ORD-TEMU-/, { timeout: 25000 });
   await page.waitForSelector("text=Amount due", { timeout: 15000 });
@@ -149,8 +150,8 @@ async function run(label, width, height, isMobile) {
   note(`order created: ${ref}`);
   await shot("8-payment");
 
-  // ---- Pay ----
-  await page.locator("button:has-text('Pay ')").first().click();
+  // ---- Pay / Confirm ----
+  await page.locator("button:has-text('Pay '), button:has-text('Confirm order')").first().click();
   await page.waitForSelector("text=/Payment successful|Payment pending|Payment failed/", { timeout: 25000 });
   const outcome = await page.locator("main h2").first().innerText();
   note(`payment outcome: ${outcome}`);
