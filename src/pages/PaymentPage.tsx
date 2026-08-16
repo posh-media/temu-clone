@@ -4,7 +4,8 @@ import {
 } from "lucide-react";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
-import { PAYMENT_METHODS, paymentMethod } from "../components/checkout/PaymentMethodPicker";
+import { PAYMENT_METHODS, paymentMethod, PaymentMethodPicker } from "../components/checkout/PaymentMethodPicker";
+import { PaymentProviderPicker } from "../components/checkout/PaymentProviderPicker";
 import { CheckoutHeader } from "../components/layout/Header";
 import { FocusLayout } from "../components/layout/Layout";
 import { Button } from "../components/ui/Button";
@@ -15,8 +16,15 @@ import { queryKeys } from "../hooks/useCatalogue";
 import { formatPrice } from "../lib/format";
 import { cn } from "../lib/utils";
 import { fetchOrderById } from "../services/orders";
-import { paymentProvider, initializePaystack, verifyPaystack } from "../services/payments";
-import { isPaystackEnabled } from "../services/paystack";
+import {
+  availablePaymentProviders,
+  defaultPaymentProviderId,
+  initializePayment,
+  paymentProvider,
+  providerSupportsMethod,
+  type PaymentProviderId,
+  verifyPayment,
+} from "../services/payments";
 import PaystackPop from "@paystack/inline-js";
 import { useAuth } from "../store/AuthProvider";
 import { useCart } from "../store/CartProvider";
@@ -28,9 +36,22 @@ import type { PaymentMethodId } from "../types/commerce";
 type Phase = "collect" | "initializing" | "redirecting" | "verifying" | "result";
 type Outcome = "paid" | "pending" | "failed" | "abandoned" | null;
 
-/** Method-specific instruction panel. */
-function MethodPanel({ method, reference }: { method: PaymentMethodId; reference: string }) {
+function providerLabel(provider: PaymentProviderId | null): string {
+  if (provider === "paystack") return "Paystack";
+  if (provider === "korapay") return "KoraPay";
+  return "our secure payment partner";
+}
 
+/** Method-specific instruction panel. */
+function MethodPanel({
+  method,
+  reference,
+  provider,
+}: {
+  method: PaymentMethodId;
+  reference: string;
+  provider: PaymentProviderId | null;
+}) {
   if (method === "pay-on-delivery") {
     return (
       <div className="rounded-card border border-line bg-surface-muted px-3 py-2.5 text-md text-ink-2">
@@ -39,15 +60,18 @@ function MethodPanel({ method, reference }: { method: PaymentMethodId; reference
     );
   }
 
+  const isKorapay = provider === "korapay";
+
   return (
     <div className="space-y-3">
       <p className="rounded-card bg-brand-50 px-3 py-2 text-sm text-ink-2">
-        A secure Paystack checkout popup will open when you click Pay. No card or bank details are collected on this
-        page.
+        {isKorapay
+          ? "You will be redirected to KoraPay's secure checkout page to complete the payment. No card or bank details are collected on this page."
+          : "A secure Paystack checkout popup will open when you click Pay. No card or bank details are collected on this page."}
       </p>
       <div className="grid gap-3 sm:grid-cols-2">
-        <Input label="Name on card" placeholder="Collected on Paystack" disabled />
-        <Input label="Card number" placeholder="Collected on Paystack" disabled />
+        <Input label="Name on card" placeholder="Collected on checkout" disabled />
+        <Input label="Card number" placeholder="Collected on checkout" disabled />
       </div>
       <p className="text-sm text-ink-3">
         Payment reference: <span className="font-mono font-medium text-ink-2">{reference}</span>
@@ -88,6 +112,7 @@ export default function PaymentPage() {
   const [params] = useSearchParams();
   const orderIdFromQuery = params.get("ref");
   const paymentReference = params.get("reference") || params.get("trxref");
+  const providerFromQuery = params.get("provider") as PaymentProviderId | null;
 
   const navigate = useNavigate();
   const queryClient = useQueryClient();
@@ -96,6 +121,13 @@ export default function PaymentPage() {
   const flashSale = useFlashSale();
   const { user } = useAuth();
   const { toast } = useToast();
+
+  const availableProviders = useMemo(() => availablePaymentProviders(), []);
+  const [provider, setProvider] = useState<PaymentProviderId | null>(() =>
+    providerFromQuery && availableProviders.some((p) => p.id === providerFromQuery)
+      ? providerFromQuery
+      : defaultPaymentProviderId(),
+  );
 
   const [phase, setPhase] = useState<Phase>(paymentReference ? "verifying" : "collect");
   const [outcome, setOutcome] = useState<Outcome>(null);
@@ -121,12 +153,22 @@ export default function PaymentPage() {
     if (match && match.id !== draft.paymentMethod) setPaymentMethod(match.id);
   }, [order, draft.paymentMethod, setPaymentMethod]);
 
+  // If the chosen provider does not support the current payment method, fall
+  // back to the first supported online method.
+  useEffect(() => {
+    if (!provider || providerSupportsMethod(provider, draft.paymentMethod)) return;
+    const fallback = PAYMENT_METHODS.find(
+      (m) => m.id !== "pay-on-delivery" && providerSupportsMethod(provider, m.id),
+    )?.id;
+    if (fallback && fallback !== draft.paymentMethod) setPaymentMethod(fallback);
+  }, [provider, draft.paymentMethod, setPaymentMethod]);
+
   const handleVerify = useCallback(
-    async (paymentRef: string) => {
-      console.log("[paystack] handleVerify", { paymentRef, orderId: order?.id });
+    async (paymentRef: string, providerForRef: PaymentProviderId) => {
+      console.log(`[${providerForRef}] handleVerify`, { paymentRef, orderId: order?.id });
       try {
-        const result = await verifyPaystack(paymentRef);
-        console.log("[paystack] verify result", result);
+        const result = await verifyPayment(providerForRef, paymentRef);
+        console.log(`[${providerForRef}] verify result`, result);
         if (result.status === "paid") {
           setOutcome("paid");
           setMessage("Payment successful");
@@ -138,7 +180,7 @@ export default function PaymentPage() {
           setMessage(result.message || "Payment could not be completed.");
         } else {
           setOutcome("pending");
-          setMessage(result.message || "We're waiting for Paystack to confirm your payment.");
+          setMessage(result.message || "We're waiting for the payment provider to confirm your payment.");
         }
         await queryClient.invalidateQueries({ queryKey: queryKeys.order(order?.id ?? reference) });
         await queryClient.invalidateQueries({ queryKey: queryKeys.orders(user?.uid ?? "guest") });
@@ -148,7 +190,7 @@ export default function PaymentPage() {
           name: error instanceof Error ? error.name : "unknown",
           stack: error instanceof Error ? error.stack : undefined,
         };
-        console.error("[paystack] verification failed", diag);
+        console.error(`[${providerForRef}] verification failed`, diag);
         setOutcome("failed");
         setMessage("We couldn't confirm the payment. Please try again.");
       } finally {
@@ -158,24 +200,36 @@ export default function PaymentPage() {
     [order?.id, reference, queryClient, clearSelected, flashSale, setOrderReference, user?.uid],
   );
 
-  // Verify a payment when the user returns from Paystack via callback URL.
+  // Verify a payment when the customer returns from a gateway redirect.
   useEffect(() => {
     if (!paymentReference || orderQuery.isLoading || !order) return;
     if (phase !== "verifying") return;
-    void handleVerify(paymentReference);
-  }, [paymentReference, orderQuery.isLoading, order, phase, handleVerify]);
+    const providerForReturn =
+      providerFromQuery && availableProviders.some((p) => p.id === providerFromQuery)
+        ? providerFromQuery
+        : "paystack";
+    void handleVerify(paymentReference, providerForReturn);
+  }, [paymentReference, orderQuery.isLoading, order, phase, providerFromQuery, availableProviders, handleVerify]);
 
   const startPaystack = useMutation({
     mutationFn: async () => {
       if (!order) throw new Error("No order");
+      if (!provider) throw new Error("No payment provider selected");
       const callbackUrl = `${window.location.origin}/payment?ref=${encodeURIComponent(order.id)}`;
-      const result = await initializePaystack(order.id, callbackUrl);
+      const result = await initializePayment(provider, order.id, callbackUrl);
       return result;
     },
     onMutate: () => setPhase("initializing"),
     onSuccess: (result) => {
       setPhase("collect");
       setMessage("");
+
+      if (!result.accessCode) {
+        setOutcome("failed");
+        setMessage("Paystack did not return an access code. Please try again.");
+        setPhase("result");
+        return;
+      }
 
       const paystack = new PaystackPop();
       paystack.resumeTransaction(result.accessCode, {
@@ -185,7 +239,7 @@ export default function PaymentPage() {
         onSuccess: (transaction) => {
           console.log("[paystack] popup success", { id: transaction.id, reference: transaction.reference });
           setPhase("verifying");
-          void handleVerify(transaction.reference);
+          void handleVerify(transaction.reference, "paystack");
         },
         onCancel: () => {
           console.log("[paystack] popup cancelled");
@@ -210,6 +264,38 @@ export default function PaymentPage() {
       console.error("[paystack] initialization failed", diag);
       setOutcome("failed");
       setMessage("We couldn't reach Paystack. Please check your connection and try again.");
+      setPhase("result");
+    },
+  });
+
+  const startKorapay = useMutation({
+    mutationFn: async () => {
+      if (!order) throw new Error("No order");
+      const callbackUrl = `${window.location.origin}/payment?ref=${encodeURIComponent(
+        order.id,
+      )}&provider=korapay`;
+      const result = await initializePayment("korapay", order.id, callbackUrl);
+      return result;
+    },
+    onMutate: () => setPhase("redirecting"),
+    onSuccess: (result) => {
+      if (!result.checkoutUrl) {
+        setOutcome("failed");
+        setMessage("KoraPay did not return a checkout URL. Please try again.");
+        setPhase("result");
+        return;
+      }
+      window.location.href = result.checkoutUrl;
+    },
+    onError: (error) => {
+      const diag = {
+        message: error instanceof Error ? error.message : String(error),
+        name: error instanceof Error ? error.name : "unknown",
+        stack: error instanceof Error ? error.stack : undefined,
+      };
+      console.error("[korapay] initialization failed", diag);
+      setOutcome("failed");
+      setMessage("We couldn't reach KoraPay. Please check your connection and try again.");
       setPhase("result");
     },
   });
@@ -242,11 +328,21 @@ export default function PaymentPage() {
   });
 
   const handlePay = () => {
-    if (draft.paymentMethod === "pay-on-delivery" || !isPaystackEnabled) {
+    if (draft.paymentMethod === "pay-on-delivery") {
       pay.mutate();
       return;
     }
-    startPaystack.mutate();
+    if (!provider) {
+      setOutcome("failed");
+      setMessage("No online payment provider is available for this order.");
+      setPhase("result");
+      return;
+    }
+    if (provider === "paystack") {
+      startPaystack.mutate();
+      return;
+    }
+    startKorapay.mutate();
   };
 
   const handleRetry = () => {
@@ -264,6 +360,14 @@ export default function PaymentPage() {
   const handleViewOrder = () => {
     if (order) navigate(`/orders/${order.id}`);
   };
+
+  const availableMethods = useMemo(() => {
+    if (draft.paymentMethod === "pay-on-delivery") return PAYMENT_METHODS;
+    if (!provider) return PAYMENT_METHODS.filter((m) => m.id === "pay-on-delivery");
+    return PAYMENT_METHODS.filter(
+      (m) => m.id === "pay-on-delivery" || providerSupportsMethod(provider, m.id),
+    );
+  }, [provider, draft.paymentMethod]);
 
   if (!reference) {
     return (
@@ -392,6 +496,9 @@ export default function PaymentPage() {
     );
   }
 
+  const showProviderPicker = availableProviders.length > 1 && draft.paymentMethod !== "pay-on-delivery";
+  const onlineDisabled = draft.paymentMethod !== "pay-on-delivery" && !provider;
+
   return (
     <FocusLayout>
       <CheckoutHeader title="Payment" />
@@ -413,28 +520,57 @@ export default function PaymentPage() {
 
           {phase === "collect" && (
             <>
+              {showProviderPicker && (
+                <section className="rounded-card bg-white px-3 py-3.5 md:px-4">
+                  <h2 className="pb-2.5 text-lg font-bold">Choose payment provider</h2>
+                  <PaymentProviderPicker
+                    providers={availableProviders}
+                    value={provider}
+                    onChange={setProvider}
+                  />
+                </section>
+              )}
+
               <section className="rounded-card bg-white px-3 py-3.5 md:px-4">
                 <h2 className="pb-2.5 text-lg font-bold">Pay with {method.label.toLowerCase()}</h2>
-                <MethodPanel method={draft.paymentMethod} reference={order.id} />
+                <MethodPanel method={draft.paymentMethod} reference={order.id} provider={provider} />
               </section>
+
+              {draft.paymentMethod !== "pay-on-delivery" && (
+                <section className="rounded-card bg-white px-3 py-3.5 md:px-4">
+                  <h2 className="pb-2.5 text-lg font-bold">Payment method</h2>
+                  <PaymentMethodPicker
+                    value={draft.paymentMethod}
+                    onChange={setPaymentMethod}
+                    methods={availableMethods}
+                  />
+                </section>
+              )}
 
               <div className="space-y-2 px-1">
                 <Button
                   block
                   size="xl"
-                  loading={startPaystack.isPending || pay.isPending}
+                  loading={startPaystack.isPending || startKorapay.isPending || pay.isPending}
+                  disabled={onlineDisabled}
                   onClick={handlePay}
                 >
                   {draft.paymentMethod === "pay-on-delivery"
                     ? "Confirm order"
                     : `Pay ${formatPrice(order.totalPrice)}`}
                 </Button>
-                <p className="flex items-center justify-center gap-1.5 text-xs text-ink-3">
-                  <Lock className="h-3.5 w-3.5" />
-                  {draft.paymentMethod === "pay-on-delivery"
-                    ? "Pay on delivery"
-                    : "Processed securely by Paystack"}
-                </p>
+                {onlineDisabled ? (
+                  <p className="flex items-center justify-center gap-1.5 text-xs text-ink-3">
+                    No online payment provider is configured for this platform.
+                  </p>
+                ) : (
+                  <p className="flex items-center justify-center gap-1.5 text-xs text-ink-3">
+                    <Lock className="h-3.5 w-3.5" />
+                    {draft.paymentMethod === "pay-on-delivery"
+                      ? "Pay on delivery"
+                      : `Processed securely by ${providerLabel(provider)}`}
+                  </p>
+                )}
                 <Button block variant="ghost" onClick={() => navigate("/checkout")}>
                   Change payment method
                 </Button>
@@ -453,8 +589,8 @@ export default function PaymentPage() {
           {phase === "redirecting" && (
             <section className="rounded-card bg-white px-4 py-12 text-center">
               <Loader2 className="mx-auto h-10 w-10 animate-spin text-brand" />
-              <h2 className="mt-4 text-xl font-bold">Redirecting to Paystack</h2>
-              <p className="mt-1.5 text-md text-ink-3">You&apos;ll complete the payment on Paystack&apos;s secure page.</p>
+              <h2 className="mt-4 text-xl font-bold">Redirecting to KoraPay</h2>
+              <p className="mt-1.5 text-md text-ink-3">You&apos;ll complete the payment on KoraPay&apos;s secure page.</p>
             </section>
           )}
 

@@ -2,16 +2,17 @@ import { getFunctions, httpsCallable, type HttpsCallableResult } from "firebase/
 import { firebaseApp } from "../lib/firebase";
 
 /**
- * Paystack Cloud Functions are configured as an opt-in feature.
- * - In production builds the functions are invoked by default.
- * - In development, set `VITE_PAYSTACK_ENABLED=true` in `.env.local` to call
- *   the real Cloud Functions, otherwise the frontend falls back to local
- *   simulation. This keeps local smoke tests and dev servers from failing when
- *   the functions are not yet deployed.
+ * Paystack Cloud Functions are controlled by `VITE_ENABLE_PAYSTACK_PAYMENT`.
+ * The legacy `VITE_PAYSTACK_ENABLED` flag is still supported for backwards
+ * compatibility. In production builds Paystack is enabled by default when
+ * neither flag is explicitly disabled.
  */
 export const isPaystackEnabled =
+  import.meta.env.VITE_ENABLE_PAYSTACK_PAYMENT === "true" ||
   import.meta.env.VITE_PAYSTACK_ENABLED === "true" ||
-  (import.meta.env.VITE_PAYSTACK_ENABLED !== "false" && import.meta.env.PROD);
+  (import.meta.env.VITE_ENABLE_PAYSTACK_PAYMENT !== "false" &&
+    import.meta.env.VITE_PAYSTACK_ENABLED !== "false" &&
+    import.meta.env.PROD);
 
 const functionsRegion = import.meta.env.VITE_FIREBASE_FUNCTIONS_REGION || "us-central1";
 const functions = isPaystackEnabled ? getFunctions(firebaseApp, functionsRegion) : null;

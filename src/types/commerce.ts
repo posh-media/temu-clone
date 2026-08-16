@@ -41,7 +41,7 @@ export interface Address {
   isDefault: boolean;
 }
 
-export type PaymentMethodId = "card" | "bank-transfer" | "ussd" | "pay-on-delivery";
+export type PaymentMethodId = "card" | "bank-transfer" | "ussd" | "mobile-money" | "pay-on-delivery";
 
 export type PaymentStatus = "pending" | "processing" | "paid" | "failed";
 export type DeliveryStatus =

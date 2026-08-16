@@ -72,7 +72,7 @@ export async function createOrder(input: CreateOrderInput): Promise<Order> {
     orderItems: input.lines.map(toOrderItem),
     totalPrice: Math.round(input.totalPrice),
     paymentMethod: input.paymentMethod,
-    paymentGateway: "paystack",
+    paymentGateway: "pending",
     paymentReference: input.reference,
     paymentStatus: "pending" as PaymentStatus,
     deliveryStatus: "Processing" as const,
