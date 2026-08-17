@@ -1,0 +1,193 @@
+{
+  "products": [
+    {
+      "id": 118,
+      "title": "Attitude Super Leaves Hand Soap",
+      "description": "Attitude Super Leaves Hand Soap is a natural and nourishing hand soap enriched with the goodness of super leaves. It cleanses and moisturizes your hands, leaving them feeling fresh and soft.",
+      "category": "skin-care",
+      "price": 8.99,
+      "discountPercentage": 18.49,
+      "rating": 3.19,
+      "stock": 94,
+      "tags": [
+        "personal care",
+        "hand soap"
+      ],
+      "brand": "Attitude",
+      "sku": "SKI-ATT-ATT-118",
+      "weight": 1,
+      "dimensions": {
+        "width": 14.05,
+        "height": 8.3,
+        "depth": 16.62
+      },
+      "warrantyInformation": "6 months warranty",
+      "shippingInformation": "Ships overnight",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2025-04-30T09:41:02.053Z",
+          "reviewerName": "Liam Garcia",
+          "reviewerEmail": "liam.garcia@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Great product!",
+          "date": "2025-04-30T09:41:02.053Z",
+          "reviewerName": "Victoria McDonald",
+          "reviewerEmail": "victoria.mcdonald@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very happy with my purchase!",
+          "date": "2025-04-30T09:41:02.053Z",
+          "reviewerName": "Hannah Robinson",
+          "reviewerEmail": "hannah.robinson@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "60 days return policy",
+      "minimumOrderQuantity": 41,
+      "meta": {
+        "createdAt": "2025-04-30T09:41:02.053Z",
+        "updatedAt": "2025-04-30T09:41:02.053Z",
+        "barcode": "3566048905322",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/product-images/skin-care/attitude-super-leaves-hand-soap/1.webp",
+        "https://cdn.dummyjson.com/product-images/skin-care/attitude-super-leaves-hand-soap/2.webp",
+        "https://cdn.dummyjson.com/product-images/skin-care/attitude-super-leaves-hand-soap/3.webp"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/product-images/skin-care/attitude-super-leaves-hand-soap/thumbnail.webp"
+    },
+    {
+      "id": 119,
+      "title": "Olay Ultra Moisture Shea Butter Body Wash",
+      "description": "Olay Ultra Moisture Shea Butter Body Wash is a luxurious body wash that hydrates and nourishes your skin with the moisturizing power of shea butter. Enjoy a rich lather and silky-smooth skin.",
+      "category": "skin-care",
+      "price": 12.99,
+      "discountPercentage": 16.39,
+      "rating": 4.51,
+      "stock": 34,
+      "tags": [
+        "personal care",
+        "body wash"
+      ],
+      "brand": "Olay",
+      "sku": "SKI-OLA-OLA-119",
+      "weight": 4,
+      "dimensions": {
+        "width": 25.23,
+        "height": 28.33,
+        "depth": 11.89
+      },
+      "warrantyInformation": "1 year warranty",
+      "shippingInformation": "Ships in 1-2 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Very satisfied!",
+          "date": "2025-04-30T09:41:02.053Z",
+          "reviewerName": "Abigail Rivera",
+          "reviewerEmail": "abigail.rivera@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Great value for money!",
+          "date": "2025-04-30T09:41:02.053Z",
+          "reviewerName": "Hunter Gordon",
+          "reviewerEmail": "hunter.gordon@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Very pleased!",
+          "date": "2025-04-30T09:41:02.053Z",
+          "reviewerName": "Zoe Bennett",
+          "reviewerEmail": "zoe.bennett@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "30 days return policy",
+      "minimumOrderQuantity": 33,
+      "meta": {
+        "createdAt": "2025-04-30T09:41:02.053Z",
+        "updatedAt": "2025-04-30T09:41:02.053Z",
+        "barcode": "6532659691643",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/product-images/skin-care/olay-ultra-moisture-shea-butter-body-wash/1.webp",
+        "https://cdn.dummyjson.com/product-images/skin-care/olay-ultra-moisture-shea-butter-body-wash/2.webp",
+        "https://cdn.dummyjson.com/product-images/skin-care/olay-ultra-moisture-shea-butter-body-wash/3.webp"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/product-images/skin-care/olay-ultra-moisture-shea-butter-body-wash/thumbnail.webp"
+    },
+    {
+      "id": 120,
+      "title": "Vaseline Men Body and Face Lotion",
+      "description": "Vaseline Men Body and Face Lotion is a specially formulated lotion designed to provide long-lasting moisture to men's skin. It absorbs quickly and helps keep the skin hydrated and healthy.",
+      "category": "skin-care",
+      "price": 9.99,
+      "discountPercentage": 13.39,
+      "rating": 3.16,
+      "stock": 95,
+      "tags": [
+        "personal care",
+        "body lotion"
+      ],
+      "brand": "Vaseline",
+      "sku": "SKI-VAS-VAS-120",
+      "weight": 4,
+      "dimensions": {
+        "width": 21.83,
+        "height": 17.38,
+        "depth": 24.76
+      },
+      "warrantyInformation": "Lifetime warranty",
+      "shippingInformation": "Ships overnight",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Excellent quality!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Aria Ferguson",
+          "reviewerEmail": "aria.ferguson@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very pleased!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Nova Cooper",
+          "reviewerEmail": "nova.cooper@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Great product!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Madison Collins",
+          "reviewerEmail": "madison.collins@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "90 days return policy",
+      "minimumOrderQuantity": 9,
+      "meta": {
+        "createdAt": "2025-04-30T09:41:02.054Z",
+        "updatedAt": "2025-04-30T09:41:02.054Z",
+        "barcode": "8483207319090",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/1.webp",
+        "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/2.webp",
+        "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/3.webp"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/thumbnail.webp"
+    }
+  ],
+  "total": 3,
+  "skip": 0,
+  "limit": 3
+}

@@ -1,0 +1,126 @@
+{
+  "source": {
+    "name": "dummyjson",
+    "baseUrl": "https://dummyjson.com",
+    "displayName": "DummyJSON Public API"
+  },
+  "retrievedAt": "2026-08-17T23:38:22.696Z",
+  "categories": [
+    {
+      "slug": "beauty",
+      "name": "Beauty",
+      "count": 5
+    },
+    {
+      "slug": "fragrances",
+      "name": "Fragrances",
+      "count": 5
+    },
+    {
+      "slug": "furniture",
+      "name": "Furniture",
+      "count": 5
+    },
+    {
+      "slug": "home-decoration",
+      "name": "Home Decoration",
+      "count": 5
+    },
+    {
+      "slug": "kitchen-accessories",
+      "name": "Kitchen Accessories",
+      "count": 30
+    },
+    {
+      "slug": "laptops",
+      "name": "Laptops",
+      "count": 5
+    },
+    {
+      "slug": "mens-shirts",
+      "name": "Mens Shirts",
+      "count": 5
+    },
+    {
+      "slug": "mens-shoes",
+      "name": "Mens Shoes",
+      "count": 5
+    },
+    {
+      "slug": "mens-watches",
+      "name": "Mens Watches",
+      "count": 6
+    },
+    {
+      "slug": "mobile-accessories",
+      "name": "Mobile Accessories",
+      "count": 14
+    },
+    {
+      "slug": "motorcycle",
+      "name": "Motorcycle",
+      "count": 5
+    },
+    {
+      "slug": "skin-care",
+      "name": "Skin Care",
+      "count": 3
+    },
+    {
+      "slug": "smartphones",
+      "name": "Smartphones",
+      "count": 16
+    },
+    {
+      "slug": "sports-accessories",
+      "name": "Sports Accessories",
+      "count": 17
+    },
+    {
+      "slug": "sunglasses",
+      "name": "Sunglasses",
+      "count": 5
+    },
+    {
+      "slug": "tablets",
+      "name": "Tablets",
+      "count": 3
+    },
+    {
+      "slug": "tops",
+      "name": "Tops",
+      "count": 5
+    },
+    {
+      "slug": "vehicle",
+      "name": "Vehicle",
+      "count": 5
+    },
+    {
+      "slug": "womens-bags",
+      "name": "Womens Bags",
+      "count": 5
+    },
+    {
+      "slug": "womens-dresses",
+      "name": "Womens Dresses",
+      "count": 5
+    },
+    {
+      "slug": "womens-jewellery",
+      "name": "Womens Jewellery",
+      "count": 3
+    },
+    {
+      "slug": "womens-shoes",
+      "name": "Womens Shoes",
+      "count": 5
+    },
+    {
+      "slug": "womens-watches",
+      "name": "Womens Watches",
+      "count": 5
+    }
+  ],
+  "totalProducts": 167
+}

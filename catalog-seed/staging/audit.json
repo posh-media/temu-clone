@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-08-17T23:40:22.362Z",
+  "source": {
+    "name": "dummyjson",
+    "baseUrl": "https://dummyjson.com",
+    "displayName": "DummyJSON Public API"
+  },
+  "pricing": {
+    "usdToNgn": 1500,
+    "markupPercent": 30
+  },
+  "stats": {
+    "accepted": 167,
+    "rejected": 0,
+    "invalid": 0,
+    "totalProcessed": 167
+  },
+  "categories": {
+    "Beauty": 13,
+    "Home & Kitchen": 40,
+    "Electronics": 38,
+    "Fashion": 20,
+    "Shoes": 10,
+    "Jewelry & Accessories": 14,
+    "Automotive": 10,
+    "Sports & Outdoors": 17,
+    "Bags": 5
+  },
+  "rejected": [],
+  "invalid": []
+}

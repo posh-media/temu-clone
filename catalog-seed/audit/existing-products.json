@@ -1,0 +1,4770 @@
+{
+  "generatedAt": "2026-08-17T23:32:56.294Z",
+  "totalProducts": 195,
+  "visibleProducts": 195,
+  "fieldsPresent": [
+    "availableStock",
+    "brandName",
+    "category",
+    "created_time",
+    "description",
+    "descriptionImgs",
+    "discountPercent",
+    "display",
+    "harmful",
+    "id",
+    "images",
+    "material",
+    "price",
+    "productDetails",
+    "productId",
+    "productName",
+    "productReviewsList",
+    "productType",
+    "promotionalTags",
+    "ratings",
+    "reviews",
+    "sellerRef",
+    "soldQuantity",
+    "sponsored",
+    "subCategory",
+    "tags",
+    "totalStock",
+    "whatsInTheBox"
+  ],
+  "categories": {
+    "Speaker": 1,
+    "Gadgets": 9,
+    "Fashion": 46,
+    "Electronics": 38,
+    "Home": 40,
+    "Automotive": 10,
+    "Toys": 17,
+    "Women": 18,
+    "Men": 16
+  },
+  "stats": {
+    "withImages": 195,
+    "withPrice": 195,
+    "withDiscount": 195,
+    "withStock": 195
+  },
+  "products": [
+    {
+      "id": "5iSSGb6KR9XZMMJD9jcP",
+      "productId": "Jbl Charge 6 Portable Waterproof Speaker  - Black",
+      "productName": "Jbl Charge 6 Portable Waterproof Speaker  - Black",
+      "category": "Speaker",
+      "price": 270000,
+      "discountPercent": 10,
+      "availableStock": 1000,
+      "totalStock": 3400,
+      "imagesCount": 2,
+      "brandName": "JBL",
+      "tags": [
+        "jbl",
+        "charge 6",
+        "bluetooth speaker"
+      ],
+      "promotionalTags": [
+        "flash-sale",
+        "flash-sale-9999"
+      ],
+      "display": true
+    },
+    {
+      "id": "TEMU-998800",
+      "productId": "TEMU-998800",
+      "productName": "Even G1 AI Glasses",
+      "category": "Gadgets",
+      "price": 18,
+      "discountPercent": 90,
+      "availableStock": 55,
+      "totalStock": 5000,
+      "imagesCount": 1,
+      "brandName": "Even G1",
+      "tags": [
+        "Glasses",
+        "Even G1",
+        "AI",
+        "All"
+      ],
+      "promotionalTags": [],
+      "sponsored": false
+    },
+    {
+      "id": "product_1",
+      "productId": "PRD-1",
+      "productName": "Essence Mascara Lash Princess",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 16484,
+      "discountPercent": 10.48,
+      "availableStock": 99,
+      "totalStock": 406,
+      "imagesCount": 2,
+      "brandName": "Essence",
+      "tags": [
+        "beauty",
+        "mascara",
+        "fashion",
+        "essence"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_10",
+      "productId": "PRD-10",
+      "productName": "Gucci Bloom Eau de",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 131984,
+      "discountPercent": 14.39,
+      "availableStock": 91,
+      "totalStock": 420,
+      "imagesCount": 4,
+      "brandName": "Gucci",
+      "tags": [
+        "fragrances",
+        "perfumes",
+        "fashion",
+        "gucci"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_100",
+      "productId": "PRD-100",
+      "productName": "Apple Airpods",
+      "category": "Electronics",
+      "subCategory": "Electronics",
+      "price": 214484,
+      "discountPercent": 15.54,
+      "availableStock": 67,
+      "totalStock": 565,
+      "imagesCount": 4,
+      "brandName": "Apple",
+      "tags": [
+        "electronics",
+        "wireless earphones",
+        "apple"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_101",
+      "productId": "PRD-101",
+      "productName": "Apple AirPods Max Silver",
+      "category": "Electronics",
+      "subCategory": "Electronics",
+      "price": 907484,
+      "discountPercent": 13.67,
+      "availableStock": 59,
+      "totalStock": 475,
+      "imagesCount": 2,
+      "brandName": "Apple",
+      "tags": [
+        "electronics",
+        "over-ear headphones",
+        "apple"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_102",
+      "productId": "PRD-102",
+      "productName": "Apple Airpower Wireless Charger",
+      "category": "Electronics",
+      "subCategory": "Electronics",
+      "price": 131984,
+      "discountPercent": 4.48,
+      "availableStock": 1,
+      "totalStock": 443,
+      "imagesCount": 2,
+      "brandName": "Apple",
+      "tags": [
+        "electronics",
+        "wireless chargers",
+        "apple"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_103",
+      "productId": "PRD-103",
+      "productName": "Apple HomePod Mini Cosmic Grey",
+      "category": "Electronics",
+      "subCategory": "Electronics",
+      "price": 164984,
+      "discountPercent": 18.1,
+      "availableStock": 27,
+      "totalStock": 581,
+      "imagesCount": 2,
+      "brandName": "Apple",
+      "tags": [
+        "electronics",
+        "smart speakers",
+        "apple"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_104",
+      "productId": "PRD-104",
+      "productName": "Apple iPhone Charger",
+      "category": "Electronics",
+      "subCategory": "Electronics",
+      "price": 32984,
+      "discountPercent": 18.52,
+      "availableStock": 31,
+      "totalStock": 529,
+      "imagesCount": 3,
+      "brandName": "Apple",
+      "tags": [
+        "electronics",
+        "chargers",
+        "apple"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_105",
+      "productId": "PRD-105",
+      "productName": "Apple MagSafe Battery Pack",
+      "category": "Electronics",
+      "subCategory": "Electronics",
+      "price": 164984,
+      "discountPercent": 17.17,
+      "availableStock": 1,
+      "totalStock": 435,
+      "imagesCount": 3,
+      "brandName": "Apple",
+      "tags": [
+        "electronics",
+        "power banks",
+        "apple"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_106",
+      "productId": "PRD-106",
+      "productName": "Apple Watch Series 4 Gold",
+      "category": "Electronics",
+      "subCategory": "Electronics",
+      "price": 577484,
+      "discountPercent": 12.02,
+      "availableStock": 33,
+      "totalStock": 362,
+      "imagesCount": 4,
+      "brandName": "Apple",
+      "tags": [
+        "electronics",
+        "smartwatches",
+        "apple"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_107",
+      "productId": "PRD-107",
+      "productName": "Beats Flex Wireless Earphones",
+      "category": "Electronics",
+      "subCategory": "Electronics",
+      "price": 82484,
+      "discountPercent": 5.73,
+      "availableStock": 50,
+      "totalStock": 559,
+      "imagesCount": 2,
+      "brandName": "Beats",
+      "tags": [
+        "electronics",
+        "wireless earphones",
+        "beats"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_108",
+      "productId": "PRD-108",
+      "productName": "iPhone 12 Silicone Case with MagSafe Plum",
+      "category": "Electronics",
+      "subCategory": "Electronics",
+      "price": 49484,
+      "discountPercent": 13.85,
+      "availableStock": 69,
+      "totalStock": 503,
+      "imagesCount": 5,
+      "brandName": "Apple",
+      "tags": [
+        "electronics",
+        "phone accessories",
+        "apple"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_109",
+      "productId": "PRD-109",
+      "productName": "Monopod",
+      "category": "Electronics",
+      "subCategory": "Electronics",
+      "price": 32984,
+      "discountPercent": 8.58,
+      "availableStock": 48,
+      "totalStock": 580,
+      "imagesCount": 3,
+      "brandName": "TechGear",
+      "tags": [
+        "electronics",
+        "camera accessories",
+        "techgear"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_11",
+      "productId": "PRD-11",
+      "productName": "Annibale Colombo Bed",
+      "category": "Home",
+      "subCategory": "Furniture",
+      "price": 3134984,
+      "discountPercent": 8.57,
+      "availableStock": 88,
+      "totalStock": 660,
+      "imagesCount": 4,
+      "brandName": "Annibale Colombo",
+      "tags": [
+        "furniture",
+        "beds",
+        "home",
+        "annibale colombo"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_110",
+      "productId": "PRD-110",
+      "productName": "Selfie Lamp with iPhone",
+      "category": "Electronics",
+      "subCategory": "Electronics",
+      "price": 24734,
+      "discountPercent": 19.4,
+      "availableStock": 58,
+      "totalStock": 484,
+      "imagesCount": 2,
+      "brandName": "GadgetMaster",
+      "tags": [
+        "electronics",
+        "selfie accessories",
+        "gadgetmaster"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_111",
+      "productId": "PRD-111",
+      "productName": "Selfie Stick Monopod",
+      "category": "Electronics",
+      "subCategory": "Electronics",
+      "price": 21434,
+      "discountPercent": 19.12,
+      "availableStock": 11,
+      "totalStock": 477,
+      "imagesCount": 2,
+      "brandName": "SnapTech",
+      "tags": [
+        "electronics",
+        "selfie accessories",
+        "snaptech"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_112",
+      "productId": "PRD-112",
+      "productName": "TV Studio Camera Pedestal",
+      "category": "Electronics",
+      "subCategory": "Electronics",
+      "price": 824984,
+      "discountPercent": 8.31,
+      "availableStock": 15,
+      "totalStock": 349,
+      "imagesCount": 2,
+      "brandName": "ProVision",
+      "tags": [
+        "electronics",
+        "camera accessories",
+        "provision"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_113",
+      "productId": "PRD-113",
+      "productName": "Generic Motorcycle",
+      "category": "Automotive",
+      "subCategory": "Accessories",
+      "price": 6599984,
+      "discountPercent": 12.1,
+      "availableStock": 34,
+      "totalStock": 623,
+      "imagesCount": 5,
+      "brandName": "Generic Motors",
+      "tags": [
+        "motorcycles",
+        "automotive",
+        "accessories",
+        "generic motors"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_114",
+      "productId": "PRD-114",
+      "productName": "Kawasaki Z800",
+      "category": "Automotive",
+      "subCategory": "Accessories",
+      "price": 14849984,
+      "discountPercent": 9.77,
+      "availableStock": 52,
+      "totalStock": 530,
+      "imagesCount": 5,
+      "brandName": "Kawasaki",
+      "tags": [
+        "motorcycles",
+        "sportbikes",
+        "automotive",
+        "accessories",
+        "kawasaki"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_115",
+      "productId": "PRD-115",
+      "productName": "MotoGP CI.H1",
+      "category": "Automotive",
+      "subCategory": "Accessories",
+      "price": 24749984,
+      "discountPercent": 6.92,
+      "availableStock": 10,
+      "totalStock": 366,
+      "imagesCount": 5,
+      "brandName": "MotoGP",
+      "tags": [
+        "motorcycles",
+        "sportbikes",
+        "automotive",
+        "accessories",
+        "motogp"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_116",
+      "productId": "PRD-116",
+      "productName": "Scooter Motorcycle",
+      "category": "Automotive",
+      "subCategory": "Accessories",
+      "price": 4949984,
+      "discountPercent": 6.27,
+      "availableStock": 84,
+      "totalStock": 388,
+      "imagesCount": 5,
+      "brandName": "ScootMaster",
+      "tags": [
+        "motorcycles",
+        "scooters",
+        "automotive",
+        "accessories",
+        "scootmaster"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_117",
+      "productId": "PRD-117",
+      "productName": "Sportbike Motorcycle",
+      "category": "Automotive",
+      "subCategory": "Accessories",
+      "price": 12374984,
+      "discountPercent": 11.58,
+      "availableStock": 0,
+      "totalStock": 473,
+      "imagesCount": 5,
+      "brandName": "SpeedMaster",
+      "tags": [
+        "motorcycles",
+        "sportbikes",
+        "automotive",
+        "accessories",
+        "speedmaster"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_118",
+      "productId": "PRD-118",
+      "productName": "Attitude Super Leaves Hand Soap",
+      "category": "Gadgets",
+      "subCategory": "Gadgets",
+      "price": 14834,
+      "discountPercent": 18.49,
+      "availableStock": 94,
+      "totalStock": 477,
+      "imagesCount": 4,
+      "brandName": "Attitude",
+      "tags": [
+        "personal care",
+        "hand soap",
+        "gadgets",
+        "attitude"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_119",
+      "productId": "PRD-119",
+      "productName": "Olay Ultra Moisture Shea Butter Body Wash",
+      "category": "Gadgets",
+      "subCategory": "Gadgets",
+      "price": 21434,
+      "discountPercent": 16.39,
+      "availableStock": 34,
+      "totalStock": 575,
+      "imagesCount": 4,
+      "brandName": "Olay",
+      "tags": [
+        "personal care",
+        "body wash",
+        "gadgets",
+        "olay"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_12",
+      "productId": "PRD-12",
+      "productName": "Annibale Colombo Sofa",
+      "category": "Home",
+      "subCategory": "Furniture",
+      "price": 4124983,
+      "discountPercent": 14.4,
+      "availableStock": 60,
+      "totalStock": 530,
+      "imagesCount": 4,
+      "brandName": "Annibale Colombo",
+      "tags": [
+        "furniture",
+        "sofas",
+        "home",
+        "annibale colombo"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_120",
+      "productId": "PRD-120",
+      "productName": "Vaseline Men Body and Face Lotion",
+      "category": "Gadgets",
+      "subCategory": "Gadgets",
+      "price": 16484,
+      "discountPercent": 13.39,
+      "availableStock": 95,
+      "totalStock": 474,
+      "imagesCount": 4,
+      "brandName": "Vaseline",
+      "tags": [
+        "personal care",
+        "body lotion",
+        "gadgets",
+        "vaseline"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_121",
+      "productId": "PRD-121",
+      "productName": "iPhone 5s",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "price": 329984,
+      "discountPercent": 12.91,
+      "availableStock": 25,
+      "totalStock": 365,
+      "imagesCount": 4,
+      "brandName": "Apple",
+      "tags": [
+        "smartphones",
+        "apple",
+        "electronics"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_122",
+      "productId": "PRD-122",
+      "productName": "iPhone 6",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "price": 494984,
+      "discountPercent": 6.69,
+      "availableStock": 60,
+      "totalStock": 469,
+      "imagesCount": 4,
+      "brandName": "Apple",
+      "tags": [
+        "smartphones",
+        "apple",
+        "electronics"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_123",
+      "productId": "PRD-123",
+      "productName": "iPhone 13 Pro",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "price": 1814984,
+      "discountPercent": 9.37,
+      "availableStock": 56,
+      "totalStock": 550,
+      "imagesCount": 4,
+      "brandName": "Apple",
+      "tags": [
+        "smartphones",
+        "apple",
+        "electronics"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_124",
+      "productId": "PRD-124",
+      "productName": "iPhone X",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "price": 1484984,
+      "discountPercent": 19.59,
+      "availableStock": 37,
+      "totalStock": 338,
+      "imagesCount": 4,
+      "brandName": "Apple",
+      "tags": [
+        "smartphones",
+        "apple",
+        "electronics"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_125",
+      "productId": "PRD-125",
+      "productName": "Oppo A57",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "price": 412484,
+      "discountPercent": 2.43,
+      "availableStock": 19,
+      "totalStock": 492,
+      "imagesCount": 4,
+      "brandName": "Oppo",
+      "tags": [
+        "smartphones",
+        "oppo",
+        "electronics"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_126",
+      "productId": "PRD-126",
+      "productName": "Oppo F19 Pro Plus",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "price": 659984,
+      "discountPercent": 18.64,
+      "availableStock": 78,
+      "totalStock": 499,
+      "imagesCount": 4,
+      "brandName": "Oppo",
+      "tags": [
+        "smartphones",
+        "oppo",
+        "electronics"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_127",
+      "productId": "PRD-127",
+      "productName": "Oppo K1",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "price": 494984,
+      "discountPercent": 18.29,
+      "availableStock": 55,
+      "totalStock": 565,
+      "imagesCount": 5,
+      "brandName": "Oppo",
+      "tags": [
+        "smartphones",
+        "oppo",
+        "electronics"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_128",
+      "productId": "PRD-128",
+      "productName": "Realme C35",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "price": 247484,
+      "discountPercent": 15.3,
+      "availableStock": 48,
+      "totalStock": 552,
+      "imagesCount": 4,
+      "brandName": "Realme",
+      "tags": [
+        "smartphones",
+        "realme",
+        "electronics"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_129",
+      "productId": "PRD-129",
+      "productName": "Realme X",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "price": 494984,
+      "discountPercent": 6.95,
+      "availableStock": 12,
+      "totalStock": 456,
+      "imagesCount": 4,
+      "brandName": "Realme",
+      "tags": [
+        "smartphones",
+        "realme",
+        "electronics"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_13",
+      "productId": "PRD-13",
+      "productName": "Bedside Table African Cherry",
+      "category": "Home",
+      "subCategory": "Furniture",
+      "price": 494984,
+      "discountPercent": 19.09,
+      "availableStock": 64,
+      "totalStock": 408,
+      "imagesCount": 4,
+      "brandName": "Furniture Co.",
+      "tags": [
+        "furniture",
+        "bedside tables",
+        "home",
+        "furniture co."
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_130",
+      "productId": "PRD-130",
+      "productName": "Realme XT",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "price": 577484,
+      "discountPercent": 11.51,
+      "availableStock": 80,
+      "totalStock": 630,
+      "imagesCount": 4,
+      "brandName": "Realme",
+      "tags": [
+        "smartphones",
+        "realme",
+        "electronics"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_131",
+      "productId": "PRD-131",
+      "productName": "Samsung Galaxy S7",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "price": 494984,
+      "discountPercent": 19.55,
+      "availableStock": 67,
+      "totalStock": 463,
+      "imagesCount": 4,
+      "brandName": "Samsung",
+      "tags": [
+        "smartphones",
+        "samsung galaxy",
+        "electronics",
+        "samsung"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_132",
+      "productId": "PRD-132",
+      "productName": "Samsung Galaxy S8",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "price": 824984,
+      "discountPercent": 19.45,
+      "availableStock": 0,
+      "totalStock": 528,
+      "imagesCount": 4,
+      "brandName": "Samsung",
+      "tags": [
+        "smartphones",
+        "samsung galaxy",
+        "electronics",
+        "samsung"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_133",
+      "productId": "PRD-133",
+      "productName": "Samsung Galaxy S10",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "price": 1154984,
+      "discountPercent": 5.59,
+      "availableStock": 19,
+      "totalStock": 386,
+      "imagesCount": 4,
+      "brandName": "Samsung",
+      "tags": [
+        "smartphones",
+        "samsung galaxy",
+        "electronics",
+        "samsung"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_134",
+      "productId": "PRD-134",
+      "productName": "Vivo S1",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "price": 412484,
+      "discountPercent": 10.17,
+      "availableStock": 50,
+      "totalStock": 470,
+      "imagesCount": 4,
+      "brandName": "Vivo",
+      "tags": [
+        "smartphones",
+        "vivo",
+        "electronics"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_135",
+      "productId": "PRD-135",
+      "productName": "Vivo V9",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "price": 494984,
+      "discountPercent": 17.67,
+      "availableStock": 82,
+      "totalStock": 514,
+      "imagesCount": 4,
+      "brandName": "Vivo",
+      "tags": [
+        "smartphones",
+        "vivo",
+        "electronics"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_136",
+      "productId": "PRD-136",
+      "productName": "Vivo X21",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "price": 824984,
+      "discountPercent": 17.41,
+      "availableStock": 7,
+      "totalStock": 518,
+      "imagesCount": 4,
+      "brandName": "Vivo",
+      "tags": [
+        "smartphones",
+        "vivo",
+        "electronics"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_137",
+      "productId": "PRD-137",
+      "productName": "American Football",
+      "category": "Toys",
+      "subCategory": "Toys",
+      "price": 32984,
+      "discountPercent": 4.93,
+      "availableStock": 53,
+      "totalStock": 642,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "sports equipment",
+        "american football",
+        "toys",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_138",
+      "productId": "PRD-138",
+      "productName": "Baseball Ball",
+      "category": "Toys",
+      "subCategory": "Toys",
+      "price": 14834,
+      "discountPercent": 1.71,
+      "availableStock": 100,
+      "totalStock": 408,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "sports equipment",
+        "baseball",
+        "toys",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_139",
+      "productId": "PRD-139",
+      "productName": "Baseball Glove",
+      "category": "Toys",
+      "subCategory": "Toys",
+      "price": 41234,
+      "discountPercent": 2.9,
+      "availableStock": 22,
+      "totalStock": 497,
+      "imagesCount": 4,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "sports equipment",
+        "baseball",
+        "toys",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_14",
+      "productId": "PRD-14",
+      "productName": "Knoll Saarinen Executive Conference Chair",
+      "category": "Home",
+      "subCategory": "Furniture",
+      "price": 824984,
+      "discountPercent": 2.01,
+      "availableStock": 26,
+      "totalStock": 612,
+      "imagesCount": 4,
+      "brandName": "Knoll",
+      "tags": [
+        "furniture",
+        "office chairs",
+        "home",
+        "knoll"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_140",
+      "productId": "PRD-140",
+      "productName": "Basketball",
+      "category": "Toys",
+      "subCategory": "Toys",
+      "price": 24734,
+      "discountPercent": 7.44,
+      "availableStock": 75,
+      "totalStock": 634,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "sports equipment",
+        "basketball",
+        "toys",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_141",
+      "productId": "PRD-141",
+      "productName": "Basketball Rim",
+      "category": "Toys",
+      "subCategory": "Toys",
+      "price": 65984,
+      "discountPercent": 7.74,
+      "availableStock": 43,
+      "totalStock": 595,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "sports equipment",
+        "basketball",
+        "toys",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_142",
+      "productId": "PRD-142",
+      "productName": "Cricket Ball",
+      "category": "Toys",
+      "subCategory": "Toys",
+      "price": 21434,
+      "discountPercent": 8.63,
+      "availableStock": 30,
+      "totalStock": 454,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "sports equipment",
+        "cricket",
+        "toys",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_143",
+      "productId": "PRD-143",
+      "productName": "Cricket Bat",
+      "category": "Toys",
+      "subCategory": "Toys",
+      "price": 49484,
+      "discountPercent": 3.29,
+      "availableStock": 98,
+      "totalStock": 478,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "sports equipment",
+        "cricket",
+        "toys",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_144",
+      "productId": "PRD-144",
+      "productName": "Cricket Helmet",
+      "category": "Toys",
+      "subCategory": "Toys",
+      "price": 74234,
+      "discountPercent": 9.64,
+      "availableStock": 10,
+      "totalStock": 573,
+      "imagesCount": 5,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "sports equipment",
+        "cricket",
+        "toys",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_145",
+      "productId": "PRD-145",
+      "productName": "Cricket Wicket",
+      "category": "Toys",
+      "subCategory": "Toys",
+      "price": 49484,
+      "discountPercent": 16.93,
+      "availableStock": 25,
+      "totalStock": 593,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "sports equipment",
+        "cricket",
+        "toys",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_146",
+      "productId": "PRD-146",
+      "productName": "Feather Shuttlecock",
+      "category": "Toys",
+      "subCategory": "Toys",
+      "price": 9884,
+      "discountPercent": 2.95,
+      "availableStock": 95,
+      "totalStock": 437,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "sports equipment",
+        "badminton",
+        "toys",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_147",
+      "productId": "PRD-147",
+      "productName": "Football",
+      "category": "Toys",
+      "subCategory": "Toys",
+      "price": 29683,
+      "discountPercent": 5.15,
+      "availableStock": 96,
+      "totalStock": 490,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "sports equipment",
+        "football",
+        "toys",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_148",
+      "productId": "PRD-148",
+      "productName": "Golf Ball",
+      "category": "Toys",
+      "subCategory": "Toys",
+      "price": 16484,
+      "discountPercent": 17.37,
+      "availableStock": 84,
+      "totalStock": 600,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "sports equipment",
+        "golf",
+        "toys",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_149",
+      "productId": "PRD-149",
+      "productName": "Iron Golf",
+      "category": "Toys",
+      "subCategory": "Toys",
+      "price": 82484,
+      "discountPercent": 6.53,
+      "availableStock": 90,
+      "totalStock": 619,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "sports equipment",
+        "golf",
+        "toys",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_15",
+      "productId": "PRD-15",
+      "productName": "Wooden Bathroom Sink With Mirror",
+      "category": "Home",
+      "subCategory": "Furniture",
+      "price": 1319984,
+      "discountPercent": 8.8,
+      "availableStock": 7,
+      "totalStock": 438,
+      "imagesCount": 4,
+      "brandName": "Bath Trends",
+      "tags": [
+        "furniture",
+        "bathroom",
+        "home",
+        "bath trends"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_150",
+      "productId": "PRD-150",
+      "productName": "Metal Baseball Bat",
+      "category": "Toys",
+      "subCategory": "Toys",
+      "price": 49484,
+      "discountPercent": 19.51,
+      "availableStock": 16,
+      "totalStock": 575,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "sports equipment",
+        "baseball",
+        "toys",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_151",
+      "productId": "PRD-151",
+      "productName": "Tennis Ball",
+      "category": "Toys",
+      "subCategory": "Toys",
+      "price": 11534,
+      "discountPercent": 11.76,
+      "availableStock": 28,
+      "totalStock": 515,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "sports equipment",
+        "tennis",
+        "toys",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_152",
+      "productId": "PRD-152",
+      "productName": "Tennis Racket",
+      "category": "Toys",
+      "subCategory": "Toys",
+      "price": 82484,
+      "discountPercent": 19.61,
+      "availableStock": 6,
+      "totalStock": 490,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "sports equipment",
+        "tennis",
+        "toys",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_153",
+      "productId": "PRD-153",
+      "productName": "Volleyball",
+      "category": "Toys",
+      "subCategory": "Toys",
+      "price": 19784,
+      "discountPercent": 12.25,
+      "availableStock": 0,
+      "totalStock": 461,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "sports equipment",
+        "volleyball",
+        "toys",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_154",
+      "productId": "PRD-154",
+      "productName": "Black Sun Glasses",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 49484,
+      "discountPercent": 4.94,
+      "availableStock": 60,
+      "totalStock": 589,
+      "imagesCount": 4,
+      "brandName": "Fashion Shades",
+      "tags": [
+        "eyewear",
+        "sunglasses",
+        "fashion",
+        "fashion shades"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_155",
+      "productId": "PRD-155",
+      "productName": "Classic Sun Glasses",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 41234,
+      "discountPercent": 4.94,
+      "availableStock": 1,
+      "totalStock": 464,
+      "imagesCount": 4,
+      "brandName": "Fashion Shades",
+      "tags": [
+        "eyewear",
+        "sunglasses",
+        "fashion",
+        "fashion shades"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_156",
+      "productId": "PRD-156",
+      "productName": "Green and Black Glasses",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 57734,
+      "discountPercent": 1.01,
+      "availableStock": 24,
+      "totalStock": 570,
+      "imagesCount": 4,
+      "brandName": "Fashion Shades",
+      "tags": [
+        "eyewear",
+        "sunglasses",
+        "fashion",
+        "fashion shades"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_157",
+      "productId": "PRD-157",
+      "productName": "Party Glasses",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 32984,
+      "discountPercent": 11.22,
+      "availableStock": 86,
+      "totalStock": 421,
+      "imagesCount": 4,
+      "brandName": "Fashion Fun",
+      "tags": [
+        "eyewear",
+        "party glasses",
+        "fashion",
+        "fashion fun"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_158",
+      "productId": "PRD-158",
+      "productName": "Sunglasses",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 37934,
+      "discountPercent": 1.51,
+      "availableStock": 27,
+      "totalStock": 389,
+      "imagesCount": 4,
+      "brandName": "Fashion Shades",
+      "tags": [
+        "eyewear",
+        "sunglasses",
+        "fashion",
+        "fashion shades"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_159",
+      "productId": "PRD-159",
+      "productName": "iPad Mini 2021 Starlight",
+      "category": "Electronics",
+      "subCategory": "Electronics",
+      "price": 824984,
+      "discountPercent": 3.64,
+      "availableStock": 47,
+      "totalStock": 429,
+      "imagesCount": 5,
+      "brandName": "Apple",
+      "tags": [
+        "electronics",
+        "tablets",
+        "apple"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_16",
+      "productId": "PRD-16",
+      "productName": "Apple",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 3284,
+      "discountPercent": 12.62,
+      "availableStock": 8,
+      "totalStock": 511,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "fruits",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_160",
+      "productId": "PRD-160",
+      "productName": "Samsung Galaxy Tab S8 Plus Grey",
+      "category": "Electronics",
+      "subCategory": "Electronics",
+      "price": 989984,
+      "discountPercent": 13.31,
+      "availableStock": 62,
+      "totalStock": 624,
+      "imagesCount": 5,
+      "brandName": "Samsung",
+      "tags": [
+        "electronics",
+        "tablets",
+        "samsung"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_161",
+      "productId": "PRD-161",
+      "productName": "Samsung Galaxy Tab White",
+      "category": "Electronics",
+      "subCategory": "Electronics",
+      "price": 577484,
+      "discountPercent": 18.2,
+      "availableStock": 92,
+      "totalStock": 538,
+      "imagesCount": 5,
+      "brandName": "Samsung",
+      "tags": [
+        "electronics",
+        "tablets",
+        "samsung"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_162",
+      "productId": "PRD-162",
+      "productName": "Blue Frock",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 49484,
+      "discountPercent": 12.13,
+      "availableStock": 52,
+      "totalStock": 552,
+      "imagesCount": 5,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "clothing",
+        "dresses",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_163",
+      "productId": "PRD-163",
+      "productName": "Girl Summer Dress",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 32984,
+      "discountPercent": 19.2,
+      "availableStock": 43,
+      "totalStock": 615,
+      "imagesCount": 5,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "clothing",
+        "girls' dresses",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_164",
+      "productId": "PRD-164",
+      "productName": "Gray Dress",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 57734,
+      "discountPercent": 14.28,
+      "availableStock": 55,
+      "totalStock": 381,
+      "imagesCount": 5,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "clothing",
+        "dresses",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_165",
+      "productId": "PRD-165",
+      "productName": "Short Frock",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 41234,
+      "discountPercent": 13.45,
+      "availableStock": 22,
+      "totalStock": 410,
+      "imagesCount": 5,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "clothing",
+        "dresses",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_166",
+      "productId": "PRD-166",
+      "productName": "Tartan Dress",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 65984,
+      "discountPercent": 12.95,
+      "availableStock": 73,
+      "totalStock": 559,
+      "imagesCount": 5,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "clothing",
+        "dresses",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_167",
+      "productId": "PRD-167",
+      "productName": "300 Touring",
+      "category": "Automotive",
+      "subCategory": "Accessories",
+      "price": 47849984,
+      "discountPercent": 3.98,
+      "availableStock": 54,
+      "totalStock": 540,
+      "imagesCount": 7,
+      "brandName": "Chrysler",
+      "tags": [
+        "sedans",
+        "vehicles",
+        "automotive",
+        "accessories",
+        "chrysler"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_168",
+      "productId": "PRD-168",
+      "productName": "Charger SXT RWD",
+      "category": "Automotive",
+      "subCategory": "Accessories",
+      "price": 54449984,
+      "discountPercent": 8.23,
+      "availableStock": 57,
+      "totalStock": 367,
+      "imagesCount": 7,
+      "brandName": "Dodge",
+      "tags": [
+        "sedans",
+        "sports cars",
+        "vehicles",
+        "automotive",
+        "accessories",
+        "dodge"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_169",
+      "productId": "PRD-169",
+      "productName": "Dodge Hornet GT Plus",
+      "category": "Automotive",
+      "subCategory": "Accessories",
+      "price": 41249984,
+      "discountPercent": 2.63,
+      "availableStock": 82,
+      "totalStock": 400,
+      "imagesCount": 7,
+      "brandName": "Dodge",
+      "tags": [
+        "hatchbacks",
+        "compact cars",
+        "vehicles",
+        "automotive",
+        "accessories",
+        "dodge"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_17",
+      "productId": "PRD-17",
+      "productName": "Beef Steak",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 21434,
+      "discountPercent": 9.61,
+      "availableStock": 86,
+      "totalStock": 622,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "meat",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_170",
+      "productId": "PRD-170",
+      "productName": "Durango SXT RWD",
+      "category": "Automotive",
+      "subCategory": "Accessories",
+      "price": 61049984,
+      "discountPercent": 16.44,
+      "availableStock": 95,
+      "totalStock": 583,
+      "imagesCount": 7,
+      "brandName": "Dodge",
+      "tags": [
+        "suvs",
+        "vehicles",
+        "automotive",
+        "accessories",
+        "dodge"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_171",
+      "productId": "PRD-171",
+      "productName": "Pacifica Touring",
+      "category": "Automotive",
+      "subCategory": "Accessories",
+      "price": 52799984,
+      "discountPercent": 14.76,
+      "availableStock": 53,
+      "totalStock": 487,
+      "imagesCount": 7,
+      "brandName": "Chrysler",
+      "tags": [
+        "minivans",
+        "vehicles",
+        "automotive",
+        "accessories",
+        "chrysler"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_172",
+      "productId": "PRD-172",
+      "productName": "Blue Women's Handbag",
+      "category": "Women",
+      "subCategory": "Women",
+      "price": 82484,
+      "discountPercent": 17.88,
+      "availableStock": 76,
+      "totalStock": 426,
+      "imagesCount": 4,
+      "brandName": "Fashionista",
+      "tags": [
+        "fashion accessories",
+        "handbags",
+        "women",
+        "fashionista"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_173",
+      "productId": "PRD-173",
+      "productName": "Heshe Women's Leather Bag",
+      "category": "Women",
+      "subCategory": "Women",
+      "price": 214484,
+      "discountPercent": 3.87,
+      "availableStock": 99,
+      "totalStock": 689,
+      "imagesCount": 4,
+      "brandName": "Heshe",
+      "tags": [
+        "fashion accessories",
+        "leather bags",
+        "women",
+        "heshe"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_174",
+      "productId": "PRD-174",
+      "productName": "Prada Women Bag",
+      "category": "Women",
+      "subCategory": "Women",
+      "price": 989984,
+      "discountPercent": 14.09,
+      "availableStock": 75,
+      "totalStock": 400,
+      "imagesCount": 4,
+      "brandName": "Prada",
+      "tags": [
+        "fashion accessories",
+        "designer bags",
+        "women",
+        "prada"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_175",
+      "productId": "PRD-175",
+      "productName": "White Faux Leather Backpack",
+      "category": "Women",
+      "subCategory": "Women",
+      "price": 65984,
+      "discountPercent": 15.2,
+      "availableStock": 39,
+      "totalStock": 442,
+      "imagesCount": 4,
+      "brandName": "Urban Chic",
+      "tags": [
+        "fashion accessories",
+        "backpacks",
+        "women",
+        "urban chic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_176",
+      "productId": "PRD-176",
+      "productName": "Women Handbag Black",
+      "category": "Women",
+      "subCategory": "Women",
+      "price": 98984,
+      "discountPercent": 11.63,
+      "availableStock": 11,
+      "totalStock": 358,
+      "imagesCount": 4,
+      "brandName": "Elegance Collection",
+      "tags": [
+        "fashion accessories",
+        "handbags",
+        "women",
+        "elegance collection"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_177",
+      "productId": "PRD-177",
+      "productName": "Black Women's Gown",
+      "category": "Women",
+      "subCategory": "Dresses",
+      "price": 214484,
+      "discountPercent": 10.48,
+      "availableStock": 25,
+      "totalStock": 462,
+      "imagesCount": 5,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "clothing",
+        "gowns",
+        "women",
+        "dresses",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_178",
+      "productId": "PRD-178",
+      "productName": "Corset Leather With Skirt",
+      "category": "Women",
+      "subCategory": "Dresses",
+      "price": 148484,
+      "discountPercent": 16.26,
+      "availableStock": 30,
+      "totalStock": 396,
+      "imagesCount": 5,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "clothing",
+        "corsets",
+        "skirts",
+        "women",
+        "dresses",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_179",
+      "productId": "PRD-179",
+      "productName": "Corset With Black Skirt",
+      "category": "Women",
+      "subCategory": "Dresses",
+      "price": 131984,
+      "discountPercent": 15.06,
+      "availableStock": 33,
+      "totalStock": 575,
+      "imagesCount": 5,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "clothing",
+        "corsets",
+        "skirts",
+        "women",
+        "dresses",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_18",
+      "productId": "PRD-18",
+      "productName": "Cat Food",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 14834,
+      "discountPercent": 9.58,
+      "availableStock": 46,
+      "totalStock": 422,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "pet supplies",
+        "cat food",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_180",
+      "productId": "PRD-180",
+      "productName": "Dress Pea",
+      "category": "Women",
+      "subCategory": "Dresses",
+      "price": 82484,
+      "discountPercent": 17.68,
+      "availableStock": 6,
+      "totalStock": 592,
+      "imagesCount": 5,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "clothing",
+        "dresses",
+        "women",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_181",
+      "productId": "PRD-181",
+      "productName": "Marni Red & Black Suit",
+      "category": "Women",
+      "subCategory": "Dresses",
+      "price": 296984,
+      "discountPercent": 19.02,
+      "availableStock": 62,
+      "totalStock": 600,
+      "imagesCount": 5,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "clothing",
+        "suits",
+        "women",
+        "dresses",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_182",
+      "productId": "PRD-182",
+      "productName": "Green Crystal Earring",
+      "category": "Women",
+      "subCategory": "Jewelry",
+      "price": 49484,
+      "discountPercent": 15.24,
+      "availableStock": 54,
+      "totalStock": 529,
+      "imagesCount": 4,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "fashion accessories",
+        "earrings",
+        "women",
+        "jewelry",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_183",
+      "productId": "PRD-183",
+      "productName": "Green Oval Earring",
+      "category": "Women",
+      "subCategory": "Jewelry",
+      "price": 41234,
+      "discountPercent": 15.18,
+      "availableStock": 73,
+      "totalStock": 501,
+      "imagesCount": 4,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "fashion accessories",
+        "earrings",
+        "women",
+        "jewelry",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_184",
+      "productId": "PRD-184",
+      "productName": "Tropical Earring",
+      "category": "Women",
+      "subCategory": "Jewelry",
+      "price": 32984,
+      "discountPercent": 0.76,
+      "availableStock": 1,
+      "totalStock": 529,
+      "imagesCount": 4,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "fashion accessories",
+        "earrings",
+        "women",
+        "jewelry",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_185",
+      "productId": "PRD-185",
+      "productName": "Black & Brown Slipper",
+      "category": "Women",
+      "subCategory": "Footwear",
+      "price": 32984,
+      "discountPercent": 3.33,
+      "availableStock": 3,
+      "totalStock": 307,
+      "imagesCount": 5,
+      "brandName": "Comfort Trends",
+      "tags": [
+        "footwear",
+        "slippers",
+        "women",
+        "comfort trends"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_186",
+      "productId": "PRD-186",
+      "productName": "Calvin Klein Heel Shoes",
+      "category": "Women",
+      "subCategory": "Footwear",
+      "price": 131984,
+      "discountPercent": 3.19,
+      "availableStock": 93,
+      "totalStock": 683,
+      "imagesCount": 5,
+      "brandName": "Calvin Klein",
+      "tags": [
+        "footwear",
+        "heel shoes",
+        "women",
+        "calvin klein"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_187",
+      "productId": "PRD-187",
+      "productName": "Golden Shoes Woman",
+      "category": "Women",
+      "subCategory": "Footwear",
+      "price": 82484,
+      "discountPercent": 13.93,
+      "availableStock": 88,
+      "totalStock": 479,
+      "imagesCount": 5,
+      "brandName": "Fashion Diva",
+      "tags": [
+        "footwear",
+        "women's shoes",
+        "women",
+        "fashion diva"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_188",
+      "productId": "PRD-188",
+      "productName": "Pampi Shoes",
+      "category": "Women",
+      "subCategory": "Footwear",
+      "price": 49484,
+      "discountPercent": 14.14,
+      "availableStock": 49,
+      "totalStock": 415,
+      "imagesCount": 5,
+      "brandName": "Pampi",
+      "tags": [
+        "footwear",
+        "casual shoes",
+        "women",
+        "pampi"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_189",
+      "productId": "PRD-189",
+      "productName": "Red Shoes",
+      "category": "Women",
+      "subCategory": "Footwear",
+      "price": 57734,
+      "discountPercent": 17.69,
+      "availableStock": 7,
+      "totalStock": 397,
+      "imagesCount": 5,
+      "brandName": "Fashion Express",
+      "tags": [
+        "footwear",
+        "women's shoes",
+        "women",
+        "fashion express"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_19",
+      "productId": "PRD-19",
+      "productName": "Chicken Meat",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 16484,
+      "discountPercent": 13.7,
+      "availableStock": 97,
+      "totalStock": 480,
+      "imagesCount": 3,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "meat",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_190",
+      "productId": "PRD-190",
+      "productName": "IWC Ingenieur Automatic Steel",
+      "category": "Gadgets",
+      "subCategory": "Gadgets",
+      "price": 8249984,
+      "discountPercent": 9.45,
+      "availableStock": 90,
+      "totalStock": 442,
+      "imagesCount": 4,
+      "brandName": "IWC",
+      "tags": [
+        "watches",
+        "luxury watches",
+        "gadgets",
+        "iwc"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_191",
+      "productId": "PRD-191",
+      "productName": "Rolex Cellini Moonphase",
+      "category": "Gadgets",
+      "subCategory": "Gadgets",
+      "price": 26399984,
+      "discountPercent": 4.11,
+      "availableStock": 52,
+      "totalStock": 512,
+      "imagesCount": 4,
+      "brandName": "Rolex",
+      "tags": [
+        "watches",
+        "luxury watches",
+        "gadgets",
+        "rolex"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_192",
+      "productId": "PRD-192",
+      "productName": "Rolex Datejust Women",
+      "category": "Gadgets",
+      "subCategory": "Gadgets",
+      "price": 18149984,
+      "discountPercent": 15.94,
+      "availableStock": 4,
+      "totalStock": 347,
+      "imagesCount": 4,
+      "brandName": "Rolex",
+      "tags": [
+        "watches",
+        "luxury watches",
+        "women's watches",
+        "gadgets",
+        "rolex"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_193",
+      "productId": "PRD-193",
+      "productName": "Watch Gold for Women",
+      "category": "Gadgets",
+      "subCategory": "Gadgets",
+      "price": 1319984,
+      "discountPercent": 18.34,
+      "availableStock": 0,
+      "totalStock": 509,
+      "imagesCount": 4,
+      "brandName": "Fashion Gold",
+      "tags": [
+        "watches",
+        "women's watches",
+        "gadgets",
+        "fashion gold"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_194",
+      "productId": "PRD-194",
+      "productName": "Women's Wrist Watch",
+      "category": "Gadgets",
+      "subCategory": "Gadgets",
+      "price": 214484,
+      "discountPercent": 12.6,
+      "availableStock": 12,
+      "totalStock": 434,
+      "imagesCount": 4,
+      "brandName": "Fashion Co.",
+      "tags": [
+        "watches",
+        "women's watches",
+        "gadgets",
+        "fashion co."
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_2",
+      "productId": "PRD-2",
+      "productName": "Eyeshadow Palette with Mirror",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 32984,
+      "discountPercent": 18.19,
+      "availableStock": 34,
+      "totalStock": 377,
+      "imagesCount": 2,
+      "brandName": "Glamour Beauty",
+      "tags": [
+        "beauty",
+        "eyeshadow",
+        "fashion",
+        "glamour beauty"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_20",
+      "productId": "PRD-20",
+      "productName": "Cooking Oil",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 8234,
+      "discountPercent": 9.33,
+      "availableStock": 10,
+      "totalStock": 586,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "cooking essentials",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_21",
+      "productId": "PRD-21",
+      "productName": "Cucumber",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 2459,
+      "discountPercent": 0.16,
+      "availableStock": 84,
+      "totalStock": 572,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "vegetables",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_22",
+      "productId": "PRD-22",
+      "productName": "Dog Food",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 18134,
+      "discountPercent": 10.27,
+      "availableStock": 71,
+      "totalStock": 617,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "pet supplies",
+        "dog food",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_23",
+      "productId": "PRD-23",
+      "productName": "Eggs",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 4934,
+      "discountPercent": 11.05,
+      "availableStock": 9,
+      "totalStock": 313,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "dairy",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_24",
+      "productId": "PRD-24",
+      "productName": "Fish Steak",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 24734,
+      "discountPercent": 4.23,
+      "availableStock": 74,
+      "totalStock": 528,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "seafood",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_25",
+      "productId": "PRD-25",
+      "productName": "Green Bell Pepper",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 2129,
+      "discountPercent": 0.16,
+      "availableStock": 33,
+      "totalStock": 423,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "vegetables",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_26",
+      "productId": "PRD-26",
+      "productName": "Green Chili Pepper",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 1634,
+      "discountPercent": 1,
+      "availableStock": 3,
+      "totalStock": 442,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "vegetables",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_27",
+      "productId": "PRD-27",
+      "productName": "Honey Jar",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 11534,
+      "discountPercent": 14.4,
+      "availableStock": 34,
+      "totalStock": 510,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "condiments",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_28",
+      "productId": "PRD-28",
+      "productName": "Ice Cream",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 9059,
+      "discountPercent": 8.69,
+      "availableStock": 27,
+      "totalStock": 434,
+      "imagesCount": 5,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "desserts",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_29",
+      "productId": "PRD-29",
+      "productName": "Juice",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 6584,
+      "discountPercent": 12.06,
+      "availableStock": 50,
+      "totalStock": 523,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "beverages",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_3",
+      "productId": "PRD-3",
+      "productName": "Powder Canister",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 24734,
+      "discountPercent": 9.84,
+      "availableStock": 89,
+      "totalStock": 646,
+      "imagesCount": 2,
+      "brandName": "Velvet Touch",
+      "tags": [
+        "beauty",
+        "face powder",
+        "fashion",
+        "velvet touch"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_30",
+      "productId": "PRD-30",
+      "productName": "Kiwi",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 4109,
+      "discountPercent": 15.22,
+      "availableStock": 99,
+      "totalStock": 691,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "fruits",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_31",
+      "productId": "PRD-31",
+      "productName": "Lemon",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 1304,
+      "discountPercent": 9.7,
+      "availableStock": 31,
+      "totalStock": 455,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "fruits",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_32",
+      "productId": "PRD-32",
+      "productName": "Milk",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 5759,
+      "discountPercent": 13.74,
+      "availableStock": 27,
+      "totalStock": 340,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "dairy",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_33",
+      "productId": "PRD-33",
+      "productName": "Mulberry",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 8234,
+      "discountPercent": 12.87,
+      "availableStock": 99,
+      "totalStock": 693,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "fruits",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_34",
+      "productId": "PRD-34",
+      "productName": "Nescafe Coffee",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 13184,
+      "discountPercent": 1.59,
+      "availableStock": 57,
+      "totalStock": 635,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "beverages",
+        "coffee",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_35",
+      "productId": "PRD-35",
+      "productName": "Potatoes",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 3779,
+      "discountPercent": 5.38,
+      "availableStock": 13,
+      "totalStock": 590,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "vegetables",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_36",
+      "productId": "PRD-36",
+      "productName": "Protein Powder",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 32984,
+      "discountPercent": 7.59,
+      "availableStock": 80,
+      "totalStock": 582,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "health supplements",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_37",
+      "productId": "PRD-37",
+      "productName": "Red Onions",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 3284,
+      "discountPercent": 9.9,
+      "availableStock": 82,
+      "totalStock": 586,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "vegetables",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_38",
+      "productId": "PRD-38",
+      "productName": "Rice",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 9884,
+      "discountPercent": 9.29,
+      "availableStock": 59,
+      "totalStock": 441,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "grains",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_39",
+      "productId": "PRD-39",
+      "productName": "Soft Drinks",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 3284,
+      "discountPercent": 17.48,
+      "availableStock": 53,
+      "totalStock": 623,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "beverages",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_4",
+      "productId": "PRD-4",
+      "productName": "Red Lipstick",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 21434,
+      "discountPercent": 12.16,
+      "availableStock": 91,
+      "totalStock": 614,
+      "imagesCount": 2,
+      "brandName": "Chic Cosmetics",
+      "tags": [
+        "beauty",
+        "lipstick",
+        "fashion",
+        "chic cosmetics"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_40",
+      "productId": "PRD-40",
+      "productName": "Strawberry",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 6584,
+      "discountPercent": 1.12,
+      "availableStock": 46,
+      "totalStock": 416,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "fruits",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_41",
+      "productId": "PRD-41",
+      "productName": "Tissue Paper Box",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 4109,
+      "discountPercent": 13.28,
+      "availableStock": 86,
+      "totalStock": 409,
+      "imagesCount": 3,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "household essentials",
+        "fashion",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_43",
+      "productId": "PRD-43",
+      "productName": "Decoration Swing",
+      "category": "Home",
+      "subCategory": "Home",
+      "price": 98984,
+      "discountPercent": 10.41,
+      "availableStock": 47,
+      "totalStock": 426,
+      "imagesCount": 4,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "home decor",
+        "swing",
+        "home",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_44",
+      "productId": "PRD-44",
+      "productName": "Family Tree Photo Frame",
+      "category": "Home",
+      "subCategory": "Home",
+      "price": 49484,
+      "discountPercent": 14.87,
+      "availableStock": 77,
+      "totalStock": 621,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "home decor",
+        "photo frame",
+        "home",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_45",
+      "productId": "PRD-45",
+      "productName": "House Showpiece Plant",
+      "category": "Home",
+      "subCategory": "Home",
+      "price": 65984,
+      "discountPercent": 7.46,
+      "availableStock": 28,
+      "totalStock": 588,
+      "imagesCount": 4,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "home decor",
+        "artificial plants",
+        "home",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_46",
+      "productId": "PRD-46",
+      "productName": "Plant Pot",
+      "category": "Home",
+      "subCategory": "Home",
+      "price": 24734,
+      "discountPercent": 6.84,
+      "availableStock": 59,
+      "totalStock": 420,
+      "imagesCount": 5,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "home decor",
+        "plant accessories",
+        "home",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_47",
+      "productId": "PRD-47",
+      "productName": "Table Lamp",
+      "category": "Home",
+      "subCategory": "Home",
+      "price": 82484,
+      "discountPercent": 7.09,
+      "availableStock": 9,
+      "totalStock": 435,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "home decor",
+        "lighting",
+        "home",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_48",
+      "productId": "PRD-48",
+      "productName": "Bamboo Spatula",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 13184,
+      "discountPercent": 2.84,
+      "availableStock": 37,
+      "totalStock": 429,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "utensils",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_49",
+      "productId": "PRD-49",
+      "productName": "Black Aluminium Cup",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 9884,
+      "discountPercent": 15.65,
+      "availableStock": 75,
+      "totalStock": 610,
+      "imagesCount": 3,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "drinkware",
+        "cups",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_5",
+      "productId": "PRD-5",
+      "productName": "Red Nail Polish",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 14834,
+      "discountPercent": 11.44,
+      "availableStock": 79,
+      "totalStock": 597,
+      "imagesCount": 2,
+      "brandName": "Nail Couture",
+      "tags": [
+        "beauty",
+        "nail polish",
+        "fashion",
+        "nail couture"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_50",
+      "productId": "PRD-50",
+      "productName": "Black Whisk",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 16484,
+      "discountPercent": 10.24,
+      "availableStock": 73,
+      "totalStock": 541,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "utensils",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_51",
+      "productId": "PRD-51",
+      "productName": "Boxed Blender",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 65984,
+      "discountPercent": 7.26,
+      "availableStock": 9,
+      "totalStock": 556,
+      "imagesCount": 5,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen appliances",
+        "blenders",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_52",
+      "productId": "PRD-52",
+      "productName": "Carbon Steel Wok",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 49484,
+      "discountPercent": 6.53,
+      "availableStock": 40,
+      "totalStock": 526,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "cookware",
+        "woks",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_53",
+      "productId": "PRD-53",
+      "productName": "Chopping Board",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 21434,
+      "discountPercent": 8.03,
+      "availableStock": 14,
+      "totalStock": 458,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "cutting boards",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_54",
+      "productId": "PRD-54",
+      "productName": "Citrus Squeezer Yellow",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 14834,
+      "discountPercent": 12.1,
+      "availableStock": 22,
+      "totalStock": 578,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "juicers",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_55",
+      "productId": "PRD-55",
+      "productName": "Egg Slicer",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 11534,
+      "discountPercent": 14.76,
+      "availableStock": 40,
+      "totalStock": 411,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "slicers",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_56",
+      "productId": "PRD-56",
+      "productName": "Electric Stove",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 82484,
+      "discountPercent": 14.04,
+      "availableStock": 21,
+      "totalStock": 514,
+      "imagesCount": 5,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen appliances",
+        "cooktops",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_57",
+      "productId": "PRD-57",
+      "productName": "Fine Mesh Strainer",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 16484,
+      "discountPercent": 3.5,
+      "availableStock": 85,
+      "totalStock": 450,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "strainers",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_58",
+      "productId": "PRD-58",
+      "productName": "Fork",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 6584,
+      "discountPercent": 8.07,
+      "availableStock": 7,
+      "totalStock": 380,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "utensils",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_59",
+      "productId": "PRD-59",
+      "productName": "Glass",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 8234,
+      "discountPercent": 7.92,
+      "availableStock": 46,
+      "totalStock": 528,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "drinkware",
+        "glasses",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_6",
+      "productId": "PRD-6",
+      "productName": "Calvin Klein CK One",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 82484,
+      "discountPercent": 1.89,
+      "availableStock": 29,
+      "totalStock": 553,
+      "imagesCount": 4,
+      "brandName": "Calvin Klein",
+      "tags": [
+        "fragrances",
+        "perfumes",
+        "fashion",
+        "calvin klein"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_60",
+      "productId": "PRD-60",
+      "productName": "Grater Black",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 18134,
+      "discountPercent": 3.56,
+      "availableStock": 84,
+      "totalStock": 469,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "graters",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_61",
+      "productId": "PRD-61",
+      "productName": "Hand Blender",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 57734,
+      "discountPercent": 17.02,
+      "availableStock": 84,
+      "totalStock": 547,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen appliances",
+        "blenders",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_62",
+      "productId": "PRD-62",
+      "productName": "Ice Cube Tray",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 9884,
+      "discountPercent": 0.63,
+      "availableStock": 13,
+      "totalStock": 578,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "ice cube trays",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_63",
+      "productId": "PRD-63",
+      "productName": "Kitchen Sieve",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 13184,
+      "discountPercent": 18.91,
+      "availableStock": 68,
+      "totalStock": 439,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "strainers",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_64",
+      "productId": "PRD-64",
+      "productName": "Knife",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 24734,
+      "discountPercent": 18.86,
+      "availableStock": 7,
+      "totalStock": 398,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "cutlery",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_65",
+      "productId": "PRD-65",
+      "productName": "Lunch Box",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 21434,
+      "discountPercent": 10.34,
+      "availableStock": 94,
+      "totalStock": 686,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "storage",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_66",
+      "productId": "PRD-66",
+      "productName": "Microwave Oven",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 148484,
+      "discountPercent": 12.13,
+      "availableStock": 59,
+      "totalStock": 637,
+      "imagesCount": 5,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen appliances",
+        "microwaves",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_67",
+      "productId": "PRD-67",
+      "productName": "Mug Tree Stand",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 26384,
+      "discountPercent": 9.25,
+      "availableStock": 88,
+      "totalStock": 405,
+      "imagesCount": 3,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "organization",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_68",
+      "productId": "PRD-68",
+      "productName": "Pan",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 41234,
+      "discountPercent": 3,
+      "availableStock": 90,
+      "totalStock": 425,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "cookware",
+        "pans",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_69",
+      "productId": "PRD-69",
+      "productName": "Plate",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 6584,
+      "discountPercent": 7.31,
+      "availableStock": 66,
+      "totalStock": 504,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "dinnerware",
+        "plates",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_7",
+      "productId": "PRD-7",
+      "productName": "Chanel Coco Noir Eau De",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 214484,
+      "discountPercent": 16.51,
+      "availableStock": 58,
+      "totalStock": 569,
+      "imagesCount": 4,
+      "brandName": "Chanel",
+      "tags": [
+        "fragrances",
+        "perfumes",
+        "fashion",
+        "chanel"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_70",
+      "productId": "PRD-70",
+      "productName": "Red Tongs",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 11534,
+      "discountPercent": 14.52,
+      "availableStock": 82,
+      "totalStock": 612,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "tongs",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_71",
+      "productId": "PRD-71",
+      "productName": "Silver Pot With Glass Cap",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 65984,
+      "discountPercent": 5.7,
+      "availableStock": 40,
+      "totalStock": 426,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "cookware",
+        "pots",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_72",
+      "productId": "PRD-72",
+      "productName": "Slotted Turner",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 14834,
+      "discountPercent": 13.35,
+      "availableStock": 88,
+      "totalStock": 496,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "turners",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_73",
+      "productId": "PRD-73",
+      "productName": "Spice Rack",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 32984,
+      "discountPercent": 12.09,
+      "availableStock": 79,
+      "totalStock": 663,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "organization",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_74",
+      "productId": "PRD-74",
+      "productName": "Spoon",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 8234,
+      "discountPercent": 1.53,
+      "availableStock": 59,
+      "totalStock": 543,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "utensils",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_75",
+      "productId": "PRD-75",
+      "productName": "Tray",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 28033,
+      "discountPercent": 7.48,
+      "availableStock": 71,
+      "totalStock": 625,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "serveware",
+        "trays",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_76",
+      "productId": "PRD-76",
+      "productName": "Wooden Rolling Pin",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 19784,
+      "discountPercent": 9.75,
+      "availableStock": 80,
+      "totalStock": 430,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "baking",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_77",
+      "productId": "PRD-77",
+      "productName": "Yellow Peeler",
+      "category": "Home",
+      "subCategory": "Kitchen",
+      "price": 9884,
+      "discountPercent": 12.48,
+      "availableStock": 35,
+      "totalStock": 544,
+      "imagesCount": 2,
+      "brandName": "Marketplace Brand",
+      "tags": [
+        "kitchen tools",
+        "peelers",
+        "home",
+        "kitchen",
+        "generic"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_78",
+      "productId": "PRD-78",
+      "productName": "Apple MacBook Pro 14 Inch Space Grey",
+      "category": "Electronics",
+      "subCategory": "Laptops",
+      "price": 3299984,
+      "discountPercent": 4.69,
+      "availableStock": 24,
+      "totalStock": 462,
+      "imagesCount": 4,
+      "brandName": "Apple",
+      "tags": [
+        "laptops",
+        "apple",
+        "electronics"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_79",
+      "productId": "PRD-79",
+      "productName": "Asus Zenbook Pro Dual Screen Laptop",
+      "category": "Electronics",
+      "subCategory": "Laptops",
+      "price": 2969984,
+      "discountPercent": 11.14,
+      "availableStock": 45,
+      "totalStock": 519,
+      "imagesCount": 4,
+      "brandName": "Asus",
+      "tags": [
+        "laptops",
+        "electronics",
+        "asus"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_8",
+      "productId": "PRD-8",
+      "productName": "Dior J'adore",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 148484,
+      "discountPercent": 14.72,
+      "availableStock": 98,
+      "totalStock": 554,
+      "imagesCount": 4,
+      "brandName": "Dior",
+      "tags": [
+        "fragrances",
+        "perfumes",
+        "fashion",
+        "dior"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_80",
+      "productId": "PRD-80",
+      "productName": "Huawei Matebook X Pro",
+      "category": "Electronics",
+      "subCategory": "Laptops",
+      "price": 2309984,
+      "discountPercent": 9.38,
+      "availableStock": 75,
+      "totalStock": 673,
+      "imagesCount": 4,
+      "brandName": "Huawei",
+      "tags": [
+        "laptops",
+        "electronics",
+        "huawei"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_81",
+      "productId": "PRD-81",
+      "productName": "Lenovo Yoga 920",
+      "category": "Electronics",
+      "subCategory": "Laptops",
+      "price": 1814984,
+      "discountPercent": 6.55,
+      "availableStock": 40,
+      "totalStock": 383,
+      "imagesCount": 4,
+      "brandName": "Lenovo",
+      "tags": [
+        "laptops",
+        "electronics",
+        "lenovo"
+      ],
+      "promotionalTags": [
+        "Best Seller"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_82",
+      "productId": "PRD-82",
+      "productName": "New DELL XPS 13 9300 Laptop",
+      "category": "Electronics",
+      "subCategory": "Laptops",
+      "price": 2474984,
+      "discountPercent": 11.89,
+      "availableStock": 74,
+      "totalStock": 394,
+      "imagesCount": 4,
+      "brandName": "Dell",
+      "tags": [
+        "laptops",
+        "electronics",
+        "dell"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_83",
+      "productId": "PRD-83",
+      "productName": "Blue & Black Check Shirt",
+      "category": "Men",
+      "subCategory": "Shirts",
+      "price": 49484,
+      "discountPercent": 15.35,
+      "availableStock": 38,
+      "totalStock": 475,
+      "imagesCount": 5,
+      "brandName": "Fashion Trends",
+      "tags": [
+        "clothing",
+        "men's shirts",
+        "men",
+        "shirts",
+        "fashion trends"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_84",
+      "productId": "PRD-84",
+      "productName": "Gigabyte Aorus Men Tshirt",
+      "category": "Men",
+      "subCategory": "Shirts",
+      "price": 41234,
+      "discountPercent": 0.94,
+      "availableStock": 90,
+      "totalStock": 472,
+      "imagesCount": 5,
+      "brandName": "Gigabyte",
+      "tags": [
+        "clothing",
+        "men's t-shirts",
+        "men",
+        "shirts",
+        "gigabyte"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_85",
+      "productId": "PRD-85",
+      "productName": "Man Plaid Shirt",
+      "category": "Men",
+      "subCategory": "Shirts",
+      "price": 57734,
+      "discountPercent": 19.5,
+      "availableStock": 82,
+      "totalStock": 497,
+      "imagesCount": 5,
+      "brandName": "Classic Wear",
+      "tags": [
+        "clothing",
+        "men's shirts",
+        "men",
+        "shirts",
+        "classic wear"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_86",
+      "productId": "PRD-86",
+      "productName": "Man Short Sleeve Shirt",
+      "category": "Men",
+      "subCategory": "Shirts",
+      "price": 32984,
+      "discountPercent": 6.83,
+      "availableStock": 2,
+      "totalStock": 350,
+      "imagesCount": 5,
+      "brandName": "Casual Comfort",
+      "tags": [
+        "clothing",
+        "men's shirts",
+        "men",
+        "shirts",
+        "casual comfort"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_87",
+      "productId": "PRD-87",
+      "productName": "Men Check Shirt",
+      "category": "Men",
+      "subCategory": "Shirts",
+      "price": 46184,
+      "discountPercent": 11.38,
+      "availableStock": 95,
+      "totalStock": 421,
+      "imagesCount": 5,
+      "brandName": "Urban Chic",
+      "tags": [
+        "clothing",
+        "men's shirts",
+        "men",
+        "shirts",
+        "urban chic"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_88",
+      "productId": "PRD-88",
+      "productName": "Nike Air Jordan 1 Red And Black",
+      "category": "Men",
+      "subCategory": "Footwear",
+      "price": 247484,
+      "discountPercent": 4.12,
+      "availableStock": 7,
+      "totalStock": 579,
+      "imagesCount": 5,
+      "brandName": "Nike",
+      "tags": [
+        "footwear",
+        "athletic shoes",
+        "men",
+        "nike"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_89",
+      "productId": "PRD-89",
+      "productName": "Nike Baseball Cleats",
+      "category": "Men",
+      "subCategory": "Footwear",
+      "price": 131984,
+      "discountPercent": 18.04,
+      "availableStock": 12,
+      "totalStock": 478,
+      "imagesCount": 5,
+      "brandName": "Nike",
+      "tags": [
+        "footwear",
+        "sports cleats",
+        "men",
+        "nike"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_9",
+      "productId": "PRD-9",
+      "productName": "Dolce Shine Eau de",
+      "category": "Fashion",
+      "subCategory": "Fashion",
+      "price": 115483,
+      "discountPercent": 0.62,
+      "availableStock": 4,
+      "totalStock": 479,
+      "imagesCount": 4,
+      "brandName": "Dolce & Gabbana",
+      "tags": [
+        "fragrances",
+        "perfumes",
+        "fashion",
+        "dolce & gabbana"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_90",
+      "productId": "PRD-90",
+      "productName": "Puma Future Rider Trainers",
+      "category": "Men",
+      "subCategory": "Footwear",
+      "price": 148484,
+      "discountPercent": 4.2,
+      "availableStock": 90,
+      "totalStock": 678,
+      "imagesCount": 5,
+      "brandName": "Puma",
+      "tags": [
+        "footwear",
+        "casual shoes",
+        "men",
+        "puma"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_91",
+      "productId": "PRD-91",
+      "productName": "Sports Sneakers Off White & Red",
+      "category": "Men",
+      "subCategory": "Footwear",
+      "price": 197984,
+      "discountPercent": 4.97,
+      "availableStock": 17,
+      "totalStock": 589,
+      "imagesCount": 5,
+      "brandName": "Off White",
+      "tags": [
+        "footwear",
+        "athletic shoes",
+        "men",
+        "off white"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_92",
+      "productId": "PRD-92",
+      "productName": "Sports Sneakers Off White Red",
+      "category": "Men",
+      "subCategory": "Footwear",
+      "price": 181484,
+      "discountPercent": 0.04,
+      "availableStock": 62,
+      "totalStock": 625,
+      "imagesCount": 5,
+      "brandName": "Off White",
+      "tags": [
+        "footwear",
+        "casual shoes",
+        "men",
+        "off white"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_93",
+      "productId": "PRD-93",
+      "productName": "Brown Leather Belt Watch",
+      "category": "Men",
+      "subCategory": "Men",
+      "price": 148484,
+      "discountPercent": 5.99,
+      "availableStock": 32,
+      "totalStock": 535,
+      "imagesCount": 4,
+      "brandName": "Fashion Timepieces",
+      "tags": [
+        "watches",
+        "leather watches",
+        "men",
+        "fashion timepieces"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_94",
+      "productId": "PRD-94",
+      "productName": "Longines Master Collection",
+      "category": "Men",
+      "subCategory": "Men",
+      "price": 2474984,
+      "discountPercent": 17.24,
+      "availableStock": 100,
+      "totalStock": 564,
+      "imagesCount": 4,
+      "brandName": "Longines",
+      "tags": [
+        "watches",
+        "luxury watches",
+        "men",
+        "longines"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_95",
+      "productId": "PRD-95",
+      "productName": "Rolex Cellini Date Black Dial",
+      "category": "Men",
+      "subCategory": "Men",
+      "price": 14849984,
+      "discountPercent": 8.88,
+      "availableStock": 40,
+      "totalStock": 636,
+      "imagesCount": 4,
+      "brandName": "Rolex",
+      "tags": [
+        "watches",
+        "luxury watches",
+        "men",
+        "rolex"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_96",
+      "productId": "PRD-96",
+      "productName": "Rolex Cellini Moonphase",
+      "category": "Men",
+      "subCategory": "Men",
+      "price": 21449984,
+      "discountPercent": 17.52,
+      "availableStock": 36,
+      "totalStock": 346,
+      "imagesCount": 4,
+      "brandName": "Rolex",
+      "tags": [
+        "watches",
+        "luxury watches",
+        "men",
+        "rolex"
+      ],
+      "promotionalTags": [
+        "Limited Offer",
+        "Style Pick"
+      ],
+      "sponsored": true,
+      "display": true
+    },
+    {
+      "id": "product_97",
+      "productId": "PRD-97",
+      "productName": "Rolex Datejust",
+      "category": "Men",
+      "subCategory": "Men",
+      "price": 18149984,
+      "discountPercent": 3.73,
+      "availableStock": 86,
+      "totalStock": 525,
+      "imagesCount": 4,
+      "brandName": "Rolex",
+      "tags": [
+        "watches",
+        "luxury watches",
+        "men",
+        "rolex"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_98",
+      "productId": "PRD-98",
+      "productName": "Rolex Submariner Watch",
+      "category": "Men",
+      "subCategory": "Men",
+      "price": 23099984,
+      "discountPercent": 5.05,
+      "availableStock": 55,
+      "totalStock": 378,
+      "imagesCount": 4,
+      "brandName": "Rolex",
+      "tags": [
+        "watches",
+        "luxury watches",
+        "men",
+        "rolex"
+      ],
+      "promotionalTags": [
+        "Style Pick"
+      ],
+      "sponsored": false,
+      "display": true
+    },
+    {
+      "id": "product_99",
+      "productId": "PRD-99",
+      "productName": "Amazon Echo Plus",
+      "category": "Electronics",
+      "subCategory": "Electronics",
+      "price": 164984,
+      "discountPercent": 12.07,
+      "availableStock": 61,
+      "totalStock": 660,
+      "imagesCount": 3,
+      "brandName": "Amazon",
+      "tags": [
+        "electronics",
+        "smart speakers",
+        "amazon"
+      ],
+      "promotionalTags": [
+        "Limited Offer"
+      ],
+      "sponsored": false,
+      "display": true
+    }
+  ]
+}

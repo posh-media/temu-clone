@@ -1,0 +1,334 @@
+{
+  "products": [
+    {
+      "id": 167,
+      "title": "300 Touring",
+      "description": "The 300 Touring is a stylish and comfortable sedan, known for its luxurious features and smooth performance.",
+      "category": "vehicle",
+      "price": 28999.99,
+      "discountPercentage": 3.98,
+      "rating": 4.05,
+      "stock": 54,
+      "tags": [
+        "sedans",
+        "vehicles"
+      ],
+      "brand": "Chrysler",
+      "sku": "VEH-CHR-TOU-167",
+      "weight": 9,
+      "dimensions": {
+        "width": 19.2,
+        "height": 26.17,
+        "depth": 17.28
+      },
+      "warrantyInformation": "3 year warranty",
+      "shippingInformation": "Ships in 2 weeks",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Very pleased!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Luna Russell",
+          "reviewerEmail": "luna.russell@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Great product!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Harper Garcia",
+          "reviewerEmail": "harper.garcia@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Harper Turner",
+          "reviewerEmail": "harper.turner@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "30 days return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-30T09:41:02.054Z",
+        "updatedAt": "2025-04-30T09:41:02.054Z",
+        "barcode": "6337799339397",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/product-images/vehicle/300-touring/1.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/300-touring/2.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/300-touring/3.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/300-touring/4.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/300-touring/5.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/300-touring/6.webp"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/product-images/vehicle/300-touring/thumbnail.webp"
+    },
+    {
+      "id": 168,
+      "title": "Charger SXT RWD",
+      "description": "The Charger SXT RWD is a powerful and sporty rear-wheel-drive sedan, offering a blend of performance and practicality.",
+      "category": "vehicle",
+      "price": 32999.99,
+      "discountPercentage": 8.23,
+      "rating": 2.58,
+      "stock": 57,
+      "tags": [
+        "sedans",
+        "sports cars",
+        "vehicles"
+      ],
+      "brand": "Dodge",
+      "sku": "VEH-DOD-CHA-168",
+      "weight": 6,
+      "dimensions": {
+        "width": 16.77,
+        "height": 23.03,
+        "depth": 8.18
+      },
+      "warrantyInformation": "1 month warranty",
+      "shippingInformation": "Ships in 3-5 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Not worth the price!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Lily Torres",
+          "reviewerEmail": "lily.torres@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Would buy again!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Hazel Evans",
+          "reviewerEmail": "hazel.evans@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Fast shipping!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Owen Fisher",
+          "reviewerEmail": "owen.fisher@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "No return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-30T09:41:02.054Z",
+        "updatedAt": "2025-04-30T09:41:02.054Z",
+        "barcode": "0376498933302",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/product-images/vehicle/charger-sxt-rwd/1.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/charger-sxt-rwd/2.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/charger-sxt-rwd/3.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/charger-sxt-rwd/4.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/charger-sxt-rwd/5.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/charger-sxt-rwd/6.webp"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/product-images/vehicle/charger-sxt-rwd/thumbnail.webp"
+    },
+    {
+      "id": 169,
+      "title": "Dodge Hornet GT Plus",
+      "description": "The Dodge Hornet GT Plus is a compact and agile hatchback, perfect for urban driving with a touch of sportiness.",
+      "category": "vehicle",
+      "price": 24999.99,
+      "discountPercentage": 2.63,
+      "rating": 2.65,
+      "stock": 82,
+      "tags": [
+        "hatchbacks",
+        "compact cars",
+        "vehicles"
+      ],
+      "brand": "Dodge",
+      "sku": "VEH-DOD-DOD-169",
+      "weight": 8,
+      "dimensions": {
+        "width": 19.89,
+        "height": 9.8,
+        "depth": 17.8
+      },
+      "warrantyInformation": "1 year warranty",
+      "shippingInformation": "Ships in 1 month",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Awesome product!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Autumn Gomez",
+          "reviewerEmail": "autumn.gomez@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Mateo Bennett",
+          "reviewerEmail": "mateo.bennett@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Harper Kelly",
+          "reviewerEmail": "harper.kelly@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "60 days return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-30T09:41:02.054Z",
+        "updatedAt": "2025-04-30T09:41:02.054Z",
+        "barcode": "8578515136594",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/product-images/vehicle/dodge-hornet-gt-plus/1.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/dodge-hornet-gt-plus/2.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/dodge-hornet-gt-plus/3.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/dodge-hornet-gt-plus/4.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/dodge-hornet-gt-plus/5.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/dodge-hornet-gt-plus/6.webp"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/product-images/vehicle/dodge-hornet-gt-plus/thumbnail.webp"
+    },
+    {
+      "id": 170,
+      "title": "Durango SXT RWD",
+      "description": "The Durango SXT RWD is a spacious and versatile SUV, known for its strong performance and family-friendly features.",
+      "category": "vehicle",
+      "price": 36999.99,
+      "discountPercentage": 16.44,
+      "rating": 4.07,
+      "stock": 95,
+      "tags": [
+        "suvs",
+        "vehicles"
+      ],
+      "brand": "Dodge",
+      "sku": "VEH-DOD-DUR-170",
+      "weight": 1,
+      "dimensions": {
+        "width": 19.02,
+        "height": 29.52,
+        "depth": 24.36
+      },
+      "warrantyInformation": "2 year warranty",
+      "shippingInformation": "Ships in 1 month",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very pleased!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "David Martinez",
+          "reviewerEmail": "david.martinez@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Great value for money!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Nathan Dixon",
+          "reviewerEmail": "nathan.dixon@x.dummyjson.com"
+        },
+        {
+          "rating": 1,
+          "comment": "Very disappointed!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Mila Hernandez",
+          "reviewerEmail": "mila.hernandez@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "30 days return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-30T09:41:02.054Z",
+        "updatedAt": "2025-04-30T09:41:02.054Z",
+        "barcode": "7539220768239",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/product-images/vehicle/durango-sxt-rwd/1.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/durango-sxt-rwd/2.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/durango-sxt-rwd/3.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/durango-sxt-rwd/4.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/durango-sxt-rwd/5.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/durango-sxt-rwd/6.webp"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/product-images/vehicle/durango-sxt-rwd/thumbnail.webp"
+    },
+    {
+      "id": 171,
+      "title": "Pacifica Touring",
+      "description": "The Pacifica Touring is a stylish and well-equipped minivan, offering comfort and convenience for family journeys.",
+      "category": "vehicle",
+      "price": 31999.99,
+      "discountPercentage": 14.76,
+      "rating": 3.62,
+      "stock": 53,
+      "tags": [
+        "minivans",
+        "vehicles"
+      ],
+      "brand": "Chrysler",
+      "sku": "VEH-CHR-PAC-171",
+      "weight": 9,
+      "dimensions": {
+        "width": 7.11,
+        "height": 15.51,
+        "depth": 18.1
+      },
+      "warrantyInformation": "1 month warranty",
+      "shippingInformation": "Ships overnight",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Fast shipping!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Isaac Lawrence",
+          "reviewerEmail": "isaac.lawrence@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Awesome product!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Tyler Davis",
+          "reviewerEmail": "tyler.davis@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Fast shipping!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Daniel Cook",
+          "reviewerEmail": "daniel.cook@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "60 days return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-30T09:41:02.054Z",
+        "updatedAt": "2025-04-30T09:41:02.054Z",
+        "barcode": "2500742117107",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/product-images/vehicle/pacifica-touring/1.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/pacifica-touring/2.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/pacifica-touring/3.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/pacifica-touring/4.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/pacifica-touring/5.webp",
+        "https://cdn.dummyjson.com/product-images/vehicle/pacifica-touring/6.webp"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/product-images/vehicle/pacifica-touring/thumbnail.webp"
+    }
+  ],
+  "total": 5,
+  "skip": 0,
+  "limit": 5
+}

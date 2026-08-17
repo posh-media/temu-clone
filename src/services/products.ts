@@ -12,10 +12,10 @@ import { mapCategory, mapProduct } from "./mappers";
  */
 export async function fetchCatalogue(): Promise<Product[]> {
   const snap = await getDocs(collection(db, COLLECTIONS.products));
-  // `display` is missing on a few legacy documents, and a Firestore `!=` filter
-  // would silently drop those, so the visibility check happens client side.
+  // `display` and `visible` are missing on legacy documents, and a Firestore `!=`
+  // filter would silently drop those, so the visibility check happens client side.
   return snap.docs
-    .filter((d) => d.get("display") !== false)
+    .filter((d) => d.get("display") !== false && d.get("visible") !== false)
     .map(mapProduct)
     .filter((p) => p.price > 0);
 }

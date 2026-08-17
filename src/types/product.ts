@@ -39,6 +39,10 @@ export interface ProductDocument {
   sponsored?: boolean;
   harmful?: boolean;
   display?: boolean;
+  visible?: boolean;
+  source?: string;
+  sourceUrl?: string;
+  retrievedAt?: string;
   reviews?: ProductReviewDocument;
   productReviewsList?: ProductReviewDocument[];
   sellerRef?: unknown;
@@ -89,6 +93,11 @@ export interface Product {
   createdAt?: Date;
   /** True when stock is low enough to show Temu's urgency label. */
   lowStock: boolean;
+  /** Whether the product is publicly visible. Missing = true for backward compatibility. */
+  visible: boolean;
+  source?: string;
+  sourceUrl?: string;
+  retrievedAt?: string;
 }
 
 export type SortOption =

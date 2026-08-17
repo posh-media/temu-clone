@@ -93,6 +93,10 @@ export function mapProduct(snapshot: DocumentSnapshot<DocumentData> | QueryDocum
     sellerId: refId(raw.sellerRef),
     createdAt: toDate(raw.created_time),
     lowStock: availableStock > 0 && availableStock <= LOW_STOCK_THRESHOLD,
+    visible: raw.visible !== false,
+    source: raw.source,
+    sourceUrl: raw.sourceUrl,
+    retrievedAt: raw.retrievedAt,
   };
 }
 

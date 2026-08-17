@@ -1,0 +1,190 @@
+{
+  "products": [
+    {
+      "id": 182,
+      "title": "Green Crystal Earring",
+      "description": "The Green Crystal Earring is a dazzling accessory that features a vibrant green crystal. With a classic design, it adds a touch of elegance to your ensemble, perfect for formal or special occasions.",
+      "category": "womens-jewellery",
+      "price": 29.99,
+      "discountPercentage": 15.24,
+      "rating": 3.96,
+      "stock": 54,
+      "tags": [
+        "fashion accessories",
+        "earrings"
+      ],
+      "sku": "WOM-BRD-GRE-182",
+      "weight": 2,
+      "dimensions": {
+        "width": 14.61,
+        "height": 22.92,
+        "depth": 12.52
+      },
+      "warrantyInformation": "5 year warranty",
+      "shippingInformation": "Ships in 3-5 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Would buy again!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Michael Williams",
+          "reviewerEmail": "michael.williams@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Great value for money!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Samantha Howard",
+          "reviewerEmail": "samantha.howard@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Excellent quality!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Xavier Wright",
+          "reviewerEmail": "xavier.wright@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "60 days return policy",
+      "minimumOrderQuantity": 15,
+      "meta": {
+        "createdAt": "2025-04-30T09:41:02.054Z",
+        "updatedAt": "2025-04-30T09:41:02.054Z",
+        "barcode": "1680580323411",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/3.webp"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/thumbnail.webp"
+    },
+    {
+      "id": 183,
+      "title": "Green Oval Earring",
+      "description": "The Green Oval Earring is a stylish and versatile accessory with a unique oval shape. Whether for casual or dressy occasions, its green hue and contemporary design make it a standout piece.",
+      "category": "womens-jewellery",
+      "price": 24.99,
+      "discountPercentage": 15.18,
+      "rating": 3.57,
+      "stock": 73,
+      "tags": [
+        "fashion accessories",
+        "earrings"
+      ],
+      "sku": "WOM-BRD-GRE-183",
+      "weight": 10,
+      "dimensions": {
+        "width": 8.48,
+        "height": 6.24,
+        "depth": 5.72
+      },
+      "warrantyInformation": "3 months warranty",
+      "shippingInformation": "Ships in 3-5 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 3,
+          "comment": "Would not buy again!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Elena Long",
+          "reviewerEmail": "elena.long@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Layla Sullivan",
+          "reviewerEmail": "layla.sullivan@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Would buy again!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Xavier Wright",
+          "reviewerEmail": "xavier.wright@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "60 days return policy",
+      "minimumOrderQuantity": 19,
+      "meta": {
+        "createdAt": "2025-04-30T09:41:02.054Z",
+        "updatedAt": "2025-04-30T09:41:02.054Z",
+        "barcode": "4782555577213",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/3.webp"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/thumbnail.webp"
+    },
+    {
+      "id": 184,
+      "title": "Tropical Earring",
+      "description": "The Tropical Earring is a fun and playful accessory inspired by tropical elements. Featuring vibrant colors and a lively design, it's perfect for adding a touch of summer to your look.",
+      "category": "womens-jewellery",
+      "price": 19.99,
+      "discountPercentage": 0.76,
+      "rating": 4.4,
+      "stock": 1,
+      "tags": [
+        "fashion accessories",
+        "earrings"
+      ],
+      "sku": "WOM-BRD-TRO-184",
+      "weight": 3,
+      "dimensions": {
+        "width": 14.99,
+        "height": 15.76,
+        "depth": 16.09
+      },
+      "warrantyInformation": "3 year warranty",
+      "shippingInformation": "Ships in 1-2 business days",
+      "availabilityStatus": "Low Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great product!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Alexander Jones",
+          "reviewerEmail": "alexander.jones@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Awesome product!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Eli Ward",
+          "reviewerEmail": "eli.ward@x.dummyjson.com"
+        },
+        {
+          "rating": 1,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Carter Rivera",
+          "reviewerEmail": "carter.rivera@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "7 days return policy",
+      "minimumOrderQuantity": 31,
+      "meta": {
+        "createdAt": "2025-04-30T09:41:02.054Z",
+        "updatedAt": "2025-04-30T09:41:02.054Z",
+        "barcode": "7759380216135",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/3.webp"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/thumbnail.webp"
+    }
+  ],
+  "total": 3,
+  "skip": 0,
+  "limit": 3
+}

@@ -1,0 +1,4429 @@
+{
+  "generatedAt": "2026-08-17T23:41:38.318Z",
+  "totalImages": 442,
+  "ok": 442,
+  "failed": 0,
+  "uniqueProducts": 167,
+  "checks": [
+    {
+      "productId": "PRD-TEMU-100884669",
+      "productName": "Essence Mascara Lash Princess",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/1",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-389292954",
+      "productName": "Eyeshadow Palette with Mirror",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/2",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-076488926",
+      "productName": "Powder Canister",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/3",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-938012449",
+      "productName": "Red Lipstick",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/4",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-892793722",
+      "productName": "Red Nail Polish",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/5",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-373015413",
+      "productName": "Calvin Klein CK One",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/6",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-373015413",
+      "productName": "Calvin Klein CK One",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/6",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-373015413",
+      "productName": "Calvin Klein CK One",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/6",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-796006857",
+      "productName": "Chanel Coco Noir Eau De",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/7",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-796006857",
+      "productName": "Chanel Coco Noir Eau De",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/7",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-796006857",
+      "productName": "Chanel Coco Noir Eau De",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/7",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-824334892",
+      "productName": "Dior J'adore",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/8",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-824334892",
+      "productName": "Dior J'adore",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/8",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-824334892",
+      "productName": "Dior J'adore",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/8",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-526769269",
+      "productName": "Dolce Shine Eau de",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/9",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-526769269",
+      "productName": "Dolce Shine Eau de",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/9",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-526769269",
+      "productName": "Dolce Shine Eau de",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/9",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-044828669",
+      "productName": "Gucci Bloom Eau de",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/10",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-044828669",
+      "productName": "Gucci Bloom Eau de",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/10",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-044828669",
+      "productName": "Gucci Bloom Eau de",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/10",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-839478840",
+      "productName": "Annibale Colombo Bed",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/11",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-839478840",
+      "productName": "Annibale Colombo Bed",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/11",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-839478840",
+      "productName": "Annibale Colombo Bed",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/11",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-083433747",
+      "productName": "Annibale Colombo Sofa",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/12",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-083433747",
+      "productName": "Annibale Colombo Sofa",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/12",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-083433747",
+      "productName": "Annibale Colombo Sofa",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/12",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-651860819",
+      "productName": "Bedside Table African Cherry",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/13",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-651860819",
+      "productName": "Bedside Table African Cherry",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/13",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-651860819",
+      "productName": "Bedside Table African Cherry",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/13",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-143241247",
+      "productName": "Knoll Saarinen Executive Conference Chair",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/14",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-143241247",
+      "productName": "Knoll Saarinen Executive Conference Chair",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/14",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-143241247",
+      "productName": "Knoll Saarinen Executive Conference Chair",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/14",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-652170259",
+      "productName": "Wooden Bathroom Sink With Mirror",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/15",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-652170259",
+      "productName": "Wooden Bathroom Sink With Mirror",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/15",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-652170259",
+      "productName": "Wooden Bathroom Sink With Mirror",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/15",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-192951935",
+      "productName": "Decoration Swing",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/43",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-192951935",
+      "productName": "Decoration Swing",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/43",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-192951935",
+      "productName": "Decoration Swing",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/43",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-946440908",
+      "productName": "Family Tree Photo Frame",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/44",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/home-decoration/family-tree-photo-frame/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-380192573",
+      "productName": "House Showpiece Plant",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/45",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-380192573",
+      "productName": "House Showpiece Plant",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/45",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-380192573",
+      "productName": "House Showpiece Plant",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/45",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-618700894",
+      "productName": "Plant Pot",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/46",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-618700894",
+      "productName": "Plant Pot",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/46",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-618700894",
+      "productName": "Plant Pot",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/46",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-618700894",
+      "productName": "Plant Pot",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/46",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-134498295",
+      "productName": "Table Lamp",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/47",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/home-decoration/table-lamp/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-482997910",
+      "productName": "Bamboo Spatula",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/48",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/bamboo-spatula/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-041617234",
+      "productName": "Black Aluminium Cup",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/49",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-041617234",
+      "productName": "Black Aluminium Cup",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/49",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-030589302",
+      "productName": "Black Whisk",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/50",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-whisk/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-003206469",
+      "productName": "Boxed Blender",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/51",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-003206469",
+      "productName": "Boxed Blender",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/51",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-003206469",
+      "productName": "Boxed Blender",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/51",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-003206469",
+      "productName": "Boxed Blender",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/51",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-934816134",
+      "productName": "Carbon Steel Wok",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/52",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/carbon-steel-wok/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-511634635",
+      "productName": "Chopping Board",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/53",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/chopping-board/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-592737637",
+      "productName": "Citrus Squeezer Yellow",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/54",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/citrus-squeezer-yellow/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-602852577",
+      "productName": "Egg Slicer",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/55",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/egg-slicer/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-394685151",
+      "productName": "Electric Stove",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/56",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-394685151",
+      "productName": "Electric Stove",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/56",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-394685151",
+      "productName": "Electric Stove",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/56",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-394685151",
+      "productName": "Electric Stove",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/56",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-822653299",
+      "productName": "Fine Mesh Strainer",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/57",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fine-mesh-strainer/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-828629090",
+      "productName": "Fork",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/58",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fork/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-388336444",
+      "productName": "Glass",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/59",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/glass/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-511999707",
+      "productName": "Grater Black",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/60",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/grater-black/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-000173590",
+      "productName": "Hand Blender",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/61",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/hand-blender/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-420451743",
+      "productName": "Ice Cube Tray",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/62",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/ice-cube-tray/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-675857481",
+      "productName": "Kitchen Sieve",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/63",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/kitchen-sieve/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-660134722",
+      "productName": "Knife",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/64",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/knife/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-365984025",
+      "productName": "Lunch Box",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/65",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/lunch-box/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-336306869",
+      "productName": "Microwave Oven",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/66",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-336306869",
+      "productName": "Microwave Oven",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/66",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-336306869",
+      "productName": "Microwave Oven",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/66",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-336306869",
+      "productName": "Microwave Oven",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/66",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-866284876",
+      "productName": "Mug Tree Stand",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/67",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/mug-tree-stand/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-866284876",
+      "productName": "Mug Tree Stand",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/67",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/mug-tree-stand/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-462503346",
+      "productName": "Pan",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/68",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/pan/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-224540641",
+      "productName": "Plate",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/69",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/plate/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-125741257",
+      "productName": "Red Tongs",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/70",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/red-tongs/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-015044186",
+      "productName": "Silver Pot With Glass Cap",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/71",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/silver-pot-with-glass-cap/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-736656690",
+      "productName": "Slotted Turner",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/72",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/slotted-turner/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-429109560",
+      "productName": "Spice Rack",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/73",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/spice-rack/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-028832103",
+      "productName": "Spoon",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/74",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/spoon/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-192421664",
+      "productName": "Tray",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/75",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/tray/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-826300877",
+      "productName": "Wooden Rolling Pin",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/76",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/wooden-rolling-pin/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-450405274",
+      "productName": "Yellow Peeler",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/77",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/yellow-peeler/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-382712582",
+      "productName": "Apple MacBook Pro 14 Inch Space Grey",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/78",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-382712582",
+      "productName": "Apple MacBook Pro 14 Inch Space Grey",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/78",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-382712582",
+      "productName": "Apple MacBook Pro 14 Inch Space Grey",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/78",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-461385341",
+      "productName": "Asus Zenbook Pro Dual Screen Laptop",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/79",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-461385341",
+      "productName": "Asus Zenbook Pro Dual Screen Laptop",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/79",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-461385341",
+      "productName": "Asus Zenbook Pro Dual Screen Laptop",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/79",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-072414406",
+      "productName": "Huawei Matebook X Pro",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/80",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-072414406",
+      "productName": "Huawei Matebook X Pro",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/80",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-072414406",
+      "productName": "Huawei Matebook X Pro",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/80",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-264303357",
+      "productName": "Lenovo Yoga 920",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/81",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-264303357",
+      "productName": "Lenovo Yoga 920",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/81",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-264303357",
+      "productName": "Lenovo Yoga 920",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/81",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-618154610",
+      "productName": "New DELL XPS 13 9300 Laptop",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/82",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-618154610",
+      "productName": "New DELL XPS 13 9300 Laptop",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/82",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-618154610",
+      "productName": "New DELL XPS 13 9300 Laptop",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/82",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-247520381",
+      "productName": "Blue & Black Check Shirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/83",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-247520381",
+      "productName": "Blue & Black Check Shirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/83",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-247520381",
+      "productName": "Blue & Black Check Shirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/83",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-247520381",
+      "productName": "Blue & Black Check Shirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/83",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-290141372",
+      "productName": "Gigabyte Aorus Men Tshirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/84",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-290141372",
+      "productName": "Gigabyte Aorus Men Tshirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/84",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-290141372",
+      "productName": "Gigabyte Aorus Men Tshirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/84",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-290141372",
+      "productName": "Gigabyte Aorus Men Tshirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/84",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-722005180",
+      "productName": "Man Plaid Shirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/85",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-722005180",
+      "productName": "Man Plaid Shirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/85",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-722005180",
+      "productName": "Man Plaid Shirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/85",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-722005180",
+      "productName": "Man Plaid Shirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/85",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-844718740",
+      "productName": "Man Short Sleeve Shirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/86",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-844718740",
+      "productName": "Man Short Sleeve Shirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/86",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-844718740",
+      "productName": "Man Short Sleeve Shirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/86",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-844718740",
+      "productName": "Man Short Sleeve Shirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/86",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-839174838",
+      "productName": "Men Check Shirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/87",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-839174838",
+      "productName": "Men Check Shirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/87",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-839174838",
+      "productName": "Men Check Shirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/87",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-839174838",
+      "productName": "Men Check Shirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/87",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-192924572",
+      "productName": "Nike Air Jordan 1 Red And Black",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/88",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-192924572",
+      "productName": "Nike Air Jordan 1 Red And Black",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/88",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-192924572",
+      "productName": "Nike Air Jordan 1 Red And Black",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/88",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-192924572",
+      "productName": "Nike Air Jordan 1 Red And Black",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/88",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-640840733",
+      "productName": "Nike Baseball Cleats",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/89",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-640840733",
+      "productName": "Nike Baseball Cleats",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/89",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-640840733",
+      "productName": "Nike Baseball Cleats",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/89",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-640840733",
+      "productName": "Nike Baseball Cleats",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/89",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-072086932",
+      "productName": "Puma Future Rider Trainers",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/90",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-072086932",
+      "productName": "Puma Future Rider Trainers",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/90",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-072086932",
+      "productName": "Puma Future Rider Trainers",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/90",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-072086932",
+      "productName": "Puma Future Rider Trainers",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/90",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-823437996",
+      "productName": "Sports Sneakers Off White & Red",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/91",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-823437996",
+      "productName": "Sports Sneakers Off White & Red",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/91",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-823437996",
+      "productName": "Sports Sneakers Off White & Red",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/91",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-823437996",
+      "productName": "Sports Sneakers Off White & Red",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/91",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-536453494",
+      "productName": "Sports Sneakers Off White Red",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/92",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-536453494",
+      "productName": "Sports Sneakers Off White Red",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/92",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-536453494",
+      "productName": "Sports Sneakers Off White Red",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/92",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-536453494",
+      "productName": "Sports Sneakers Off White Red",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/92",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-568750436",
+      "productName": "Brown Leather Belt Watch",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/93",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-568750436",
+      "productName": "Brown Leather Belt Watch",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/93",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-568750436",
+      "productName": "Brown Leather Belt Watch",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/93",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-347617371",
+      "productName": "Longines Master Collection",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/94",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-347617371",
+      "productName": "Longines Master Collection",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/94",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-347617371",
+      "productName": "Longines Master Collection",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/94",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-369883915",
+      "productName": "Rolex Cellini Date Black Dial",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/95",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-369883915",
+      "productName": "Rolex Cellini Date Black Dial",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/95",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-369883915",
+      "productName": "Rolex Cellini Date Black Dial",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/95",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-858876746",
+      "productName": "Rolex Cellini Moonphase",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/96",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-858876746",
+      "productName": "Rolex Cellini Moonphase",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/96",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-858876746",
+      "productName": "Rolex Cellini Moonphase",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/96",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-460658817",
+      "productName": "Rolex Datejust",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/97",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-460658817",
+      "productName": "Rolex Datejust",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/97",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-460658817",
+      "productName": "Rolex Datejust",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/97",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-718730538",
+      "productName": "Rolex Submariner Watch",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/98",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-718730538",
+      "productName": "Rolex Submariner Watch",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/98",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-718730538",
+      "productName": "Rolex Submariner Watch",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/98",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-428652030",
+      "productName": "Amazon Echo Plus",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/99",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-428652030",
+      "productName": "Amazon Echo Plus",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/99",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-733323330",
+      "productName": "Apple Airpods",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/100",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-733323330",
+      "productName": "Apple Airpods",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/100",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-733323330",
+      "productName": "Apple Airpods",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/100",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-176034617",
+      "productName": "Apple AirPods Max Silver",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/101",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-736751030",
+      "productName": "Apple Airpower Wireless Charger",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/102",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-286409890",
+      "productName": "Apple HomePod Mini Cosmic Grey",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/103",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-132260428",
+      "productName": "Apple iPhone Charger",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/104",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-132260428",
+      "productName": "Apple iPhone Charger",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/104",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-706916530",
+      "productName": "Apple MagSafe Battery Pack",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/105",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-706916530",
+      "productName": "Apple MagSafe Battery Pack",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/105",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-666647458",
+      "productName": "Apple Watch Series 4 Gold",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/106",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-666647458",
+      "productName": "Apple Watch Series 4 Gold",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/106",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-666647458",
+      "productName": "Apple Watch Series 4 Gold",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/106",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-653670101",
+      "productName": "Beats Flex Wireless Earphones",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/107",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-776009640",
+      "productName": "iPhone 12 Silicone Case with MagSafe Plum",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/108",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-776009640",
+      "productName": "iPhone 12 Silicone Case with MagSafe Plum",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/108",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-776009640",
+      "productName": "iPhone 12 Silicone Case with MagSafe Plum",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/108",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-776009640",
+      "productName": "iPhone 12 Silicone Case with MagSafe Plum",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/108",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-620960668",
+      "productName": "Monopod",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/109",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-620960668",
+      "productName": "Monopod",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/109",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-239433188",
+      "productName": "Selfie Lamp with iPhone",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/110",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-lamp-with-iphone/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-966250183",
+      "productName": "Selfie Stick Monopod",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/111",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-stick-monopod/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-354971663",
+      "productName": "TV Studio Camera Pedestal",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/112",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/tv-studio-camera-pedestal/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-534130487",
+      "productName": "Generic Motorcycle",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/113",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/generic-motorcycle/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-534130487",
+      "productName": "Generic Motorcycle",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/113",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/generic-motorcycle/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-534130487",
+      "productName": "Generic Motorcycle",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/113",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/generic-motorcycle/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-534130487",
+      "productName": "Generic Motorcycle",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/113",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/generic-motorcycle/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-644567068",
+      "productName": "Kawasaki Z800",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/114",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/kawasaki-z800/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-644567068",
+      "productName": "Kawasaki Z800",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/114",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/kawasaki-z800/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-644567068",
+      "productName": "Kawasaki Z800",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/114",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/kawasaki-z800/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-644567068",
+      "productName": "Kawasaki Z800",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/114",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/kawasaki-z800/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-056562692",
+      "productName": "MotoGP CI.H1",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/115",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/motogp-ci.h1/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-056562692",
+      "productName": "MotoGP CI.H1",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/115",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/motogp-ci.h1/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-056562692",
+      "productName": "MotoGP CI.H1",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/115",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/motogp-ci.h1/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-056562692",
+      "productName": "MotoGP CI.H1",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/115",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/motogp-ci.h1/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-441945295",
+      "productName": "Scooter Motorcycle",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/116",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/scooter-motorcycle/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-441945295",
+      "productName": "Scooter Motorcycle",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/116",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/scooter-motorcycle/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-441945295",
+      "productName": "Scooter Motorcycle",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/116",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/scooter-motorcycle/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-441945295",
+      "productName": "Scooter Motorcycle",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/116",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/scooter-motorcycle/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-242574884",
+      "productName": "Sportbike Motorcycle",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/117",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/sportbike-motorcycle/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-242574884",
+      "productName": "Sportbike Motorcycle",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/117",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/sportbike-motorcycle/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-242574884",
+      "productName": "Sportbike Motorcycle",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/117",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/sportbike-motorcycle/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-242574884",
+      "productName": "Sportbike Motorcycle",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/117",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/motorcycle/sportbike-motorcycle/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-256172365",
+      "productName": "Attitude Super Leaves Hand Soap",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/118",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/skin-care/attitude-super-leaves-hand-soap/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-256172365",
+      "productName": "Attitude Super Leaves Hand Soap",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/118",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/skin-care/attitude-super-leaves-hand-soap/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-256172365",
+      "productName": "Attitude Super Leaves Hand Soap",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/118",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/skin-care/attitude-super-leaves-hand-soap/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-935936238",
+      "productName": "Olay Ultra Moisture Shea Butter Body Wash",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/119",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/skin-care/olay-ultra-moisture-shea-butter-body-wash/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-935936238",
+      "productName": "Olay Ultra Moisture Shea Butter Body Wash",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/119",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/skin-care/olay-ultra-moisture-shea-butter-body-wash/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-935936238",
+      "productName": "Olay Ultra Moisture Shea Butter Body Wash",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/119",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/skin-care/olay-ultra-moisture-shea-butter-body-wash/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-788473735",
+      "productName": "Vaseline Men Body and Face Lotion",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/120",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-788473735",
+      "productName": "Vaseline Men Body and Face Lotion",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/120",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-788473735",
+      "productName": "Vaseline Men Body and Face Lotion",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/120",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-360192665",
+      "productName": "iPhone 5s",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/121",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-360192665",
+      "productName": "iPhone 5s",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/121",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-360192665",
+      "productName": "iPhone 5s",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/121",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-955658196",
+      "productName": "iPhone 6",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/122",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-955658196",
+      "productName": "iPhone 6",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/122",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-955658196",
+      "productName": "iPhone 6",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/122",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-801091603",
+      "productName": "iPhone 13 Pro",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/123",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-801091603",
+      "productName": "iPhone 13 Pro",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/123",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-801091603",
+      "productName": "iPhone 13 Pro",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/123",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-764275304",
+      "productName": "iPhone X",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/124",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-764275304",
+      "productName": "iPhone X",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/124",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-764275304",
+      "productName": "iPhone X",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/124",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-584481584",
+      "productName": "Oppo A57",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/125",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-584481584",
+      "productName": "Oppo A57",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/125",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-584481584",
+      "productName": "Oppo A57",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/125",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-097030163",
+      "productName": "Oppo F19 Pro Plus",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/126",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-097030163",
+      "productName": "Oppo F19 Pro Plus",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/126",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-097030163",
+      "productName": "Oppo F19 Pro Plus",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/126",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-120546633",
+      "productName": "Oppo K1",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/127",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-120546633",
+      "productName": "Oppo K1",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/127",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-120546633",
+      "productName": "Oppo K1",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/127",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-120546633",
+      "productName": "Oppo K1",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/127",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-648342272",
+      "productName": "Realme C35",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/128",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-648342272",
+      "productName": "Realme C35",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/128",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-648342272",
+      "productName": "Realme C35",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/128",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-610457802",
+      "productName": "Realme X",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/129",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-610457802",
+      "productName": "Realme X",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/129",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-610457802",
+      "productName": "Realme X",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/129",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-500570903",
+      "productName": "Realme XT",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/130",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-500570903",
+      "productName": "Realme XT",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/130",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-500570903",
+      "productName": "Realme XT",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/130",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-111639223",
+      "productName": "Samsung Galaxy S7",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/131",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-111639223",
+      "productName": "Samsung Galaxy S7",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/131",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-111639223",
+      "productName": "Samsung Galaxy S7",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/131",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-527414773",
+      "productName": "Samsung Galaxy S8",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/132",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-527414773",
+      "productName": "Samsung Galaxy S8",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/132",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-527414773",
+      "productName": "Samsung Galaxy S8",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/132",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-124399570",
+      "productName": "Samsung Galaxy S10",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/133",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-124399570",
+      "productName": "Samsung Galaxy S10",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/133",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-124399570",
+      "productName": "Samsung Galaxy S10",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/133",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-886452932",
+      "productName": "Vivo S1",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/134",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-886452932",
+      "productName": "Vivo S1",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/134",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-886452932",
+      "productName": "Vivo S1",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/134",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-778573800",
+      "productName": "Vivo V9",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/135",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-778573800",
+      "productName": "Vivo V9",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/135",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-778573800",
+      "productName": "Vivo V9",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/135",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-436037876",
+      "productName": "Vivo X21",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/136",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-436037876",
+      "productName": "Vivo X21",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/136",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-436037876",
+      "productName": "Vivo X21",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/136",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-636245476",
+      "productName": "American Football",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/137",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/american-football/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-553067122",
+      "productName": "Baseball Ball",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/138",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-ball/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-948618018",
+      "productName": "Baseball Glove",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/139",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-948618018",
+      "productName": "Baseball Glove",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/139",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-948618018",
+      "productName": "Baseball Glove",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/139",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-222293719",
+      "productName": "Basketball",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/140",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/basketball/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-033570672",
+      "productName": "Basketball Rim",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/141",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/basketball-rim/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-644301758",
+      "productName": "Cricket Ball",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/142",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-ball/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-652300153",
+      "productName": "Cricket Bat",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/143",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-bat/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-498627704",
+      "productName": "Cricket Helmet",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/144",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-498627704",
+      "productName": "Cricket Helmet",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/144",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-498627704",
+      "productName": "Cricket Helmet",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/144",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-498627704",
+      "productName": "Cricket Helmet",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/144",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-177793310",
+      "productName": "Cricket Wicket",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/145",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-wicket/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-433553469",
+      "productName": "Feather Shuttlecock",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/146",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/feather-shuttlecock/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-110010413",
+      "productName": "Football",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/147",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/football/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-568452075",
+      "productName": "Golf Ball",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/148",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/golf-ball/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-483952752",
+      "productName": "Iron Golf",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/149",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/iron-golf/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-621188093",
+      "productName": "Metal Baseball Bat",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/150",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/metal-baseball-bat/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-233296592",
+      "productName": "Tennis Ball",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/151",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/tennis-ball/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-881189444",
+      "productName": "Tennis Racket",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/152",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/tennis-racket/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-332807097",
+      "productName": "Volleyball",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/153",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/volleyball/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-472586910",
+      "productName": "Black Sun Glasses",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/154",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sunglasses/black-sun-glasses/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-472586910",
+      "productName": "Black Sun Glasses",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/154",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sunglasses/black-sun-glasses/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-472586910",
+      "productName": "Black Sun Glasses",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/154",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sunglasses/black-sun-glasses/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-198926836",
+      "productName": "Classic Sun Glasses",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/155",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-198926836",
+      "productName": "Classic Sun Glasses",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/155",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-198926836",
+      "productName": "Classic Sun Glasses",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/155",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-651192366",
+      "productName": "Green and Black Glasses",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/156",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-651192366",
+      "productName": "Green and Black Glasses",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/156",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-651192366",
+      "productName": "Green and Black Glasses",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/156",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-761478302",
+      "productName": "Party Glasses",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/157",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sunglasses/party-glasses/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-761478302",
+      "productName": "Party Glasses",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/157",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sunglasses/party-glasses/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-761478302",
+      "productName": "Party Glasses",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/157",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sunglasses/party-glasses/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-470535755",
+      "productName": "Sunglasses",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/158",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sunglasses/sunglasses/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-470535755",
+      "productName": "Sunglasses",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/158",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sunglasses/sunglasses/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-470535755",
+      "productName": "Sunglasses",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/158",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sunglasses/sunglasses/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-842832754",
+      "productName": "iPad Mini 2021 Starlight",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/159",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-842832754",
+      "productName": "iPad Mini 2021 Starlight",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/159",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-842832754",
+      "productName": "iPad Mini 2021 Starlight",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/159",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-842832754",
+      "productName": "iPad Mini 2021 Starlight",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/159",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-078685739",
+      "productName": "Samsung Galaxy Tab S8 Plus Grey",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/160",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-078685739",
+      "productName": "Samsung Galaxy Tab S8 Plus Grey",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/160",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-078685739",
+      "productName": "Samsung Galaxy Tab S8 Plus Grey",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/160",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-078685739",
+      "productName": "Samsung Galaxy Tab S8 Plus Grey",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/160",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-694001264",
+      "productName": "Samsung Galaxy Tab White",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/161",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-694001264",
+      "productName": "Samsung Galaxy Tab White",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/161",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-694001264",
+      "productName": "Samsung Galaxy Tab White",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/161",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-694001264",
+      "productName": "Samsung Galaxy Tab White",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/161",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-949318660",
+      "productName": "Blue Frock",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/162",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/blue-frock/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-949318660",
+      "productName": "Blue Frock",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/162",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/blue-frock/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-949318660",
+      "productName": "Blue Frock",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/162",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/blue-frock/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-949318660",
+      "productName": "Blue Frock",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/162",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/blue-frock/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-113177790",
+      "productName": "Girl Summer Dress",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/163",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-113177790",
+      "productName": "Girl Summer Dress",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/163",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-113177790",
+      "productName": "Girl Summer Dress",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/163",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-113177790",
+      "productName": "Girl Summer Dress",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/163",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-442957491",
+      "productName": "Gray Dress",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/164",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/gray-dress/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-442957491",
+      "productName": "Gray Dress",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/164",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/gray-dress/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-442957491",
+      "productName": "Gray Dress",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/164",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/gray-dress/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-442957491",
+      "productName": "Gray Dress",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/164",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/gray-dress/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-109166889",
+      "productName": "Short Frock",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/165",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/short-frock/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-109166889",
+      "productName": "Short Frock",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/165",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/short-frock/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-109166889",
+      "productName": "Short Frock",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/165",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/short-frock/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-109166889",
+      "productName": "Short Frock",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/165",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/short-frock/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-335130476",
+      "productName": "Tartan Dress",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/166",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/tartan-dress/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-335130476",
+      "productName": "Tartan Dress",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/166",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/tartan-dress/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-335130476",
+      "productName": "Tartan Dress",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/166",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/tartan-dress/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-335130476",
+      "productName": "Tartan Dress",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/166",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tops/tartan-dress/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-869611988",
+      "productName": "300 Touring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/167",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/300-touring/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-869611988",
+      "productName": "300 Touring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/167",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/300-touring/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-869611988",
+      "productName": "300 Touring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/167",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/300-touring/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-869611988",
+      "productName": "300 Touring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/167",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/300-touring/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-869611988",
+      "productName": "300 Touring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/167",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/300-touring/5.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-869611988",
+      "productName": "300 Touring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/167",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/300-touring/6.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-174224969",
+      "productName": "Charger SXT RWD",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/168",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/charger-sxt-rwd/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-174224969",
+      "productName": "Charger SXT RWD",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/168",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/charger-sxt-rwd/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-174224969",
+      "productName": "Charger SXT RWD",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/168",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/charger-sxt-rwd/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-174224969",
+      "productName": "Charger SXT RWD",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/168",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/charger-sxt-rwd/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-174224969",
+      "productName": "Charger SXT RWD",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/168",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/charger-sxt-rwd/5.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-174224969",
+      "productName": "Charger SXT RWD",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/168",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/charger-sxt-rwd/6.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-463800305",
+      "productName": "Dodge Hornet GT Plus",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/169",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/dodge-hornet-gt-plus/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-463800305",
+      "productName": "Dodge Hornet GT Plus",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/169",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/dodge-hornet-gt-plus/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-463800305",
+      "productName": "Dodge Hornet GT Plus",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/169",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/dodge-hornet-gt-plus/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-463800305",
+      "productName": "Dodge Hornet GT Plus",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/169",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/dodge-hornet-gt-plus/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-463800305",
+      "productName": "Dodge Hornet GT Plus",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/169",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/dodge-hornet-gt-plus/5.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-463800305",
+      "productName": "Dodge Hornet GT Plus",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/169",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/dodge-hornet-gt-plus/6.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-686651141",
+      "productName": "Durango SXT RWD",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/170",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/durango-sxt-rwd/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-686651141",
+      "productName": "Durango SXT RWD",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/170",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/durango-sxt-rwd/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-686651141",
+      "productName": "Durango SXT RWD",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/170",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/durango-sxt-rwd/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-686651141",
+      "productName": "Durango SXT RWD",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/170",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/durango-sxt-rwd/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-686651141",
+      "productName": "Durango SXT RWD",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/170",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/durango-sxt-rwd/5.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-686651141",
+      "productName": "Durango SXT RWD",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/170",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/durango-sxt-rwd/6.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-201347520",
+      "productName": "Pacifica Touring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/171",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/pacifica-touring/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-201347520",
+      "productName": "Pacifica Touring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/171",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/pacifica-touring/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-201347520",
+      "productName": "Pacifica Touring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/171",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/pacifica-touring/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-201347520",
+      "productName": "Pacifica Touring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/171",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/pacifica-touring/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-201347520",
+      "productName": "Pacifica Touring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/171",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/pacifica-touring/5.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-201347520",
+      "productName": "Pacifica Touring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/171",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/vehicle/pacifica-touring/6.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-817933878",
+      "productName": "Blue Women's Handbag",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/172",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-bags/blue-women's-handbag/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-817933878",
+      "productName": "Blue Women's Handbag",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/172",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-bags/blue-women's-handbag/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-817933878",
+      "productName": "Blue Women's Handbag",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/172",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-bags/blue-women's-handbag/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-202207653",
+      "productName": "Heshe Women's Leather Bag",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/173",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-202207653",
+      "productName": "Heshe Women's Leather Bag",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/173",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-202207653",
+      "productName": "Heshe Women's Leather Bag",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/173",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-489842589",
+      "productName": "Prada Women Bag",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/174",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-bags/prada-women-bag/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-489842589",
+      "productName": "Prada Women Bag",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/174",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-bags/prada-women-bag/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-489842589",
+      "productName": "Prada Women Bag",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/174",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-bags/prada-women-bag/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-207035526",
+      "productName": "White Faux Leather Backpack",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/175",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-bags/white-faux-leather-backpack/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-207035526",
+      "productName": "White Faux Leather Backpack",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/175",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-bags/white-faux-leather-backpack/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-207035526",
+      "productName": "White Faux Leather Backpack",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/175",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-bags/white-faux-leather-backpack/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-298027456",
+      "productName": "Women Handbag Black",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/176",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-298027456",
+      "productName": "Women Handbag Black",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/176",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-298027456",
+      "productName": "Women Handbag Black",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/176",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-464200627",
+      "productName": "Black Women's Gown",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/177",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-464200627",
+      "productName": "Black Women's Gown",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/177",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-464200627",
+      "productName": "Black Women's Gown",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/177",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-464200627",
+      "productName": "Black Women's Gown",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/177",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-427021730",
+      "productName": "Corset Leather With Skirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/178",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-427021730",
+      "productName": "Corset Leather With Skirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/178",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-427021730",
+      "productName": "Corset Leather With Skirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/178",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-427021730",
+      "productName": "Corset Leather With Skirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/178",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-871023216",
+      "productName": "Corset With Black Skirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/179",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-871023216",
+      "productName": "Corset With Black Skirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/179",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-871023216",
+      "productName": "Corset With Black Skirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/179",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-871023216",
+      "productName": "Corset With Black Skirt",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/179",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-777513820",
+      "productName": "Dress Pea",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/180",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-777513820",
+      "productName": "Dress Pea",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/180",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-777513820",
+      "productName": "Dress Pea",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/180",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-777513820",
+      "productName": "Dress Pea",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/180",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-036182886",
+      "productName": "Marni Red & Black Suit",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/181",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-036182886",
+      "productName": "Marni Red & Black Suit",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/181",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-036182886",
+      "productName": "Marni Red & Black Suit",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/181",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-036182886",
+      "productName": "Marni Red & Black Suit",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/181",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-265208648",
+      "productName": "Green Crystal Earring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/182",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-265208648",
+      "productName": "Green Crystal Earring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/182",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-265208648",
+      "productName": "Green Crystal Earring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/182",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-254379650",
+      "productName": "Green Oval Earring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/183",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-254379650",
+      "productName": "Green Oval Earring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/183",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-254379650",
+      "productName": "Green Oval Earring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/183",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-828965296",
+      "productName": "Tropical Earring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/184",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-828965296",
+      "productName": "Tropical Earring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/184",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-828965296",
+      "productName": "Tropical Earring",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/184",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-588989813",
+      "productName": "Black & Brown Slipper",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/185",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-588989813",
+      "productName": "Black & Brown Slipper",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/185",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-588989813",
+      "productName": "Black & Brown Slipper",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/185",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-588989813",
+      "productName": "Black & Brown Slipper",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/185",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-680481100",
+      "productName": "Calvin Klein Heel Shoes",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/186",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-680481100",
+      "productName": "Calvin Klein Heel Shoes",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/186",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-680481100",
+      "productName": "Calvin Klein Heel Shoes",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/186",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-680481100",
+      "productName": "Calvin Klein Heel Shoes",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/186",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-982161263",
+      "productName": "Golden Shoes Woman",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/187",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-982161263",
+      "productName": "Golden Shoes Woman",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/187",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-982161263",
+      "productName": "Golden Shoes Woman",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/187",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-982161263",
+      "productName": "Golden Shoes Woman",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/187",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-709000273",
+      "productName": "Pampi Shoes",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/188",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-709000273",
+      "productName": "Pampi Shoes",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/188",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-709000273",
+      "productName": "Pampi Shoes",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/188",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-709000273",
+      "productName": "Pampi Shoes",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/188",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-895816106",
+      "productName": "Red Shoes",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/189",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-895816106",
+      "productName": "Red Shoes",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/189",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-895816106",
+      "productName": "Red Shoes",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/189",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-895816106",
+      "productName": "Red Shoes",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/189",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/4.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-827958608",
+      "productName": "IWC Ingenieur Automatic Steel",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/190",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-827958608",
+      "productName": "IWC Ingenieur Automatic Steel",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/190",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-827958608",
+      "productName": "IWC Ingenieur Automatic Steel",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/190",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-837745897",
+      "productName": "Rolex Cellini Moonphase",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/191",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-837745897",
+      "productName": "Rolex Cellini Moonphase",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/191",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-837745897",
+      "productName": "Rolex Cellini Moonphase",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/191",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-319319097",
+      "productName": "Rolex Datejust Women",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/192",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-319319097",
+      "productName": "Rolex Datejust Women",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/192",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-319319097",
+      "productName": "Rolex Datejust Women",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/192",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-742612064",
+      "productName": "Watch Gold for Women",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/193",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-742612064",
+      "productName": "Watch Gold for Women",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/193",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-742612064",
+      "productName": "Watch Gold for Women",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/193",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-759928290",
+      "productName": "Women's Wrist Watch",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/194",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/1.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-759928290",
+      "productName": "Women's Wrist Watch",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/194",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/2.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    },
+    {
+      "productId": "PRD-TEMU-759928290",
+      "productName": "Women's Wrist Watch",
+      "source": "dummyjson",
+      "sourceUrl": "https://dummyjson.com/products/194",
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/3.webp",
+      "status": 200,
+      "ok": true,
+      "contentType": "image/webp"
+    }
+  ]
+}

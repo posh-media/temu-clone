@@ -1,0 +1,317 @@
+{
+  "products": [
+    {
+      "id": 162,
+      "title": "Blue Frock",
+      "description": "The Blue Frock is a charming and stylish dress for various occasions. With a vibrant blue color and a comfortable design, it adds a touch of elegance to your wardrobe.",
+      "category": "tops",
+      "price": 29.99,
+      "discountPercentage": 12.13,
+      "rating": 4.17,
+      "stock": 52,
+      "tags": [
+        "clothing",
+        "dresses"
+      ],
+      "sku": "TOP-BRD-BLU-162",
+      "weight": 5,
+      "dimensions": {
+        "width": 24.25,
+        "height": 5.91,
+        "depth": 8.79
+      },
+      "warrantyInformation": "Lifetime warranty",
+      "shippingInformation": "Ships in 2 weeks",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Great product!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Victoria McDonald",
+          "reviewerEmail": "victoria.mcdonald@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Fast shipping!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Benjamin Foster",
+          "reviewerEmail": "benjamin.foster@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Would buy again!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Addison Ward",
+          "reviewerEmail": "addison.ward@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "60 days return policy",
+      "minimumOrderQuantity": 4,
+      "meta": {
+        "createdAt": "2025-04-30T09:41:02.054Z",
+        "updatedAt": "2025-04-30T09:41:02.054Z",
+        "barcode": "6410441827139",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/product-images/tops/blue-frock/1.webp",
+        "https://cdn.dummyjson.com/product-images/tops/blue-frock/2.webp",
+        "https://cdn.dummyjson.com/product-images/tops/blue-frock/3.webp",
+        "https://cdn.dummyjson.com/product-images/tops/blue-frock/4.webp"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/product-images/tops/blue-frock/thumbnail.webp"
+    },
+    {
+      "id": 163,
+      "title": "Girl Summer Dress",
+      "description": "The Girl Summer Dress is a cute and breezy dress designed for warm weather. With playful patterns and lightweight fabric, it's perfect for keeping cool and stylish during the summer.",
+      "category": "tops",
+      "price": 19.99,
+      "discountPercentage": 19.2,
+      "rating": 4.77,
+      "stock": 43,
+      "tags": [
+        "clothing",
+        "girls' dresses"
+      ],
+      "sku": "TOP-BRD-GIR-163",
+      "weight": 5,
+      "dimensions": {
+        "width": 26.19,
+        "height": 20.65,
+        "depth": 10.1
+      },
+      "warrantyInformation": "Lifetime warranty",
+      "shippingInformation": "Ships in 1 month",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Excellent quality!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Mason Pearson",
+          "reviewerEmail": "mason.pearson@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Great product!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Aubrey Garcia",
+          "reviewerEmail": "aubrey.garcia@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Very satisfied!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Charlotte Davis",
+          "reviewerEmail": "charlotte.davis@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "60 days return policy",
+      "minimumOrderQuantity": 46,
+      "meta": {
+        "createdAt": "2025-04-30T09:41:02.054Z",
+        "updatedAt": "2025-04-30T09:41:02.054Z",
+        "barcode": "6273976484433",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/1.webp",
+        "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/2.webp",
+        "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/3.webp",
+        "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/4.webp"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/thumbnail.webp"
+    },
+    {
+      "id": 164,
+      "title": "Gray Dress",
+      "description": "The Gray Dress is a versatile and chic option for various occasions. With a neutral gray color, it can be dressed up or down, making it a wardrobe staple for any fashion-forward individual.",
+      "category": "tops",
+      "price": 34.99,
+      "discountPercentage": 14.28,
+      "rating": 2.72,
+      "stock": 55,
+      "tags": [
+        "clothing",
+        "dresses"
+      ],
+      "sku": "TOP-BRD-GRA-164",
+      "weight": 1,
+      "dimensions": {
+        "width": 11.91,
+        "height": 25.72,
+        "depth": 18.55
+      },
+      "warrantyInformation": "1 month warranty",
+      "shippingInformation": "Ships in 1 month",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Highly impressed!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Brayden Fleming",
+          "reviewerEmail": "brayden.fleming@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Awesome product!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Michael Johnson",
+          "reviewerEmail": "michael.johnson@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Highly recommended!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Evelyn Sanchez",
+          "reviewerEmail": "evelyn.sanchez@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "90 days return policy",
+      "minimumOrderQuantity": 13,
+      "meta": {
+        "createdAt": "2025-04-30T09:41:02.054Z",
+        "updatedAt": "2025-04-30T09:41:02.054Z",
+        "barcode": "5201099489825",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/product-images/tops/gray-dress/1.webp",
+        "https://cdn.dummyjson.com/product-images/tops/gray-dress/2.webp",
+        "https://cdn.dummyjson.com/product-images/tops/gray-dress/3.webp",
+        "https://cdn.dummyjson.com/product-images/tops/gray-dress/4.webp"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/product-images/tops/gray-dress/thumbnail.webp"
+    },
+    {
+      "id": 165,
+      "title": "Short Frock",
+      "description": "The Short Frock is a playful and trendy dress with a shorter length. Ideal for casual outings or special occasions, it combines style and comfort for a fashionable look.",
+      "category": "tops",
+      "price": 24.99,
+      "discountPercentage": 13.45,
+      "rating": 3.23,
+      "stock": 22,
+      "tags": [
+        "clothing",
+        "dresses"
+      ],
+      "sku": "TOP-BRD-SHO-165",
+      "weight": 10,
+      "dimensions": {
+        "width": 24.29,
+        "height": 6.79,
+        "depth": 28.12
+      },
+      "warrantyInformation": "1 year warranty",
+      "shippingInformation": "Ships in 1-2 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 3,
+          "comment": "Disappointing product!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Gabriel Hayes",
+          "reviewerEmail": "gabriel.hayes@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Awesome product!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Samantha Howard",
+          "reviewerEmail": "samantha.howard@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Fast shipping!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Luke Cooper",
+          "reviewerEmail": "luke.cooper@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "30 days return policy",
+      "minimumOrderQuantity": 5,
+      "meta": {
+        "createdAt": "2025-04-30T09:41:02.054Z",
+        "updatedAt": "2025-04-30T09:41:02.054Z",
+        "barcode": "2022014761829",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/product-images/tops/short-frock/1.webp",
+        "https://cdn.dummyjson.com/product-images/tops/short-frock/2.webp",
+        "https://cdn.dummyjson.com/product-images/tops/short-frock/3.webp",
+        "https://cdn.dummyjson.com/product-images/tops/short-frock/4.webp"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/product-images/tops/short-frock/thumbnail.webp"
+    },
+    {
+      "id": 166,
+      "title": "Tartan Dress",
+      "description": "The Tartan Dress features a classic tartan pattern, bringing a timeless and sophisticated touch to your wardrobe. Perfect for fall and winter, it adds a hint of traditional charm.",
+      "category": "tops",
+      "price": 39.99,
+      "discountPercentage": 12.95,
+      "rating": 4.05,
+      "stock": 73,
+      "tags": [
+        "clothing",
+        "dresses"
+      ],
+      "sku": "TOP-BRD-TAR-166",
+      "weight": 8,
+      "dimensions": {
+        "width": 23.14,
+        "height": 12.44,
+        "depth": 12.67
+      },
+      "warrantyInformation": "1 month warranty",
+      "shippingInformation": "Ships overnight",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Highly recommended!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Mason Pearson",
+          "reviewerEmail": "mason.pearson@x.dummyjson.com"
+        },
+        {
+          "rating": 3,
+          "comment": "Not as described!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "Luke Cooper",
+          "reviewerEmail": "luke.cooper@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Excellent quality!",
+          "date": "2025-04-30T09:41:02.054Z",
+          "reviewerName": "William Lopez",
+          "reviewerEmail": "william.lopez@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "No return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-30T09:41:02.054Z",
+        "updatedAt": "2025-04-30T09:41:02.054Z",
+        "barcode": "3383823083995",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/product-images/tops/tartan-dress/1.webp",
+        "https://cdn.dummyjson.com/product-images/tops/tartan-dress/2.webp",
+        "https://cdn.dummyjson.com/product-images/tops/tartan-dress/3.webp",
+        "https://cdn.dummyjson.com/product-images/tops/tartan-dress/4.webp"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/product-images/tops/tartan-dress/thumbnail.webp"
+    }
+  ],
+  "total": 5,
+  "skip": 0,
+  "limit": 5
+}
