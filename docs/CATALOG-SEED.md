@@ -1,121 +1,131 @@
 # Catalog Seeding Experiment
 
-This document describes the catalog-seeding pipeline added under `catalog-seed/`.
-The original goal was to evaluate whether Temu public product pages could be
-used as a source of product photography and structured data.  Temu blocked
-automated access with a login wall, so the current sample uses the public
-**DummyJSON** API as a permitted fallback to prove the pipeline.
+This document describes the catalog-seeding pipeline under `catalog-seed/`, the
+cleanup/reprice of the existing Firestore catalog, and the current source
+selection.
 
 ## What changed in the app
 
 - New `visible?: boolean` field on `ProductDocument` / `Product`.
-- `fetchCatalogue()` now filters out documents where `visible === false` in
-  addition to the existing `display !== false` check.
+- `fetchCatalogue()` filters out documents where `visible === false` in addition
+  to the existing `display !== false` check.
 - Missing `visible` is treated as `true` for backward compatibility.
+
+## Temu result
+
+Direct HTTP fetches and Playwright both hit a login wall. No anti-bot bypass,
+CAPTCHA solving, or credential theft was attempted. Temu is **not used**.
+
+## Existing catalog cleanup
+
+The 27 products flagged as inappropriate/irrelevant in
+`catalog-seed/audit/existing-dummyjson-products.json` were permanently deleted
+from the `products` collection via a temporary, secret-protected Cloud Function.
+All remaining 168 existing products were re-priced into realistic provisional
+NGN ranges using category-aware rules in `catalog-seed/pricing.mjs`.
+
+## New product source: Amazon Berkeley Objects (ABO)
+
+The chosen permitted source is the **Amazon Berkeley Objects dataset**, a
+`CC BY 4.0` collection of ~148k Amazon product listings with real catalog
+images, multilingual metadata, dimensions, materials, and product-type
+information.
+
+- **License:** CC BY 4.0 — commercial use allowed with attribution.
+- **Attribution:** Amazon.com / Matthieu Guillaumin, Thomas Dideriksen, Kenan
+  Deng, Himanshu Arora, Jasmine Collins, Jitendra Malik.
+- **Limitations:** ABO does **not** include prices, so new products are given
+  provisional NGN prices by category-aware rules. ABO also warns that public
+  image URLs may change; for a production store, images should eventually be
+  mirrored to your own storage.
 
 ## Pipeline layout
 
 ```
 catalog-seed/
-  config.mjs              # source, category mapping, quality rules, pricing
-  README.md               # quick-start
-  raw/dummyjson/          # raw source responses
-  staging/                # normalized products + audit report
-  audit/                  # existing-product report + image audit
+  config.mjs              # DummyJSON/Temu source config + quality rules
+  pricing.mjs             # Category-aware NGN pricing rules (used for cleanup + imports)
+  README.md
+  raw/
+    dummyjson/            # earlier DummyJSON raw responses
+    abo/products.json     # ABO test-batch raw responses
+  staging/
+    products.json         # earlier DummyJSON normalized products
+    abo-products.json     # ABO normalized products ready for import
+    abo-audit.json        # ABO image audit report
+  audit/
+    existing-dummyjson-products.json
+    existing-products.json
   scripts/
-    collect.mjs           # fetch raw records from the configured source
-    normalize.mjs         # transform, filter, dedup, validate
-    import.mjs            # Firestore dry-run / import
-    identify-existing.mjs # list current Firestore products
-    image-audit.mjs       # HEAD-check every staged image URL
+    collect.mjs           # DummyJSON collector
+    collect-abo.mjs       # ABO test-batch collector
+    normalize.mjs         # DummyJSON normalizer
+    normalize-abo.mjs    # ABO normalizer + image verifier
+    import.mjs            # Firestore dry-run / import (supports --source=abo)
+    identify-existing.mjs
+    image-audit.mjs
 ```
 
 ## Run the pipeline
 
 ```bash
-# 1. Collect raw records
-node catalog-seed/scripts/collect.mjs
+# ABO test batch
+node catalog-seed/scripts/collect-abo.mjs
+node catalog-seed/scripts/normalize-abo.mjs
+node --env-file=.env.local catalog-seed/scripts/import.mjs --source=abo
 
-# 2. Normalize / filter / dedup / validate
-node catalog-seed/scripts/normalize.mjs
+# Import (requires temporary Cloud Function or service account; see scripts/import-abo.mjs)
+node scripts/import-abo.mjs
 
-# 3. Audit staged image URLs (HEAD only)
-node catalog-seed/scripts/image-audit.mjs
-
-# 4. Dry-run against Firestore (no writes)
-node --env-file=.env.local catalog-seed/scripts/import.mjs
-
-# 5. Identify existing dummyJSON/test products
-node --env-file=.env.local catalog-seed/scripts/identify-existing.mjs
+# Re-price existing products or delete flagged products
+# See scripts/execute-migration.mjs and the temporary migrateCatalog Cloud Function.
 ```
 
-Import (requires service-account credentials):
+## Current ABO test batch results
 
-```bash
-set GOOGLE_APPLICATION_CREDENTIALS=C:\path\to\service-account.json
-node catalog-seed/scripts/import.mjs --import --projectId=temu-r-b-b-t-tn1fc3
-```
+| Metric                  | Count |
+|-------------------------|------:|
+| Raw products fetched    |    30 |
+| Accepted after filters  |    30 |
+| Rejected                |     0 |
+| Image URLs verified     |   155 |
+| Failed image URLs       |     0 |
+| Imported to Firestore   |    30 |
+| Collisions skipped      |     0 |
 
-## Temu access result
+Categories represented:
+Home & Kitchen, Shoes, Phone & Accessories, Electronics, Fashion, Beauty,
+Bags, Office & School, Jewelry & Accessories, Computer Accessories,
+Sports & Outdoors, Automotive, Tools.
 
-- Direct HTTP fetch returns a generic SSR shell, not structured product data.
-- A Playwright headless browser is redirected to `/login` and product data does
-  not hydrate.
-- No CAPTCHA solving, credential theft, or anti-bot bypass was attempted.
-- Conclusion: **Temu public product pages are not accessible for automated
-  extraction under this experiment's constraints.**
+## Pricing methodology
 
-## Current sample results (DummyJSON fallback)
+Pricing is configured in `catalog-seed/pricing.mjs` through `CATEGORY_RULES`,
+which defines realistic `min`/`max` NGN ranges per store category.
 
-| Metric                 | Count |
-|------------------------|------:|
-| Raw products fetched   |   167 |
-| Accepted after filters |   163 |
-| Rejected               |     0 |
-| Invalid                |     0 |
-| Staged image URLs      |   442 |
-| Failed image URLs      |     0 |
+- **Existing products:** the current NGN price is mapped into its category's
+  target range while preserving relative value (cheaper items stay cheaper,
+  expensive items stay expensive).
+- **New ABO products:** ABO has no prices, so each product gets a deterministic
+  provisional price within its category range via a stable hash of its source
+  ID. This keeps the same product from receiving a different price on every
+  run and avoids every product landing on the same price.
 
-Categories:
-
-- Electronics: 38
-- Home & Kitchen: 40
-- Fashion: 20
-- Sports & Outdoors: 17
-- Jewelry & Accessories: 14
-- Beauty: 13
-- Shoes: 10
-- Automotive: 10
-- Bags: 5
-
-## Pricing transformation
-
-`config.mjs` exposes two knobs:
-
-- `SEED_USD_TO_NGN` (default 1500)
-- `SEED_PRICE_MARKUP_PERCENT` (default 30)
-
-For each source record:
-
-```
-salePriceUSD = sourcePrice * (1 - sourceDiscount / 100)
-ourPriceNGN  = roundTo10(salePriceUSD * SEED_USD_TO_NGN * (1 + markup/100))
-```
-
-Prices are explicitly provisional seed values.
+Adjust ranges by editing `CATEGORY_RULES` and re-running the relevant script.
 
 ## Visibility and safety
 
 - New seeded products are written with `visible: true`.
-- The archive script (`import.mjs --archive-dummyjson --execute`) hides existing
-  legacy products by setting `display: false` and `visible: false`.  It does not
-  delete documents unless a separate deletion script is added.
 - The import script skips existing document IDs unless `--overwrite` is passed.
+- The cleanup operation permanently deleted only the 27 flagged products; no
+  other documents were removed or overwritten.
 
 ## Source substitution
 
-To use a different permitted source:
+To add a different permitted source:
 
-1. Update `SOURCE` and `CATEGORY_MAP` in `catalog-seed/config.mjs`.
-2. Add a normalizer branch in `catalog-seed/scripts/normalize.mjs`.
-3. Re-run `collect.mjs` and `normalize.mjs`.
+1. Add a collector script under `catalog-seed/scripts/`.
+2. Map its categories and excluded terms in a normalizer script.
+3. Ensure every new product has `visible: true` and a unique `productId`.
+4. Run image verification before staging.
+5. Import through the dry-run/import path.

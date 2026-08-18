@@ -1,0 +1,1272 @@
+{
+  "generatedAt": "2026-08-18T00:18:11.212Z",
+  "source": "amazon-berkeley-objects",
+  "license": "CC BY 4.0",
+  "attribution": "Amazon.com (Amazon Berkeley Objects dataset)",
+  "totalRaw": 30,
+  "accepted": 30,
+  "rejected": 0,
+  "removedAfterVerify": 0,
+  "images": {
+    "total": 155,
+    "ok": 155,
+    "failed": 0
+  },
+  "categories": {
+    "Home & Kitchen": 3,
+    "Shoes": 3,
+    "Phone & Accessories": 3,
+    "Electronics": 1,
+    "Fashion": 3,
+    "Beauty": 2,
+    "Bags": 3,
+    "Office & School": 3,
+    "Jewelry & Accessories": 3,
+    "Computer Accessories": 2,
+    "Sports & Outdoors": 1,
+    "Automotive": 1,
+    "Tools": 2
+  },
+  "imageAudit": [
+    {
+      "productId": "PRD-ABO-373852387",
+      "productName": "Stone & Beam Stone Brown Swatch, 25020039-01",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/b4/b4f9d0cc.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-451175793",
+      "productName": "The Fix  Women's French Floral Embroidery Slide Slip-on Loafer, Havana Tan, 6.5 B US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/2b/2b1c2516.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-451175793",
+      "productName": "The Fix  Women's French Floral Embroidery Slide Slip-on Loafer, Havana Tan, 6.5 B US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/f6/f63374a5.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-451175793",
+      "productName": "The Fix  Women's French Floral Embroidery Slide Slip-on Loafer, Havana Tan, 6.5 B US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/d8/d85bc915.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-451175793",
+      "productName": "The Fix  Women's French Floral Embroidery Slide Slip-on Loafer, Havana Tan, 6.5 B US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/e8/e88f32e6.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-451175793",
+      "productName": "The Fix  Women's French Floral Embroidery Slide Slip-on Loafer, Havana Tan, 6.5 B US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/31/313d1b7c.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-451175793",
+      "productName": "The Fix  Women's French Floral Embroidery Slide Slip-on Loafer, Havana Tan, 6.5 B US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/a1/a1ff3068.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-451175793",
+      "productName": "The Fix  Women's French Floral Embroidery Slide Slip-on Loafer, Havana Tan, 6.5 B US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/51/515845f5.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-451175793",
+      "productName": "The Fix  Women's French Floral Embroidery Slide Slip-on Loafer, Havana Tan, 6.5 B US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/d7/d754e8f2.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-134672675",
+      "productName": "- Solimo Designer Autumn Girl 3D Printed Hard Back Case Mobile Cover for Mi Redmi Go",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/9d/9dfccb37.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-134672675",
+      "productName": "- Solimo Designer Autumn Girl 3D Printed Hard Back Case Mobile Cover for Mi Redmi Go",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/d8/d87e51cf.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-134672675",
+      "productName": "- Solimo Designer Autumn Girl 3D Printed Hard Back Case Mobile Cover for Mi Redmi Go",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/2a/2af5eb88.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-134672675",
+      "productName": "- Solimo Designer Autumn Girl 3D Printed Hard Back Case Mobile Cover for Mi Redmi Go",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/5d/5dbb418e.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-134672675",
+      "productName": "- Solimo Designer Autumn Girl 3D Printed Hard Back Case Mobile Cover for Mi Redmi Go",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/36/36cae1bf.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-074477888",
+      "productName": "- Solimo Designer Butterflies Printed Hard Back Case Mobile Cover for Xiaomi Redmi Y2 (D187)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/9f/9f903271.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-074477888",
+      "productName": "- Solimo Designer Butterflies Printed Hard Back Case Mobile Cover for Xiaomi Redmi Y2 (D187)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/24/241a1fb7.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-074477888",
+      "productName": "- Solimo Designer Butterflies Printed Hard Back Case Mobile Cover for Xiaomi Redmi Y2 (D187)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/3b/3bf370f4.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-074477888",
+      "productName": "- Solimo Designer Butterflies Printed Hard Back Case Mobile Cover for Xiaomi Redmi Y2 (D187)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/51/51efb69a.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-074477888",
+      "productName": "- Solimo Designer Butterflies Printed Hard Back Case Mobile Cover for Xiaomi Redmi Y2 (D187)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/67/679a9c00.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-074477888",
+      "productName": "- Solimo Designer Butterflies Printed Hard Back Case Mobile Cover for Xiaomi Redmi Y2 (D187)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/9d/9d70ebd6.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-962808286",
+      "productName": "- Solimo Designer Butterflies Neon Light 3D Printed Hard Back Case Mobile Cover for Vivo Y81i",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/77/77412532.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-962808286",
+      "productName": "- Solimo Designer Butterflies Neon Light 3D Printed Hard Back Case Mobile Cover for Vivo Y81i",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/42/4247617d.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-962808286",
+      "productName": "- Solimo Designer Butterflies Neon Light 3D Printed Hard Back Case Mobile Cover for Vivo Y81i",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/d8/d87e51cf.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-962808286",
+      "productName": "- Solimo Designer Butterflies Neon Light 3D Printed Hard Back Case Mobile Cover for Vivo Y81i",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/2a/2af5eb88.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-962808286",
+      "productName": "- Solimo Designer Butterflies Neon Light 3D Printed Hard Back Case Mobile Cover for Vivo Y81i",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/36/36cae1bf.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-765117963",
+      "productName": "UMI by Amazon 6 PCS Stretch Dining Chair Covers Melange Velvet Removable Chair Protector Elastic Slipcovers Turquoise",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/73/736f202c.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-765117963",
+      "productName": "UMI by Amazon 6 PCS Stretch Dining Chair Covers Melange Velvet Removable Chair Protector Elastic Slipcovers Turquoise",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/41/41fe39a2.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-765117963",
+      "productName": "UMI by Amazon 6 PCS Stretch Dining Chair Covers Melange Velvet Removable Chair Protector Elastic Slipcovers Turquoise",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/4e/4effa395.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-765117963",
+      "productName": "UMI by Amazon 6 PCS Stretch Dining Chair Covers Melange Velvet Removable Chair Protector Elastic Slipcovers Turquoise",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/16/16d40ee0.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-765117963",
+      "productName": "UMI by Amazon 6 PCS Stretch Dining Chair Covers Melange Velvet Removable Chair Protector Elastic Slipcovers Turquoise",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/97/972f13b8.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-765117963",
+      "productName": "UMI by Amazon 6 PCS Stretch Dining Chair Covers Melange Velvet Removable Chair Protector Elastic Slipcovers Turquoise",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/c7/c73bbfdd.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-765117963",
+      "productName": "UMI by Amazon 6 PCS Stretch Dining Chair Covers Melange Velvet Removable Chair Protector Elastic Slipcovers Turquoise",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/79/799a1be8.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-765117963",
+      "productName": "UMI by Amazon 6 PCS Stretch Dining Chair Covers Melange Velvet Removable Chair Protector Elastic Slipcovers Turquoise",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/9b/9b8cca6e.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-048357013",
+      "productName": "Arizona Desert Sand Horizon Photo with Wood Hanger",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/c6/c6889ed4.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-048357013",
+      "productName": "Arizona Desert Sand Horizon Photo with Wood Hanger",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/43/4378ccb0.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-048357013",
+      "productName": "Arizona Desert Sand Horizon Photo with Wood Hanger",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/df/df6ea91e.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-048357013",
+      "productName": "Arizona Desert Sand Horizon Photo with Wood Hanger",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/88/88675b16.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-694029855",
+      "productName": "Stanton Men's Brown Loafers-8 UK (42 EU) (9 US) (FK/YT1893/BRW)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/cd/cd870277.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-694029855",
+      "productName": "Stanton Men's Brown Loafers-8 UK (42 EU) (9 US) (FK/YT1893/BRW)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/76/76bc2514.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-694029855",
+      "productName": "Stanton Men's Brown Loafers-8 UK (42 EU) (9 US) (FK/YT1893/BRW)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/32/32cef3b1.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-694029855",
+      "productName": "Stanton Men's Brown Loafers-8 UK (42 EU) (9 US) (FK/YT1893/BRW)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/73/73e7e344.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-694029855",
+      "productName": "Stanton Men's Brown Loafers-8 UK (42 EU) (9 US) (FK/YT1893/BRW)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/4e/4ebca2d3.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-694029855",
+      "productName": "Stanton Men's Brown Loafers-8 UK (42 EU) (9 US) (FK/YT1893/BRW)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/98/98a3e33f.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-694029855",
+      "productName": "Stanton Men's Brown Loafers-8 UK (42 EU) (9 US) (FK/YT1893/BRW)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/94/941205e2.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-507410475",
+      "productName": "AmazonBasics Adjustable Speaker Stand - 3.8 to 6-Foot, Steel",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/2b/2b90e918.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-507410475",
+      "productName": "AmazonBasics Adjustable Speaker Stand - 3.8 to 6-Foot, Steel",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/68/682a2a63.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-507410475",
+      "productName": "AmazonBasics Adjustable Speaker Stand - 3.8 to 6-Foot, Steel",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/69/69eb06dc.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-507410475",
+      "productName": "AmazonBasics Adjustable Speaker Stand - 3.8 to 6-Foot, Steel",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/91/9190b49c.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-507410475",
+      "productName": "AmazonBasics Adjustable Speaker Stand - 3.8 to 6-Foot, Steel",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/10/10f59111.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-507410475",
+      "productName": "AmazonBasics Adjustable Speaker Stand - 3.8 to 6-Foot, Steel",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/57/572a5f16.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-279782263",
+      "productName": "- The Fix Women's Foley Tassel Slide Sandal, Taupe, 6.5 B US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/2c/2c0416de.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-279782263",
+      "productName": "- The Fix Women's Foley Tassel Slide Sandal, Taupe, 6.5 B US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/7f/7fe4036c.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-279782263",
+      "productName": "- The Fix Women's Foley Tassel Slide Sandal, Taupe, 6.5 B US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/ec/ecb157f8.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-279782263",
+      "productName": "- The Fix Women's Foley Tassel Slide Sandal, Taupe, 6.5 B US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/10/106f6086.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-279782263",
+      "productName": "- The Fix Women's Foley Tassel Slide Sandal, Taupe, 6.5 B US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/93/93dcb37e.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-279782263",
+      "productName": "- The Fix Women's Foley Tassel Slide Sandal, Taupe, 6.5 B US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/bb/bb9a8cbc.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-279782263",
+      "productName": "- The Fix Women's Foley Tassel Slide Sandal, Taupe, 6.5 B US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/cb/cbf26995.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-279782263",
+      "productName": "- The Fix Women's Foley Tassel Slide Sandal, Taupe, 6.5 B US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/c9/c93cb731.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-080893952",
+      "productName": "Nia & Nicole Women's Clutch (Navy Blue:: Mustard)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/d1/d1f6a50a.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-080893952",
+      "productName": "Nia & Nicole Women's Clutch (Navy Blue:: Mustard)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/cc/cc0f07f5.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-080893952",
+      "productName": "Nia & Nicole Women's Clutch (Navy Blue:: Mustard)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/9c/9c8fafce.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-080893952",
+      "productName": "Nia & Nicole Women's Clutch (Navy Blue:: Mustard)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/7b/7bf890d0.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-080893952",
+      "productName": "Nia & Nicole Women's Clutch (Navy Blue:: Mustard)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/25/257597a6.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-080893952",
+      "productName": "Nia & Nicole Women's Clutch (Navy Blue:: Mustard)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/f1/f11019f5.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-972842058",
+      "productName": "find. Women's Felix-1w1-112 Brogue, Blue Navy, 7",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/cb/cb728deb.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-972842058",
+      "productName": "find. Women's Felix-1w1-112 Brogue, Blue Navy, 7",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/8b/8bbd0973.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-972842058",
+      "productName": "find. Women's Felix-1w1-112 Brogue, Blue Navy, 7",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/a1/a152d161.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-972842058",
+      "productName": "find. Women's Felix-1w1-112 Brogue, Blue Navy, 7",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/54/54ca10cf.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-972842058",
+      "productName": "find. Women's Felix-1w1-112 Brogue, Blue Navy, 7",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/2c/2cf516ac.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-176620740",
+      "productName": "- 206 Collective Men's Pike Driving Slip-on Loafer, Black, 9.5 D US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/14/14d129a0.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-176620740",
+      "productName": "- 206 Collective Men's Pike Driving Slip-on Loafer, Black, 9.5 D US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/04/04c25079.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-176620740",
+      "productName": "- 206 Collective Men's Pike Driving Slip-on Loafer, Black, 9.5 D US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/49/49b68a69.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-176620740",
+      "productName": "- 206 Collective Men's Pike Driving Slip-on Loafer, Black, 9.5 D US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/de/de9f5c6e.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-176620740",
+      "productName": "- 206 Collective Men's Pike Driving Slip-on Loafer, Black, 9.5 D US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/83/83a26719.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-176620740",
+      "productName": "- 206 Collective Men's Pike Driving Slip-on Loafer, Black, 9.5 D US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/7e/7e57d6f1.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-176620740",
+      "productName": "- 206 Collective Men's Pike Driving Slip-on Loafer, Black, 9.5 D US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/25/25b6725d.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-176620740",
+      "productName": "- 206 Collective Men's Pike Driving Slip-on Loafer, Black, 9.5 D US",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/a2/a2438ac9.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-571418296",
+      "productName": "Belei Blemish Control Spot Treatment, 5.5% Benzoyl Peroxide Acne Treatment, Dermatologist Tested, 1.7 Ounces (50 mL) & Charcoal Balancing Mask, Fragrance Free, Paraben Free, 5 Ounce (150 g)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/72/729ff131.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-571418296",
+      "productName": "Belei Blemish Control Spot Treatment, 5.5% Benzoyl Peroxide Acne Treatment, Dermatologist Tested, 1.7 Ounces (50 mL) & Charcoal Balancing Mask, Fragrance Free, Paraben Free, 5 Ounce (150 g)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/4b/4bba7284.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-571418296",
+      "productName": "Belei Blemish Control Spot Treatment, 5.5% Benzoyl Peroxide Acne Treatment, Dermatologist Tested, 1.7 Ounces (50 mL) & Charcoal Balancing Mask, Fragrance Free, Paraben Free, 5 Ounce (150 g)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/28/28d6da62.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-571418296",
+      "productName": "Belei Blemish Control Spot Treatment, 5.5% Benzoyl Peroxide Acne Treatment, Dermatologist Tested, 1.7 Ounces (50 mL) & Charcoal Balancing Mask, Fragrance Free, Paraben Free, 5 Ounce (150 g)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/88/885b83aa.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-571418296",
+      "productName": "Belei Blemish Control Spot Treatment, 5.5% Benzoyl Peroxide Acne Treatment, Dermatologist Tested, 1.7 Ounces (50 mL) & Charcoal Balancing Mask, Fragrance Free, Paraben Free, 5 Ounce (150 g)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/7c/7cfa58ee.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-571418296",
+      "productName": "Belei Blemish Control Spot Treatment, 5.5% Benzoyl Peroxide Acne Treatment, Dermatologist Tested, 1.7 Ounces (50 mL) & Charcoal Balancing Mask, Fragrance Free, Paraben Free, 5 Ounce (150 g)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/04/04d2ee35.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-411491011",
+      "productName": "AmazonBasics Casual Sports Backpack",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/e6/e6d72579.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-411491011",
+      "productName": "AmazonBasics Casual Sports Backpack",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/ec/ec9c3420.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-411491011",
+      "productName": "AmazonBasics Casual Sports Backpack",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/6f/6f766c24.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-411491011",
+      "productName": "AmazonBasics Casual Sports Backpack",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/71/71f6bcfc.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-416965223",
+      "productName": "AmazonBasics Divider Strips - Recycled Manilla, Full Colour, Punched, 10.5 x 24 cm, 160 GSM, Pack of 100, Orange",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/d1/d1c54789.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-416965223",
+      "productName": "AmazonBasics Divider Strips - Recycled Manilla, Full Colour, Punched, 10.5 x 24 cm, 160 GSM, Pack of 100, Orange",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/b8/b8ed4a75.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-416965223",
+      "productName": "AmazonBasics Divider Strips - Recycled Manilla, Full Colour, Punched, 10.5 x 24 cm, 160 GSM, Pack of 100, Orange",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/0d/0d109905.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-416965223",
+      "productName": "AmazonBasics Divider Strips - Recycled Manilla, Full Colour, Punched, 10.5 x 24 cm, 160 GSM, Pack of 100, Orange",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/17/1782c699.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-063501182",
+      "productName": "Yellow-Gold Plated Sterling Silver Princess-Cut Solitaire Ring made with Swarovski Zirconia (2 cttw), Size 8",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/c4/c403f169.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-063501182",
+      "productName": "Yellow-Gold Plated Sterling Silver Princess-Cut Solitaire Ring made with Swarovski Zirconia (2 cttw), Size 8",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/0f/0f4d1baf.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-984832353",
+      "productName": "Genuine Emerald and Cubic Zirconia Stud Earrings",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/17/17ff6253.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-984832353",
+      "productName": "Genuine Emerald and Cubic Zirconia Stud Earrings",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/d3/d36b9527.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-984832353",
+      "productName": "Genuine Emerald and Cubic Zirconia Stud Earrings",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/9e/9eb555dd.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-606033876",
+      "productName": "AmazonBasics Moving Boxes - Small/Medium/Large Bundle, 30-Pack",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/42/42dafae1.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-606033876",
+      "productName": "AmazonBasics Moving Boxes - Small/Medium/Large Bundle, 30-Pack",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/a0/a0a21367.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-606033876",
+      "productName": "AmazonBasics Moving Boxes - Small/Medium/Large Bundle, 30-Pack",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/19/190c8403.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-606033876",
+      "productName": "AmazonBasics Moving Boxes - Small/Medium/Large Bundle, 30-Pack",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/a4/a43faf87.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-606033876",
+      "productName": "AmazonBasics Moving Boxes - Small/Medium/Large Bundle, 30-Pack",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/6a/6a5bdb7d.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-606033876",
+      "productName": "AmazonBasics Moving Boxes - Small/Medium/Large Bundle, 30-Pack",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/f5/f5441bbf.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-032472787",
+      "productName": "Amazon Basics Small Packing Cubes, Black and Gray - 4-Piece Set",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/41/41ac476d.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-032472787",
+      "productName": "Amazon Basics Small Packing Cubes, Black and Gray - 4-Piece Set",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/1e/1e8fba27.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-032472787",
+      "productName": "Amazon Basics Small Packing Cubes, Black and Gray - 4-Piece Set",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/7c/7ce0fe6d.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-032472787",
+      "productName": "Amazon Basics Small Packing Cubes, Black and Gray - 4-Piece Set",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/29/29267a5d.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-032472787",
+      "productName": "Amazon Basics Small Packing Cubes, Black and Gray - 4-Piece Set",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/0b/0b4ba6fa.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-032472787",
+      "productName": "Amazon Basics Small Packing Cubes, Black and Gray - 4-Piece Set",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/e6/e69602de.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-032472787",
+      "productName": "Amazon Basics Small Packing Cubes, Black and Gray - 4-Piece Set",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/b9/b9f8e9a6.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-032472787",
+      "productName": "Amazon Basics Small Packing Cubes, Black and Gray - 4-Piece Set",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/f9/f9cf8cc5.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-032472787",
+      "productName": "Amazon Basics Small Packing Cubes, Black and Gray - 4-Piece Set",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/2b/2b6813a0.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-718094595",
+      "productName": "- Solimo Eyebrow Tweezer (2N)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/c6/c64300a8.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-718094595",
+      "productName": "- Solimo Eyebrow Tweezer (2N)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/d6/d69733fc.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-718094595",
+      "productName": "- Solimo Eyebrow Tweezer (2N)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/19/19ef095e.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-342773782",
+      "productName": "AmazonBasics 25\" Checked Bag, Purple",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/8b/8b651194.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-342773782",
+      "productName": "AmazonBasics 25\" Checked Bag, Purple",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/7d/7d4b5613.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-342773782",
+      "productName": "AmazonBasics 25\" Checked Bag, Purple",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/7d/7d0d19ea.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-342773782",
+      "productName": "AmazonBasics 25\" Checked Bag, Purple",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/d0/d097f6d9.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-342773782",
+      "productName": "AmazonBasics 25\" Checked Bag, Purple",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/68/685804ca.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-342773782",
+      "productName": "AmazonBasics 25\" Checked Bag, Purple",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/40/40771e91.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-342773782",
+      "productName": "AmazonBasics 25\" Checked Bag, Purple",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/13/132fe025.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-906085398",
+      "productName": "AmazonBasics 98W Four-Port GaN Wall Charger with 2 USB-C Ports (60W + 18W) and 2 USB-A Ports (10W + 10W) - Black",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/46/462f9217.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-906085398",
+      "productName": "AmazonBasics 98W Four-Port GaN Wall Charger with 2 USB-C Ports (60W + 18W) and 2 USB-A Ports (10W + 10W) - Black",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/43/4396e101.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-906085398",
+      "productName": "AmazonBasics 98W Four-Port GaN Wall Charger with 2 USB-C Ports (60W + 18W) and 2 USB-A Ports (10W + 10W) - Black",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/e6/e67efb48.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-906085398",
+      "productName": "AmazonBasics 98W Four-Port GaN Wall Charger with 2 USB-C Ports (60W + 18W) and 2 USB-A Ports (10W + 10W) - Black",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/2f/2f0a8823.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-906085398",
+      "productName": "AmazonBasics 98W Four-Port GaN Wall Charger with 2 USB-C Ports (60W + 18W) and 2 USB-A Ports (10W + 10W) - Black",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/0f/0f0948cc.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-906085398",
+      "productName": "AmazonBasics 98W Four-Port GaN Wall Charger with 2 USB-C Ports (60W + 18W) and 2 USB-A Ports (10W + 10W) - Black",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/3a/3a55761a.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-706033571",
+      "productName": "AmazonBasics 3-Button USB Wired Computer Mouse (Black), 1-Pack (Renewed)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/2e/2ef97973.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-706033571",
+      "productName": "AmazonBasics 3-Button USB Wired Computer Mouse (Black), 1-Pack (Renewed)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/1a/1a13e46f.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-706033571",
+      "productName": "AmazonBasics 3-Button USB Wired Computer Mouse (Black), 1-Pack (Renewed)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/9e/9e0d3605.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-706033571",
+      "productName": "AmazonBasics 3-Button USB Wired Computer Mouse (Black), 1-Pack (Renewed)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/d4/d457f6f1.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-221786375",
+      "productName": "EONO Dry Erase Whiteboard for Walls, Double-Sided, Magnetic 45 x 60 cm Board, Silver Aluminum Frame",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/e8/e8c0634e.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-933732232",
+      "productName": "AmazonBasics Rubber Barbell Gymnastics Grip - Small",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/0f/0fbccd55.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-933732232",
+      "productName": "AmazonBasics Rubber Barbell Gymnastics Grip - Small",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/c2/c298dfa7.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-933732232",
+      "productName": "AmazonBasics Rubber Barbell Gymnastics Grip - Small",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/33/33bc8a6a.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-933732232",
+      "productName": "AmazonBasics Rubber Barbell Gymnastics Grip - Small",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/4d/4daf62e3.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-223399733",
+      "productName": "AmazonBasics All-Weather Custom Fit Floor Mat for Ford F150 - Rear Seat, Black",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/35/3595924e.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-657495265",
+      "productName": "AmazonBasics Foldable Mattress Foundation/Box Spring with Steel Slats, Queen",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/1d/1de38477.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-657495265",
+      "productName": "AmazonBasics Foldable Mattress Foundation/Box Spring with Steel Slats, Queen",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/43/4389c013.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-657495265",
+      "productName": "AmazonBasics Foldable Mattress Foundation/Box Spring with Steel Slats, Queen",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/2a/2a4e5784.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-657495265",
+      "productName": "AmazonBasics Foldable Mattress Foundation/Box Spring with Steel Slats, Queen",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/9d/9dbe7f87.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-657495265",
+      "productName": "AmazonBasics Foldable Mattress Foundation/Box Spring with Steel Slats, Queen",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/81/81d770a9.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-657495265",
+      "productName": "AmazonBasics Foldable Mattress Foundation/Box Spring with Steel Slats, Queen",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/dd/dd48424d.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-657495265",
+      "productName": "AmazonBasics Foldable Mattress Foundation/Box Spring with Steel Slats, Queen",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/e0/e08360f8.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-657495265",
+      "productName": "AmazonBasics Foldable Mattress Foundation/Box Spring with Steel Slats, Queen",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/51/517fe739.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-657495265",
+      "productName": "AmazonBasics Foldable Mattress Foundation/Box Spring with Steel Slats, Queen",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/d5/d50dd268.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-657495265",
+      "productName": "AmazonBasics Foldable Mattress Foundation/Box Spring with Steel Slats, Queen",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/16/168b2243.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-170571512",
+      "productName": "AmazonBasics Combination Wrench Set - Metric and SAE, 24-Piece (Renewed)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/ea/eac65f1f.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-170571512",
+      "productName": "AmazonBasics Combination Wrench Set - Metric and SAE, 24-Piece (Renewed)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/fd/fd503244.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-170571512",
+      "productName": "AmazonBasics Combination Wrench Set - Metric and SAE, 24-Piece (Renewed)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/12/120ad094.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-170571512",
+      "productName": "AmazonBasics Combination Wrench Set - Metric and SAE, 24-Piece (Renewed)",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/df/df3a7a2f.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-227645679",
+      "productName": "AmazonBasics Hex Key Allen Wrench Set with Ball End - Set of 26",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/f8/f8311fe2.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-227645679",
+      "productName": "AmazonBasics Hex Key Allen Wrench Set with Ball End - Set of 26",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/50/5021333e.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-227645679",
+      "productName": "AmazonBasics Hex Key Allen Wrench Set with Ball End - Set of 26",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/3e/3e31c2f4.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "productId": "PRD-ABO-227645679",
+      "productName": "AmazonBasics Hex Key Allen Wrench Set with Ball End - Set of 26",
+      "imageUrl": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/f0/f00a9e15.jpg",
+      "ok": true,
+      "status": 200,
+      "contentType": "image/jpeg"
+    }
+  ]
+}

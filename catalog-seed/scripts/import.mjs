@@ -35,6 +35,8 @@ function parseArgs(argv) {
     archive: false,
     execute: false,
     projectId: "temu-r-b-b-t-tn1fc3",
+    source: "dummyjson",
+    stagingFile: "products.json",
   };
   for (const arg of argv) {
     if (arg === "--import") args.importMode = true;
@@ -42,6 +44,10 @@ function parseArgs(argv) {
     if (arg === "--archive-dummyjson") args.archive = true;
     if (arg === "--execute") args.execute = true;
     if (arg.startsWith("--projectId=")) args.projectId = arg.split("=")[1];
+    if (arg.startsWith("--source=")) {
+      args.source = arg.split("=")[1];
+      args.stagingFile = args.source === "abo" ? "abo-products.json" : "products.json";
+    }
   }
   return args;
 }
@@ -181,7 +187,7 @@ async function runArchive({ execute, projectId }) {
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  const staging = JSON.parse(await readFile(join(ROOT, "staging", "products.json"), "utf8"));
+  const staging = JSON.parse(await readFile(join(ROOT, "staging", args.stagingFile), "utf8"));
 
   if (args.archive) {
     await runArchive(args);
