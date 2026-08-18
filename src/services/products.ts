@@ -1,4 +1,12 @@
-import { collection, doc, getDoc, getDocs, limit, query } from "firebase/firestore";
+import {
+  collection,
+  doc,
+  getDoc,
+  getDocs,
+  limit,
+  query,
+  where,
+} from "firebase/firestore";
 import { COLLECTIONS, db } from "../lib/firebase";
 import { seededRandom, uniqueBy } from "../lib/utils";
 import type { CategoryNode, Product, ProductFilters, SortOption } from "../types/product";
@@ -11,11 +19,16 @@ import { mapCategory, mapProduct } from "./mappers";
  * per session rather than a query per keystroke.
  */
 export async function fetchCatalogue(): Promise<Product[]> {
-  const snap = await getDocs(collection(db, COLLECTIONS.products));
-  // `display` and `visible` are missing on legacy documents, and a Firestore `!=`
-  // filter would silently drop those, so the visibility check happens client side.
+  // Only fetch products that are publicly visible. Documents missing the `visible`
+  // field are treated as visible, so `!= false` includes both true and null.
+  const q = query(
+    collection(db, COLLECTIONS.products),
+    where("visible", "!=", false),
+    limit(500),
+  );
+  const snap = await getDocs(q);
   return snap.docs
-    .filter((d) => d.get("display") !== false && d.get("visible") !== false)
+    .filter((d) => d.get("display") !== false)
     .map(mapProduct)
     .filter((p) => p.price > 0);
 }

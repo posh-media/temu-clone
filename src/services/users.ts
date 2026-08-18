@@ -1,11 +1,14 @@
 import { doc, getDoc, serverTimestamp, setDoc } from "firebase/firestore";
 import { COLLECTIONS, db } from "../lib/firebase";
 
+export type UserRole = "admin" | "super_admin" | null;
+
 export interface UserProfile {
   uid: string;
   email: string | null;
   displayName: string | null;
   photoURL: string | null;
+  role?: UserRole;
   createdAt?: Date;
   updatedAt?: Date;
 }

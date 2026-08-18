@@ -20,6 +20,16 @@ const LoginPage = lazy(() => import("./pages/LoginPage"));
 const SignupPage = lazy(() => import("./pages/SignupPage"));
 const NotFoundPage = lazy(() => import("./pages/NotFoundPage"));
 
+const AdminLayout = lazy(() => import("./components/admin/AdminLayout"));
+const AdminDashboardPage = lazy(() => import("./pages/AdminDashboardPage"));
+const AdminProductsPage = lazy(() => import("./pages/AdminProductsPage"));
+const AdminProductEditPage = lazy(() => import("./pages/AdminProductEditPage"));
+const AdminOrdersPage = lazy(() => import("./pages/AdminOrdersPage"));
+const AdminOrderDetailPage = lazy(() => import("./pages/AdminOrderDetailPage"));
+const AdminUsersPage = lazy(() => import("./pages/AdminUsersPage"));
+const AdminAdminsPage = lazy(() => import("./pages/AdminAdminsPage"));
+const AdminSettingsPage = lazy(() => import("./pages/AdminSettingsPage"));
+
 function RouteFallback() {
   return (
     <div className="grid min-h-[60vh] place-items-center">
@@ -66,6 +76,23 @@ const router = createBrowserRouter(
     { path: "/payment", element: withErrorBoundary(withSuspense(<PaymentPage />)), errorElement: <ErrorBoundary>{null}</ErrorBoundary> },
     { path: "/login", element: withErrorBoundary(withSuspense(<LoginPage />)), errorElement: <ErrorBoundary>{null}</ErrorBoundary> },
     { path: "/signup", element: withErrorBoundary(withSuspense(<SignupPage />)), errorElement: <ErrorBoundary>{null}</ErrorBoundary> },
+    {
+      path: "/admin",
+      element: withErrorBoundary(withSuspense(<AdminLayout />)),
+      errorElement: <ErrorBoundary>{null}</ErrorBoundary>,
+      children: [
+        { index: true, element: withSuspense(<AdminDashboardPage />) },
+        { path: "dashboard", element: withSuspense(<AdminDashboardPage />) },
+        { path: "products", element: withSuspense(<AdminProductsPage />) },
+        { path: "products/new", element: withSuspense(<AdminProductEditPage />) },
+        { path: "products/:productId", element: withSuspense(<AdminProductEditPage />) },
+        { path: "orders", element: withSuspense(<AdminOrdersPage />) },
+        { path: "orders/:orderId", element: withSuspense(<AdminOrderDetailPage />) },
+        { path: "customers", element: withSuspense(<AdminUsersPage />) },
+        { path: "admins", element: withSuspense(<AdminAdminsPage />) },
+        { path: "settings", element: withSuspense(<AdminSettingsPage />) },
+      ],
+    },
   ],
   { future: { v7_relativeSplatPath: true } },
 );

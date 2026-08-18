@@ -1,10 +1,11 @@
 import { initializeApp, type FirebaseOptions } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
 
 /**
- * Single place where Firebase is configured. Every other module imports `db`
- * or `auth` from here so credentials never get scattered through the app.
+ * Single place where Firebase is configured. Every other module imports `db`,
+ * `auth` or `storage` from here so credentials never get scattered through the app.
  */
 function readConfig(): FirebaseOptions {
   const env = import.meta.env;
@@ -28,6 +29,7 @@ function readConfig(): FirebaseOptions {
 export const firebaseApp = initializeApp(readConfig());
 export const db = getFirestore(firebaseApp);
 export const auth = getAuth(firebaseApp);
+export const storage = getStorage(firebaseApp);
 
 /** Firestore collection names as they actually exist in this project. */
 export const COLLECTIONS = {
@@ -36,4 +38,5 @@ export const COLLECTIONS = {
   sellers: "sellers",
   orders: "orders",
   users: "users",
+  auditLogs: "auditLogs",
 } as const;
