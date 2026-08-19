@@ -1,6 +1,6 @@
 ﻿import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import {
-  AlertCircle, CheckCircle2, Clock3, Loader2, Lock, ReceiptText,
+  AlertCircle, CheckCircle2, Clock3, Loader2, Lock, Mail, ReceiptText,
 } from "lucide-react";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
@@ -477,6 +477,30 @@ export default function PaymentPage() {
                 Order reference <span className="font-mono font-medium text-ink-2">{order.id}</span>
               </p>
             </section>
+
+            {outcome === "paid" && (
+              <section className="rounded-card border border-trust/20 bg-trust/5 px-4 py-4 text-center">
+                <div className="flex items-start justify-center gap-2">
+                  <Mail className="mt-0.5 h-5 w-5 shrink-0 text-trust" />
+                  <div className="text-left">
+                    <p className="font-semibold text-ink">Order confirmation email sent</p>
+                    <p className="mt-0.5 text-md text-ink-2">
+                      {order.address.email ? (
+                        <>
+                          We sent your order confirmation to{" "}
+                          <span className="font-medium text-ink">{order.address.email}</span>.
+                        </>
+                      ) : (
+                        "We sent your order confirmation to the email address on your order."
+                      )}
+                    </p>
+                    <p className="text-md text-ink-2">
+                      If you don't see it in your inbox, please check your Spam or Junk folder.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            )}
 
             <div className="space-y-2 px-1">
               {outcome === "failed" ? (
