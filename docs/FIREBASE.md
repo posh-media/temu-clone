@@ -27,7 +27,9 @@ The frontend config lives in `.env.local` (git-ignored). Do **not** commit secre
 | `sellers` | Seller metadata (mostly used for display names) |
 | `orders` | Placed orders, in the existing schema (see `src/services/mappers.ts`) |
 | `users` | Auth profile documents created/updated by `src/services/users.ts` |
-| `addresses` | Saved shipping addresses for authenticated users |
+| `users/{uid}/addresses` | Saved shipping addresses for authenticated users |
+| `emailEvents` | Manual/auto order confirmation email events (admin-only) |
+| `auditLogs` | Admin action audit trail (admin-only) |
 
 All writes reuse the document shape discovered during repository inspection so
 existing FlutterFlow consumers of the same project are not broken.
@@ -53,10 +55,11 @@ The backend functions live alongside the existing FlutterFlow project:
 ```
 FF Projects/temuclearance/firebase/functions/
   index.js                 # Exports onUserDeleted, paystackWebhook,
-                           # paystackInitialize, paystackVerify
+                           # paystackInitialize, paystackVerify, sendOrderEmail
   paystack_webhook.js      # Existing HTTP webhook (charge.success → Firestore)
   paystack_initialize.js   # New onCall: creates a Paystack transaction
   paystack_verify.js       # New onCall: verifies a Paystack reference
+  sendOrderEmail.js        # Admin onCall: resend order confirmation email
 ```
 
 ### `paystackInitialize`
@@ -80,6 +83,14 @@ FF Projects/temuclearance/firebase/functions/
 - Existing `onRequest` HTTP function.
 - Handles `charge.success` from Paystack, verifies signature, updates the order.
 - **Do not replace or duplicate it.** The new functions complement it.
+
+### `sendOrderEmail`
+
+- `onCall` (callable) in `us-central1`.
+- Verifies the caller is authenticated and has an admin role.
+- Fetches the order from Firestore by the supplied `orderId` and sends the same
+  Make.com confirmation payload used by the Paystack/KoraPay webhooks.
+- Records the attempt in `emailEvents` and does **not** modify payment status.
 
 ---
 

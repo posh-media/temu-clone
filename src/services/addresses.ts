@@ -108,7 +108,15 @@ export async function migrateGuestAddresses(userId: string): Promise<void> {
 }
 
 function stripId({ id: _id, ...rest }: Address) {
-  return rest;
+  return withoutUndefined(rest);
+}
+
+function withoutUndefined<T extends Record<string, unknown>>(obj: T): Partial<T> {
+  const out: Partial<T> = {};
+  for (const [key, value] of Object.entries(obj)) {
+    if (value !== undefined) out[key as keyof T] = value as T[keyof T];
+  }
+  return out;
 }
 
 function sortAddresses(addresses: Address[]) {

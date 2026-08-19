@@ -1,4 +1,4 @@
-import { ArrowLeft, PackageOpen, Trash2 } from "lucide-react";
+import { ArrowLeft, Mail, PackageOpen, Trash2 } from "lucide-react";
 import { useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
@@ -10,7 +10,7 @@ import { Modal } from "../components/ui/Modal";
 import { Skeleton } from "../components/ui/Skeleton";
 import { SmartImage } from "../components/ui/SmartImage";
 import { formatPrice, addDays } from "../lib/format";
-import { DELIVERY_STATUS_OPTIONS, deleteOrder, fetchAdminOrderById, updateOrder } from "../services/adminOrders";
+import { DELIVERY_STATUS_OPTIONS, deleteOrder, fetchAdminOrderById, sendOrderEmail, updateOrder } from "../services/adminOrders";
 import { logAdminAction } from "../services/audit";
 import { useAuth } from "../store/AuthProvider";
 import type { DeliveryStatus } from "../types/commerce";
@@ -21,6 +21,7 @@ export default function AdminOrderDetailPage() {
   const queryClient = useQueryClient();
   const { user } = useAuth();
   const [confirmDelete, setConfirmDelete] = useState(false);
+  const [confirmEmail, setConfirmEmail] = useState(false);
 
   const { data: order, isLoading, error } = useQuery({
     queryKey: ["admin", "order", orderId || ""],
@@ -76,6 +77,26 @@ export default function AdminOrderDetailPage() {
     },
   });
 
+  const emailMutation = useMutation({
+    mutationFn: async () => {
+      if (!orderId) throw new Error("Order ID missing");
+      if (!order?.address.email) throw new Error("Order does not have a customer email address.");
+      const result = await sendOrderEmail(orderId);
+      await logAdminAction({
+        adminUid: user!.uid,
+        adminEmail: user!.email,
+        action: "ORDER_EMAIL_SENT",
+        targetType: "order",
+        targetId: orderId,
+        after: { recipientEmail: result.recipientEmail },
+      });
+      return result;
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["admin", "order", orderId!] });
+    },
+  });
+
   if (isLoading) {
     return (
       <div className="space-y-3">
@@ -114,9 +135,14 @@ export default function AdminOrderDetailPage() {
           <PaymentStatusBadge status={order.paymentStatus} />
           <DeliveryStatusBadge status={order.deliveryStatus} />
         </div>
-        <Button variant="outline" leadingIcon={<Trash2 className="h-4 w-4" />} onClick={() => setConfirmDelete(true)}>
-          Delete order
-        </Button>
+        <div className="flex items-center gap-2">
+          <Button variant="outline" leadingIcon={<Mail className="h-4 w-4" />} onClick={() => setConfirmEmail(true)}>
+            Resend email
+          </Button>
+          <Button variant="outline" leadingIcon={<Trash2 className="h-4 w-4" />} onClick={() => setConfirmDelete(true)}>
+            Delete order
+          </Button>
+        </div>
       </div>
 
       <div className="grid gap-6 lg:grid-cols-[1fr_360px]">
@@ -212,6 +238,37 @@ export default function AdminOrderDetailPage() {
           </section>
         </div>
       </div>
+
+      <Modal
+        open={confirmEmail}
+        onClose={() => {
+          if (!emailMutation.isPending) setConfirmEmail(false);
+        }}
+        title="Resend order email"
+        footer={
+          <div className="flex justify-end gap-2">
+            <Button variant="outline" onClick={() => setConfirmEmail(false)} disabled={emailMutation.isPending}>Cancel</Button>
+            <Button loading={emailMutation.isPending} onClick={() => emailMutation.mutate()}>Send email</Button>
+          </div>
+        }
+      >
+        <div className="space-y-3 text-md text-ink">
+          <p>Send the order confirmation email to the customer?</p>
+          <div className="rounded-card bg-surface-muted p-3 text-sm">
+            <p><span className="text-ink-3">Order ID:</span> <span className="font-mono">{order.id}</span></p>
+            <p><span className="text-ink-3">Customer email:</span> {order.address.email}</p>
+          </div>
+          {emailMutation.isError && (
+            <p className="rounded bg-deal/10 px-3 py-2 text-sm text-deal">
+              {emailMutation.error instanceof Error ? emailMutation.error.message : "Unable to send order email. Please try again."}
+            </p>
+          )}
+          {emailMutation.isSuccess && (
+            <p className="rounded bg-trust/10 px-3 py-2 text-sm text-trust">Order email sent successfully.</p>
+          )}
+          <p className="text-sm text-ink-3">This does not create a new order or change payment status.</p>
+        </div>
+      </Modal>
 
       <Modal
         open={confirmDelete}

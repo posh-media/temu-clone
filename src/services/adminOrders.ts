@@ -11,6 +11,8 @@ import {
   Timestamp,
   updateDoc,
 } from "firebase/firestore";
+import { httpsCallable, getFunctions } from "firebase/functions";
+import { firebaseApp } from "../lib/firebase";
 import { COLLECTIONS, db } from "../lib/firebase";
 import type { DeliveryStatus, Order, PaymentStatus } from "../types/commerce";
 import { mapOrder } from "./mappers";
@@ -67,4 +69,15 @@ export function matchesOrderFilter(order: AdminOrder, filter: OrderStatusFilter)
   if (filter === "all") return true;
   if (PAYMENT_STATUS_OPTIONS.includes(filter as PaymentStatus)) return order.paymentStatus === filter;
   return order.deliveryStatus === filter;
+}
+
+/**
+ * Calls the `sendOrderEmail` Cloud Function to resend the order confirmation
+ * email to the customer. Only admins can invoke this.
+ */
+export async function sendOrderEmail(orderId: string): Promise<{ recipientEmail: string }> {
+  const functions = getFunctions(firebaseApp, "us-central1");
+  const call = httpsCallable<{ orderId: string }, { recipientEmail: string }>(functions, "sendOrderEmail");
+  const result = await call({ orderId });
+  return result.data;
 }

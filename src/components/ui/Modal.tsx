@@ -78,7 +78,7 @@ export function Modal({
         type="button"
         aria-label="Close dialog"
         onClick={onClose}
-        className="absolute inset-0 animate-fade-in bg-black/45"
+        className="absolute inset-0 z-0 animate-fade-in bg-black/45"
       />
       <div
         ref={panelRef}
@@ -87,7 +87,7 @@ export function Modal({
         aria-label={title}
         tabIndex={-1}
         className={cn(
-          "relative flex max-h-[90vh] w-full flex-col overflow-hidden bg-white shadow-pop",
+          "relative z-10 flex max-h-[90vh] w-full flex-col overflow-hidden bg-white shadow-pop",
           "animate-slide-up rounded-t-2xl md:animate-fade-in md:rounded-2xl",
           size === "sm" && "md:max-w-sm",
           size === "md" && "md:max-w-md",
@@ -142,7 +142,7 @@ export function Drawer({
         type="button"
         aria-label="Close panel"
         onClick={onClose}
-        className="absolute inset-0 animate-fade-in bg-black/45"
+        className="absolute inset-0 z-0 animate-fade-in bg-black/45"
       />
       <div
         ref={panelRef}
@@ -151,7 +151,7 @@ export function Drawer({
         aria-label={title}
         tabIndex={-1}
         className={cn(
-          "absolute flex flex-col bg-white shadow-pop",
+          "absolute z-10 flex flex-col bg-white shadow-pop",
           side === "bottom" && "inset-x-0 bottom-0 max-h-[85vh] animate-slide-up rounded-t-2xl",
           side === "right" && "inset-y-0 right-0 w-[88vw] max-w-sm",
           side === "left" && "inset-y-0 left-0 w-[88vw] max-w-sm",

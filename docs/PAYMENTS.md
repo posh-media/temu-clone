@@ -241,7 +241,7 @@ Duplicate notifications do not send multiple emails or create duplicate side eff
 
 ## 10. Make.com notification
 
-Both providers send the same payload shape to the Make.com webhook:
+Both providers and the admin resend action send the same payload shape to the Make.com webhook:
 
 - `email_to`
 - `name`
@@ -253,7 +253,8 @@ Both providers send the same payload shape to the Make.com webhook:
 - `order_date`
 - `expected_delivery`
 - `phone`
-- `payment_provider` — `"paystack"` or `"korapay"`
+- `payment_provider` — `"paystack"` or `"korapay"` (empty for manual resends)
+- `email_trigger` — `"payment"` for automatic webhooks, `"admin_resend"` for manual resends
 
 No existing fields are renamed or removed.
 

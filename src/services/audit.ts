@@ -8,6 +8,7 @@ export type AuditAction =
   | "PRODUCT_VISIBILITY_CHANGED"
   | "ORDER_UPDATED"
   | "ORDER_DELETED"
+  | "ORDER_EMAIL_SENT"
   | "ADMIN_ROLE_CHANGED";
 
 export interface AuditLogEntry {
